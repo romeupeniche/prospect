@@ -964,8 +964,22 @@ const Matchday: React.FC = () => {
                                                 <KitCarousel teamName={isHomeGame ? matchInfo.opponent.name : currentTeam.name} uniforms={awayTeamKits} selectedKit={awayKit} onSelectKit={setAwayKit} teamImage={isHomeGame ? matchInfo.opponent.logo : currentTeam.logo} />
                                             </div>
                                         </section>
-                                        <section className="col-span-3 bg-[#111]/50 border-white/5 border rounded-4xl"></section>
-                                        <section className="col-span-3 bg-[#111]/50 border-white/5 border rounded-4xl"></section>
+                                        {[currentMatchData.homeTeam, currentMatchData.awayTeam].map((team) => {
+                                            const logo = team.logo
+                                            const name = team.name
+                                            return (
+                                                <section className="relative col-span-3 bg-[#111]/50 border-white/5 border rounded-4xl p-4 overflow-hidden">
+                                                    <img
+                                                        src={logo}
+                                                        alt={`${name} logo`}
+                                                        className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-full h-auto pointer-events-none opacity-5"
+                                                    />
+                                                    <header className="flex items-center justify-center gap-2">
+                                                        <h2 className="font-oswald font-medium text-3xl">{name}</h2>
+                                                    </header>
+                                                </section>
+                                            )
+                                        })}
                                     </div>
                                 </motion.div>
                             )}
