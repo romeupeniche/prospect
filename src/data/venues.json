@@ -1,0 +1,192 @@
+{
+  "2d1870a2-809c-421d-aca6-5f0050af545b": {
+    "id": "2d1870a2-809c-421d-aca6-5f0050af545b",
+    "name": "Arena Fonte Nova",
+    "gender": "f",
+    "short_name": "Arena Fonte Nova",
+    "home_teams_ids": ["21891021"],
+    "city": "Salvador",
+    "country": "brazil",
+    "capacity": 48902
+  },
+  "583688f7-b501-4f34-9fc0-f3c547defd4d": {
+    "id": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+    "name": "Estádio Manoel Barradas",
+    "gender": "m",
+    "short_name": "Barradão",
+    "home_teams_ids": ["43257277"],
+    "city": "Salvador",
+    "country": "brazil",
+    "capacity": 34535
+  },
+  "78697e69-6fa9-46d3-9a58-2b2a411b7dd2": {
+    "id": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+    "name": "Estádio Jornalista Mário Filho",
+    "gender": "m",
+    "short_name": "Maracanã",
+    "home_teams_ids": ["86586513", "74496781"],
+    "city": "Rio de Janeiro",
+    "country": "brazil",
+    "capacity": 78838
+  },
+  "17570c58-5108-493d-88bd-63e3c67d774c": {
+    "id": "17570c58-5108-493d-88bd-63e3c67d774c",
+    "name": "Arena do Grêmio",
+    "gender": "f",
+    "short_name": "Arena do Grêmio",
+    "home_teams_ids": ["59318961"],
+    "city": "Porto Alegre",
+    "country": "brazil",
+    "capacity": 60540
+  },
+  "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5": {
+    "id": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+    "name": "Estádio Beira-Rio",
+    "gender": "m",
+    "short_name": "Beira-Rio",
+    "home_teams_ids": ["69857423"],
+    "city": "Porto Alegre",
+    "country": "brazil",
+    "capacity": 50842
+  },
+  "8a066d73-881a-42eb-8868-cf407157e9ac": {
+    "id": "8a066d73-881a-42eb-8868-cf407157e9ac",
+    "name": "Urbano Caldeira Stadium",
+    "gender": "f",
+    "short_name": "Vila Belmiro",
+    "home_teams_ids": ["40705706"],
+    "city": "Santos",
+    "country": "brazil",
+    "capacity": 17872
+  },
+  "8041bb46-6ac8-4453-9dee-8521610238f8": {
+    "id": "8041bb46-6ac8-4453-9dee-8521610238f8",
+    "name": "Estádio Municipal Cícero de Souza Marques",
+    "gender": "m",
+    "short_name": "Estádio Cícero de Souza Marques",
+    "home_teams_ids": ["87595679"],
+    "city": "Bragança Paulista",
+    "country": "brazil",
+    "capacity": 12000
+  },
+  "c8cceb56-5ea8-47d3-bed3-544244398ebe": {
+    "id": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+    "name": "Neo Química Arena",
+    "gender": "f",
+    "short_name": "Neo Química Arena",
+    "home_teams_ids": ["72275367"],
+    "city": "São Paulo",
+    "country": "brazil",
+    "capacity": 49205
+  },
+  "9a25800c-1081-4891-afb6-0487bd58117a": {
+    "id": "9a25800c-1081-4891-afb6-0487bd58117a",
+    "name": "Nubank Parque",
+    "gender": "m",
+    "short_name": "Nubank Parque",
+    "home_teams_ids": ["90748914"],
+    "city": "São Paulo",
+    "country": "brazil",
+    "capacity": 43723
+  },
+  "fc6792ce-d304-4b78-b641-ee1b4889d433": {
+    "id": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+    "name": "Estádio Municipal José Maria de Campos Maia",
+    "gender": "m",
+    "short_name": "Maião",
+    "home_teams_ids": ["79859601"],
+    "city": "Mirassol",
+    "country": "brazil",
+    "capacity": 14534
+  },
+  "fbe2ed60-d716-4843-b4ac-25aa7f940c1a": {
+    "id": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+    "name": "Arena Condá",
+    "gender": "f",
+    "short_name": "Arena Condá",
+    "home_teams_ids": [""],
+    "city": "Chapecó",
+    "country": "brazil",
+    "capacity": 19351
+  },
+  "05f48982-7919-49e0-a640-6c48fed5186d": {
+    "id": "05f48982-7919-49e0-a640-6c48fed5186d",
+    "name": "Estádio Governador Magalhães Pinto",
+    "gender": "m",
+    "short_name": "Mineirão",
+    "home_teams_ids": ["35971878"],
+    "city": "Belo Horizonte",
+    "country": "brazil",
+    "capacity": 61927
+  },
+  "3d24e886-ab2a-49d6-a8d7-92c78332e52a": {
+    "id": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+    "name": "Arena MRV",
+    "gender": "f",
+    "short_name": "Arena MRV",
+    "home_teams_ids": ["79951310"],
+    "city": "Belo Horizonte",
+    "country": "brazil",
+    "capacity": 44892
+  },
+  "676f7911-038f-4ef7-b938-568a27a241b6": {
+    "id": "676f7911-038f-4ef7-b938-568a27a241b6",
+    "name": "Estádio Major Antônio Couto Pereira",
+    "gender": "m",
+    "short_name": "Couto Pereira",
+    "home_teams_ids": ["21276332"],
+    "city": "Curitiba",
+    "country": "brazil",
+    "capacity": 40502
+  },
+  "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1": {
+    "id": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+    "name": "Arena da Baixada",
+    "gender": "f",
+    "short_name": "Arena da Baixada",
+    "home_teams_ids": ["40802544"],
+    "city": "Curitiba",
+    "country": "brazil",
+    "capacity": 42372
+  },
+  "eabbcc39-947d-4092-a4ab-1641dda3b52f": {
+    "id": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+    "name": "Estádio Vasco da Gama",
+    "gender": "g",
+    "short_name": "São Januário",
+    "home_teams_ids": ["48594781"],
+    "city": "Rio de Janeiro",
+    "country": "brazil",
+    "capacity": 21880
+  },
+  "a8726793-8891-4a83-9b99-09a7a80e2f8f": {
+    "id": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+    "name": "Estádio Olímpico Nilton Santos",
+    "gender": "m",
+    "short_name": "Nilton Santos",
+    "home_teams_ids": ["49823308"],
+    "city": "Rio de Janeiro",
+    "country": "brazil",
+    "capacity": 46831
+  },
+  "e354a998-0ffc-40ed-89a1-754af403b0e2": {
+    "id": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+    "name": "Estádio Cícero Pompeu de Toledo",
+    "gender": "m",
+    "short_name": "Morumbis",
+    "home_teams_ids": ["55963133"],
+    "city": "São Paulo",
+    "country": "brazil",
+    "capacity": 66795
+  },
+  "f676a697-26a3-4bfa-9fea-0530e5202560": {
+    "id": "f676a697-26a3-4bfa-9fea-0530e5202560",
+    "name": "Estádio Evandro Almeida",
+    "gender": "m",
+    "short_name": "Baenão",
+    "home_teams_ids": ["64334201"],
+    "city": "Belém",
+    "country": "brazil",
+    "capacity": 13792
+  }
+}

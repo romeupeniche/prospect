@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ref_01",
+    "fullName": "Raphael Claus",
+    "shortName": "Raphael Claus",
+    "foulStrictness": 0.48,
+    "cardStrictness": 0.58,
+    "stoppageGenerosity": 0.55,
+    "photo": "src/assets/referees/ref_01.png"
+  },
+  {
+    "id": "ref_02",
+    "fullName": "Wilton Pereira Sampaio",
+    "shortName": "Wilton P. Sampaio",
+    "foulStrictness": 0.85,
+    "cardStrictness": 0.72,
+    "stoppageGenerosity": 0.88,
+    "photo": "src/assets/referees/ref_02.png"
+  },
+  {
+    "id": "ref_03",
+    "fullName": "Anderson Daronco",
+    "shortName": "Anderson Daronco",
+    "foulStrictness": 0.4,
+    "cardStrictness": 0.52,
+    "stoppageGenerosity": 0.48,
+    "photo": "src/assets/referees/ref_03.png"
+  },
+  {
+    "id": "ref_04",
+    "fullName": "Bráulio da Silva Machado",
+    "shortName": "Bráulio da Silva",
+    "foulStrictness": 0.75,
+    "cardStrictness": 0.88,
+    "stoppageGenerosity": 0.78,
+    "photo": "src/assets/referees/ref_04.png"
+  },
+  {
+    "id": "ref_05",
+    "fullName": "Ramon Abatti Abel",
+    "shortName": "Ramon Abatti",
+    "foulStrictness": 0.55,
+    "cardStrictness": 0.62,
+    "stoppageGenerosity": 0.65,
+    "photo": "src/assets/referees/ref_05.png"
+  },
+  {
+    "id": "ref_06",
+    "fullName": "Paulo Cesar Zanovelli da Silva",
+    "shortName": "Paulo C. Zanovelli",
+    "foulStrictness": 0.82,
+    "cardStrictness": 0.78,
+    "stoppageGenerosity": 0.84,
+    "photo": "src/assets/referees/ref_06.png"
+  },
+  {
+    "id": "ref_07",
+    "fullName": "Rafael Rodrigo Klein",
+    "shortName": "Rafael Klein",
+    "foulStrictness": 0.5,
+    "cardStrictness": 0.55,
+    "stoppageGenerosity": 0.7,
+    "photo": "src/assets/referees/ref_07.png"
+  },
+  {
+    "id": "ref_08",
+    "fullName": "Edina Alves Batista",
+    "shortName": "Edina Alves",
+    "foulStrictness": 0.7,
+    "cardStrictness": 0.68,
+    "stoppageGenerosity": 0.72,
+    "photo": "src/assets/referees/ref_08.png"
+  },
+  {
+    "id": "ref_09",
+    "fullName": "Flávio Rodrigues de Souza",
+    "shortName": "Flávio Rodrigues",
+    "foulStrictness": 0.65,
+    "cardStrictness": 0.6,
+    "stoppageGenerosity": 0.58,
+    "photo": "src/assets/referees/ref_09.png"
+  },
+  {
+    "id": "ref_10",
+    "fullName": "Rodrigo José Pereira de Lima",
+    "shortName": "Rodrigo J. Pereira",
+    "foulStrictness": 0.58,
+    "cardStrictness": 0.65,
+    "stoppageGenerosity": 0.68,
+    "photo": "src/assets/referees/ref_10.png"
+  }
+]

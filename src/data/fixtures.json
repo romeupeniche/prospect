@@ -1,0 +1,6844 @@
+{
+  "122d50dd-ec76-4254-ac63-e04e510c8ac1": {
+    "dd0729c5-af8d-4e92-9ea2-19e69d210e4d": {
+      "id": "dd0729c5-af8d-4e92-9ea2-19e69d210e4d",
+      "date": "2026-01-28",
+      "time": "19:00",
+      "homeTeam": "79951310",
+      "awayTeam": "90748914",
+      "round": "1",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c3cc3097-0d60-47bf-a1b2-393a4b412ac0": {
+      "id": "c3cc3097-0d60-47bf-a1b2-393a4b412ac0",
+      "date": "2026-01-28",
+      "time": "19:00",
+      "homeTeam": "21276332",
+      "awayTeam": "87595679",
+      "round": "1",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "76425d5e-e377-42e2-8662-331d00dfcf56": {
+      "id": "76425d5e-e377-42e2-8662-331d00dfcf56",
+      "date": "2026-01-28",
+      "time": "19:00",
+      "homeTeam": "69857423",
+      "awayTeam": "40802544",
+      "round": "1",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c668a236-c548-4205-9476-202edfd180d4": {
+      "id": "c668a236-c548-4205-9476-202edfd180d4",
+      "date": "2026-01-28",
+      "time": "19:00",
+      "homeTeam": "43257277",
+      "awayTeam": "64334201",
+      "round": "1",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "303027c9-99ee-4dfb-9344-1a05e1ee021d": {
+      "id": "303027c9-99ee-4dfb-9344-1a05e1ee021d",
+      "date": "2026-01-28",
+      "time": "19:30",
+      "homeTeam": "86586513",
+      "awayTeam": "59318961",
+      "round": "1",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "0a655c94-3afb-49bb-9d0b-eff0ecf2f364": {
+      "id": "0a655c94-3afb-49bb-9d0b-eff0ecf2f364",
+      "date": "2026-01-28",
+      "time": "20:00",
+      "homeTeam": "41051526",
+      "awayTeam": "40705706",
+      "round": "1",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "004ff229-beff-40af-8114-d2668b38c6f6": {
+      "id": "004ff229-beff-40af-8114-d2668b38c6f6",
+      "date": "2026-01-28",
+      "time": "20:00",
+      "homeTeam": "72275367",
+      "awayTeam": "21891021",
+      "round": "1",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f1ff73a5-6c5c-45dd-b076-1ef33e8e7560": {
+      "id": "f1ff73a5-6c5c-45dd-b076-1ef33e8e7560",
+      "date": "2026-01-28",
+      "time": "21:30",
+      "homeTeam": "55963133",
+      "awayTeam": "74496781",
+      "round": "1",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "0d307636-b9a6-4718-aefa-b716d6c531fa": {
+      "id": "0d307636-b9a6-4718-aefa-b716d6c531fa",
+      "date": "2026-01-29",
+      "time": "20:00",
+      "homeTeam": "79859601",
+      "awayTeam": "48594781",
+      "round": "1",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "bf620f11-469b-4aac-ad9f-d6e542250fc6": {
+      "id": "bf620f11-469b-4aac-ad9f-d6e542250fc6",
+      "date": "2026-01-29",
+      "time": "21:30",
+      "homeTeam": "49823308",
+      "awayTeam": "35971878",
+      "round": "1",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f16a759c-e460-48c5-a9e1-625607ec239c": {
+      "id": "f16a759c-e460-48c5-a9e1-625607ec239c",
+      "date": "2026-02-04",
+      "time": "19:00",
+      "homeTeam": "87595679",
+      "awayTeam": "79951310",
+      "round": "2",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "778c1634-5b7d-468a-8fdb-79339bb0192d": {
+      "id": "778c1634-5b7d-468a-8fdb-79339bb0192d",
+      "date": "2026-02-04",
+      "time": "19:00",
+      "homeTeam": "74496781",
+      "awayTeam": "69857423",
+      "round": "2",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "d96421da-40c1-4ed5-b74e-62709bc328f3": {
+      "id": "d96421da-40c1-4ed5-b74e-62709bc328f3",
+      "date": "2026-02-04",
+      "time": "20:00",
+      "homeTeam": "64334201",
+      "awayTeam": "79859601",
+      "round": "2",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "b7745982-743f-4303-8d73-b637db0b575f": {
+      "id": "b7745982-743f-4303-8d73-b637db0b575f",
+      "date": "2026-02-04",
+      "time": "20:00",
+      "homeTeam": "40705706",
+      "awayTeam": "55963133",
+      "round": "2",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "cf4a5731-9517-4ceb-9f77-f156ee924c5b": {
+      "id": "cf4a5731-9517-4ceb-9f77-f156ee924c5b",
+      "date": "2026-02-04",
+      "time": "21:30",
+      "homeTeam": "59318961",
+      "awayTeam": "49823308",
+      "round": "2",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "0708903a-d5d5-4f47-9ee3-c1b1fe37e36d": {
+      "id": "0708903a-d5d5-4f47-9ee3-c1b1fe37e36d",
+      "date": "2026-02-04",
+      "time": "21:30",
+      "homeTeam": "90748914",
+      "awayTeam": "43257277",
+      "round": "2",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "84737b7e-5912-4d24-8f8e-6874ec222bb9": {
+      "id": "84737b7e-5912-4d24-8f8e-6874ec222bb9",
+      "date": "2026-02-05",
+      "time": "19:00",
+      "homeTeam": "21891021",
+      "awayTeam": "86586513",
+      "round": "2",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "871d477d-2114-4afa-bc50-fb785f880aba": {
+      "id": "871d477d-2114-4afa-bc50-fb785f880aba",
+      "date": "2026-02-05",
+      "time": "20:00",
+      "homeTeam": "48594781",
+      "awayTeam": "41051526",
+      "round": "2",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "770f3994-fcfa-4e6c-8a88-4523f17cece5": {
+      "id": "770f3994-fcfa-4e6c-8a88-4523f17cece5",
+      "date": "2026-02-05",
+      "time": "21:30",
+      "homeTeam": "35971878",
+      "awayTeam": "21276332",
+      "round": "2",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "24a195b1-bb06-445b-a48c-bde0b8a7f554": {
+      "id": "24a195b1-bb06-445b-a48c-bde0b8a7f554",
+      "date": "2026-02-10",
+      "time": "21:30",
+      "homeTeam": "43257277",
+      "awayTeam": "74496781",
+      "round": "3",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "8e8b7cfd-d42c-4e17-b5b2-46ff9bef0d78": {
+      "id": "8e8b7cfd-d42c-4e17-b5b2-46ff9bef0d78",
+      "date": "2026-02-11",
+      "time": "19:00",
+      "homeTeam": "41051526",
+      "awayTeam": "21276332",
+      "round": "3",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "54f3aba8-7ca0-4661-bf38-6341d8a208bf": {
+      "id": "54f3aba8-7ca0-4661-bf38-6341d8a208bf",
+      "date": "2026-02-11",
+      "time": "19:00",
+      "homeTeam": "79859601",
+      "awayTeam": "35971878",
+      "round": "3",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "4139972c-c543-4be6-8897-a4ded3de78f2": {
+      "id": "4139972c-c543-4be6-8897-a4ded3de78f2",
+      "date": "2026-02-11",
+      "time": "20:00",
+      "homeTeam": "79951310",
+      "awayTeam": "64334201",
+      "round": "3",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "2a669d59-7b62-4e0a-9b44-fb0452b2942b": {
+      "id": "2a669d59-7b62-4e0a-9b44-fb0452b2942b",
+      "date": "2026-02-11",
+      "time": "21:30",
+      "homeTeam": "55963133",
+      "awayTeam": "59318961",
+      "round": "3",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "18490428-5640-4acd-829f-74b5f2ef5abc": {
+      "id": "18490428-5640-4acd-829f-74b5f2ef5abc",
+      "date": "2026-02-11",
+      "time": "21:30",
+      "homeTeam": "48594781",
+      "awayTeam": "21891021",
+      "round": "3",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "05980628-a80b-45ab-963d-ff65f1b52d9e": {
+      "id": "05980628-a80b-45ab-963d-ff65f1b52d9e",
+      "date": "2026-02-12",
+      "time": "19:00",
+      "homeTeam": "40802544",
+      "awayTeam": "40705706",
+      "round": "3",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "90854b8b-a4bc-49e9-9809-26e0cfbd022d": {
+      "id": "90854b8b-a4bc-49e9-9809-26e0cfbd022d",
+      "date": "2026-02-12",
+      "time": "19:30",
+      "homeTeam": "86586513",
+      "awayTeam": "49823308",
+      "round": "3",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "81ae8f63-2e0e-444a-a35f-a279b92a499b": {
+      "id": "81ae8f63-2e0e-444a-a35f-a279b92a499b",
+      "date": "2026-02-12",
+      "time": "20:00",
+      "homeTeam": "72275367",
+      "awayTeam": "87595679",
+      "round": "3",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "093ce3b8-eed1-42c6-80b8-799fa70947a1": {
+      "id": "093ce3b8-eed1-42c6-80b8-799fa70947a1",
+      "date": "2026-02-12",
+      "time": "21:30",
+      "homeTeam": "69857423",
+      "awayTeam": "90748914",
+      "round": "3",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "5bd034b1-1e2d-4d1d-8abd-f0ccbb95c78a": {
+      "id": "5bd034b1-1e2d-4d1d-8abd-f0ccbb95c78a",
+      "date": "2026-02-19",
+      "time": "19:30",
+      "homeTeam": "40802544",
+      "awayTeam": "72275367",
+      "round": "2",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c007b260-3c8a-470b-839b-d5056d373887": {
+      "id": "c007b260-3c8a-470b-839b-d5056d373887",
+      "date": "2026-02-25",
+      "time": "18:00",
+      "homeTeam": "21891021",
+      "awayTeam": "41051526",
+      "round": "4",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "2aa28c9a-ef3c-4bac-abfc-8741d023bba9": {
+      "id": "2aa28c9a-ef3c-4bac-abfc-8741d023bba9",
+      "date": "2026-02-25",
+      "time": "18:00",
+      "homeTeam": "49823308",
+      "awayTeam": "43257277",
+      "round": "4",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "91e43271-1c28-45a8-8673-6add33d11ad9": {
+      "id": "91e43271-1c28-45a8-8673-6add33d11ad9",
+      "date": "2026-02-25",
+      "time": "18:00",
+      "homeTeam": "74496781",
+      "awayTeam": "79859601",
+      "round": "4",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "e13079fb-2562-41e4-8362-f9b9c82d3b03": {
+      "id": "e13079fb-2562-41e4-8362-f9b9c82d3b03",
+      "date": "2026-02-25",
+      "time": "19:00",
+      "homeTeam": "87595679",
+      "awayTeam": "40802544",
+      "round": "4",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "da6b3b9a-1504-481e-a852-6295f36684dd": {
+      "id": "da6b3b9a-1504-481e-a852-6295f36684dd",
+      "date": "2026-02-25",
+      "time": "19:00",
+      "homeTeam": "64334201",
+      "awayTeam": "69857423",
+      "round": "4",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "976099e9-6072-4eca-9a14-a464ee480ddb": {
+      "id": "976099e9-6072-4eca-9a14-a464ee480ddb",
+      "date": "2026-02-25",
+      "time": "19:30",
+      "homeTeam": "21276332",
+      "awayTeam": "55963133",
+      "round": "4",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "34b945c9-6207-46d3-8da3-f00ba44956fe": {
+      "id": "34b945c9-6207-46d3-8da3-f00ba44956fe",
+      "date": "2026-02-25",
+      "time": "20:00",
+      "homeTeam": "35971878",
+      "awayTeam": "72275367",
+      "round": "4",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "0b6cd1e2-a546-4d73-9219-2a8c7fcab7cb": {
+      "id": "0b6cd1e2-a546-4d73-9219-2a8c7fcab7cb",
+      "date": "2026-02-25",
+      "time": "21:30",
+      "homeTeam": "59318961",
+      "awayTeam": "79951310",
+      "round": "4",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "40c49a10-7187-483d-8e2d-cd65db2251a4": {
+      "id": "40c49a10-7187-483d-8e2d-cd65db2251a4",
+      "date": "2026-02-25",
+      "time": "21:30",
+      "homeTeam": "90748914",
+      "awayTeam": "86586513",
+      "round": "4",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "a2defc77-82b2-42de-8df7-1aa3a753f5b9": {
+      "id": "a2defc77-82b2-42de-8df7-1aa3a753f5b9",
+      "date": "2026-02-26",
+      "time": "19:00",
+      "homeTeam": "40705706",
+      "awayTeam": "48594781",
+      "round": "4",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "1adcfcef-dc47-41f6-a958-a6ea0f5e6c6d": {
+      "id": "1adcfcef-dc47-41f6-a958-a6ea0f5e6c6d",
+      "date": "2026-03-10",
+      "time": "21:30",
+      "homeTeam": "79859601",
+      "awayTeam": "40705706",
+      "round": "5",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "b2c8d6a5-6c8c-4895-8e9c-b2e74fafda69": {
+      "id": "b2c8d6a5-6c8c-4895-8e9c-b2e74fafda69",
+      "date": "2026-03-11",
+      "time": "19:00",
+      "homeTeam": "79951310",
+      "awayTeam": "69857423",
+      "round": "5",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "85a88be5-7567-4dd5-b964-db8b4db2bd79": {
+      "id": "85a88be5-7567-4dd5-b964-db8b4db2bd79",
+      "date": "2026-03-11",
+      "time": "20:00",
+      "homeTeam": "21891021",
+      "awayTeam": "43257277",
+      "round": "5",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "4ccd365d-91e7-4e6a-8ae6-45106c4a10a0": {
+      "id": "4ccd365d-91e7-4e6a-8ae6-45106c4a10a0",
+      "date": "2026-03-11",
+      "time": "21:30",
+      "homeTeam": "72275367",
+      "awayTeam": "21276332",
+      "round": "5",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "3ca64ead-dade-4693-a07f-ff24d20dc137": {
+      "id": "3ca64ead-dade-4693-a07f-ff24d20dc137",
+      "date": "2026-03-11",
+      "time": "21:30",
+      "homeTeam": "74496781",
+      "awayTeam": "35971878",
+      "round": "5",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "89c54a96-635a-4a48-8379-1ea8a49a3cb8": {
+      "id": "89c54a96-635a-4a48-8379-1ea8a49a3cb8",
+      "date": "2026-03-12",
+      "time": "19:00",
+      "homeTeam": "64334201",
+      "awayTeam": "86586513",
+      "round": "5",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "73f97da3-8366-45c2-88df-648e1496d4a3": {
+      "id": "73f97da3-8366-45c2-88df-648e1496d4a3",
+      "date": "2026-03-12",
+      "time": "19:30",
+      "homeTeam": "48594781",
+      "awayTeam": "90748914",
+      "round": "5",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "a9ed91e1-7138-487d-9dc1-8977270b21f6": {
+      "id": "a9ed91e1-7138-487d-9dc1-8977270b21f6",
+      "date": "2026-03-12",
+      "time": "20:00",
+      "homeTeam": "55963133",
+      "awayTeam": "41051526",
+      "round": "5",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "d05fe158-7c1b-4b86-9cb5-a7802a5df95b": {
+      "id": "d05fe158-7c1b-4b86-9cb5-a7802a5df95b",
+      "date": "2026-03-12",
+      "time": "21:30",
+      "homeTeam": "59318961",
+      "awayTeam": "87595679",
+      "round": "5",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "94828ca6-a8ae-4a28-be40-cee614f18fdf": {
+      "id": "94828ca6-a8ae-4a28-be40-cee614f18fdf",
+      "date": "2026-03-14",
+      "time": "18:30",
+      "homeTeam": "43257277",
+      "awayTeam": "79951310",
+      "round": "6",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "50d9740c-ff68-4326-b3f3-a097f0d90ebe": {
+      "id": "50d9740c-ff68-4326-b3f3-a097f0d90ebe",
+      "date": "2026-03-14",
+      "time": "20:30",
+      "homeTeam": "49823308",
+      "awayTeam": "74496781",
+      "round": "6",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "a8b49e23-ed09-4200-ad9b-e93270975b1a": {
+      "id": "a8b49e23-ed09-4200-ad9b-e93270975b1a",
+      "date": "2026-03-15",
+      "time": "16:00",
+      "homeTeam": "86586513",
+      "awayTeam": "40802544",
+      "round": "6",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "917a341a-2483-4bd2-9aca-6c67a46e937b": {
+      "id": "917a341a-2483-4bd2-9aca-6c67a46e937b",
+      "date": "2026-03-15",
+      "time": "16:00",
+      "homeTeam": "69857423",
+      "awayTeam": "21891021",
+      "round": "6",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "9f12ce76-7b09-4d2f-8a40-572aee1e33c6": {
+      "id": "9f12ce76-7b09-4d2f-8a40-572aee1e33c6",
+      "date": "2026-03-15",
+      "time": "16:00",
+      "homeTeam": "40705706",
+      "awayTeam": "72275367",
+      "round": "6",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "5a96cdc3-4634-4644-acdc-f913f7c22702": {
+      "id": "5a96cdc3-4634-4644-acdc-f913f7c22702",
+      "date": "2026-03-15",
+      "time": "18:30",
+      "homeTeam": "21276332",
+      "awayTeam": "64334201",
+      "round": "6",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "86fb56ba-8166-4c43-b1be-caea184f431c": {
+      "id": "86fb56ba-8166-4c43-b1be-caea184f431c",
+      "date": "2026-03-15",
+      "time": "18:30",
+      "homeTeam": "90748914",
+      "awayTeam": "79859601",
+      "round": "6",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "b01c6fdc-9ee8-4dae-a4a4-c7c3e5f08b1b": {
+      "id": "b01c6fdc-9ee8-4dae-a4a4-c7c3e5f08b1b",
+      "date": "2026-03-15",
+      "time": "20:30",
+      "homeTeam": "87595679",
+      "awayTeam": "55963133",
+      "round": "6",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "d28469ab-9cc0-433d-b167-7a09b19a1148": {
+      "id": "d28469ab-9cc0-433d-b167-7a09b19a1148",
+      "date": "2026-03-15",
+      "time": "20:30",
+      "homeTeam": "35971878",
+      "awayTeam": "48594781",
+      "round": "6",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "042b27d7-cc67-4881-8afc-525737550275": {
+      "id": "042b27d7-cc67-4881-8afc-525737550275",
+      "date": "2026-03-16",
+      "time": "20:00",
+      "homeTeam": "41051526",
+      "awayTeam": "59318961",
+      "round": "6",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "6dbd83d6-01f7-4e50-99c5-e775e72d0043": {
+      "id": "6dbd83d6-01f7-4e50-99c5-e775e72d0043",
+      "date": "2026-03-18",
+      "time": "19:00",
+      "homeTeam": "21891021",
+      "awayTeam": "87595679",
+      "round": "7",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c22e682d-039c-4a8d-a00e-8790fc62d2c0": {
+      "id": "c22e682d-039c-4a8d-a00e-8790fc62d2c0",
+      "date": "2026-03-18",
+      "time": "19:00",
+      "homeTeam": "90748914",
+      "awayTeam": "49823308",
+      "round": "7",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "a1e55e01-a428-4d13-a2d6-2d43c500f0fb": {
+      "id": "a1e55e01-a428-4d13-a2d6-2d43c500f0fb",
+      "date": "2026-03-18",
+      "time": "19:30",
+      "homeTeam": "40802544",
+      "awayTeam": "35971878",
+      "round": "7",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "a253b9bd-b8da-4251-8db5-5b29dabe4503": {
+      "id": "a253b9bd-b8da-4251-8db5-5b29dabe4503",
+      "date": "2026-03-18",
+      "time": "20:00",
+      "homeTeam": "79951310",
+      "awayTeam": "55963133",
+      "round": "7",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "392cc240-6c46-438e-8c7a-66112dca9846": {
+      "id": "392cc240-6c46-438e-8c7a-66112dca9846",
+      "date": "2026-03-18",
+      "time": "20:00",
+      "homeTeam": "79859601",
+      "awayTeam": "21276332",
+      "round": "7",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "34d55649-0130-4429-95f4-fd915d871921": {
+      "id": "34d55649-0130-4429-95f4-fd915d871921",
+      "date": "2026-03-18",
+      "time": "21:30",
+      "homeTeam": "40705706",
+      "awayTeam": "69857423",
+      "round": "7",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c28fef67-395c-4913-836d-92aa73edfcdc": {
+      "id": "c28fef67-395c-4913-836d-92aa73edfcdc",
+      "date": "2026-03-18",
+      "time": "21:30",
+      "homeTeam": "48594781",
+      "awayTeam": "86586513",
+      "round": "7",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "d5669628-9c7b-4495-9099-d308598fb781": {
+      "id": "d5669628-9c7b-4495-9099-d308598fb781",
+      "date": "2026-03-19",
+      "time": "19:00",
+      "homeTeam": "59318961",
+      "awayTeam": "43257277",
+      "round": "7",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "a5e12390-1d84-40fb-93b4-387a9dee7679": {
+      "id": "a5e12390-1d84-40fb-93b4-387a9dee7679",
+      "date": "2026-03-19",
+      "time": "20:00",
+      "homeTeam": "74496781",
+      "awayTeam": "64334201",
+      "round": "7",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "7831a686-98e1-45a6-bbd3-598d4575cf4a": {
+      "id": "7831a686-98e1-45a6-bbd3-598d4575cf4a",
+      "date": "2026-03-19",
+      "time": "21:30",
+      "homeTeam": "41051526",
+      "awayTeam": "72275367",
+      "round": "7",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "91220440-7a70-4ff2-8719-58668890a781": {
+      "id": "91220440-7a70-4ff2-8719-58668890a781",
+      "date": "2026-03-21",
+      "time": "16:00",
+      "homeTeam": "87595679",
+      "awayTeam": "49823308",
+      "round": "8",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c6ffc57d-1930-4bb7-a3b4-d74c37fcdebb": {
+      "id": "c6ffc57d-1930-4bb7-a3b4-d74c37fcdebb",
+      "date": "2026-03-21",
+      "time": "18:30",
+      "homeTeam": "86586513",
+      "awayTeam": "79951310",
+      "round": "8",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "b9ce3c52-8fdb-49d9-9a3e-049158a17a0c": {
+      "id": "b9ce3c52-8fdb-49d9-9a3e-049158a17a0c",
+      "date": "2026-03-21",
+      "time": "21:00",
+      "homeTeam": "55963133",
+      "awayTeam": "90748914",
+      "round": "8",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c952ffd4-a1b7-4c0d-b196-c64d1c5e8e4e": {
+      "id": "c952ffd4-a1b7-4c0d-b196-c64d1c5e8e4e",
+      "date": "2026-03-22",
+      "time": "16:00",
+      "homeTeam": "40802544",
+      "awayTeam": "21276332",
+      "round": "8",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "0c84f564-d297-4285-9105-809669faa820": {
+      "id": "0c84f564-d297-4285-9105-809669faa820",
+      "date": "2026-03-22",
+      "time": "16:00",
+      "homeTeam": "35971878",
+      "awayTeam": "40705706",
+      "round": "8",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f94b8812-f6fd-4d9a-b3d2-a7a91885572c": {
+      "id": "f94b8812-f6fd-4d9a-b3d2-a7a91885572c",
+      "date": "2026-03-22",
+      "time": "16:00",
+      "homeTeam": "64334201",
+      "awayTeam": "21891021",
+      "round": "8",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "239f1c04-45c3-4e64-87b2-32aa25f9c8e0": {
+      "id": "239f1c04-45c3-4e64-87b2-32aa25f9c8e0",
+      "date": "2026-03-22",
+      "time": "16:00",
+      "homeTeam": "48594781",
+      "awayTeam": "59318961",
+      "round": "8",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "15029387-9e11-49f5-b11a-f012c2f376aa": {
+      "id": "15029387-9e11-49f5-b11a-f012c2f376aa",
+      "date": "2026-03-22",
+      "time": "18:30",
+      "homeTeam": "69857423",
+      "awayTeam": "41051526",
+      "round": "8",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "2bbeb859-eb9d-4393-b4f2-3310bd3bca41": {
+      "id": "2bbeb859-eb9d-4393-b4f2-3310bd3bca41",
+      "date": "2026-03-22",
+      "time": "18:30",
+      "homeTeam": "43257277",
+      "awayTeam": "79859601",
+      "round": "8",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "1a45a3dc-cd52-42cb-90f5-377dbbdfca19": {
+      "id": "1a45a3dc-cd52-42cb-90f5-377dbbdfca19",
+      "date": "2026-03-22",
+      "time": "20:30",
+      "homeTeam": "72275367",
+      "awayTeam": "74496781",
+      "round": "8",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "8312c2d3-5e53-4e7e-9a1c-930131cb3674": {
+      "id": "8312c2d3-5e53-4e7e-9a1c-930131cb3674",
+      "date": "2026-03-29",
+      "time": "19:30",
+      "homeTeam": "40802544",
+      "awayTeam": "49823308",
+      "round": "5",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "3ff499e8-f274-4029-b02e-65e9a950acca": {
+      "id": "3ff499e8-f274-4029-b02e-65e9a950acca",
+      "date": "2026-04-01",
+      "time": "19:30",
+      "homeTeam": "49823308",
+      "awayTeam": "79859601",
+      "round": "9",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "8b38f8e5-cb62-49b5-a231-f4994a65542a": {
+      "id": "8b38f8e5-cb62-49b5-a231-f4994a65542a",
+      "date": "2026-04-01",
+      "time": "19:30",
+      "homeTeam": "69857423",
+      "awayTeam": "55963133",
+      "round": "9",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "3381585b-d6f1-4e42-9b8a-c6f3c32dbf68": {
+      "id": "3381585b-d6f1-4e42-9b8a-c6f3c32dbf68",
+      "date": "2026-04-01",
+      "time": "20:00",
+      "homeTeam": "21891021",
+      "awayTeam": "40802544",
+      "round": "9",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "7b49c0b7-415a-4c37-b13f-1100010fcf90": {
+      "id": "7b49c0b7-415a-4c37-b13f-1100010fcf90",
+      "date": "2026-04-01",
+      "time": "20:00",
+      "homeTeam": "35971878",
+      "awayTeam": "43257277",
+      "round": "9",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "6792ee8a-e04c-4a0e-a062-daac8128cf71": {
+      "id": "6792ee8a-e04c-4a0e-a062-daac8128cf71",
+      "date": "2026-04-01",
+      "time": "20:30",
+      "homeTeam": "21276332",
+      "awayTeam": "48594781",
+      "round": "9",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "e1dc3260-c1d6-4ed9-8137-54bf94012a36": {
+      "id": "e1dc3260-c1d6-4ed9-8137-54bf94012a36",
+      "date": "2026-04-01",
+      "time": "21:30",
+      "homeTeam": "86586513",
+      "awayTeam": "72275367",
+      "round": "9",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "6fa724df-9fdc-445f-8997-6b6b93d3d5bf": {
+      "id": "6fa724df-9fdc-445f-8997-6b6b93d3d5bf",
+      "date": "2026-04-02",
+      "time": "19:00",
+      "homeTeam": "41051526",
+      "awayTeam": "79951310",
+      "round": "9",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "b0f49c4d-7824-46bb-9b6a-85dab531f59e": {
+      "id": "b0f49c4d-7824-46bb-9b6a-85dab531f59e",
+      "date": "2026-04-02",
+      "time": "19:00",
+      "homeTeam": "40705706",
+      "awayTeam": "64334201",
+      "round": "9",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "d6494711-2b1b-447e-912d-c587783fbfb8": {
+      "id": "d6494711-2b1b-447e-912d-c587783fbfb8",
+      "date": "2026-04-02",
+      "time": "21:30",
+      "homeTeam": "87595679",
+      "awayTeam": "74496781",
+      "round": "9",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "54538d66-d9b6-4890-9b33-704240aa528c": {
+      "id": "54538d66-d9b6-4890-9b33-704240aa528c",
+      "date": "2026-04-02",
+      "time": "21:30",
+      "homeTeam": "90748914",
+      "awayTeam": "59318961",
+      "round": "9",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "cf954043-c13c-4412-b41c-5b08e7136beb": {
+      "id": "cf954043-c13c-4412-b41c-5b08e7136beb",
+      "date": "2026-04-04",
+      "time": "18:30",
+      "homeTeam": "55963133",
+      "awayTeam": "35971878",
+      "round": "10",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c9aa08be-0385-47ab-8a7e-b75c1897961a": {
+      "id": "c9aa08be-0385-47ab-8a7e-b75c1897961a",
+      "date": "2026-04-04",
+      "time": "20:30",
+      "homeTeam": "21276332",
+      "awayTeam": "86586513",
+      "round": "10",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "00601df3-df93-4e49-8e43-45e20882c583": {
+      "id": "00601df3-df93-4e49-8e43-45e20882c583",
+      "date": "2026-04-04",
+      "time": "21:00",
+      "homeTeam": "48594781",
+      "awayTeam": "49823308",
+      "round": "10",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "2a844049-3fb5-4c7e-880f-ed70a3299695": {
+      "id": "2a844049-3fb5-4c7e-880f-ed70a3299695",
+      "date": "2026-04-05",
+      "time": "16:00",
+      "homeTeam": "41051526",
+      "awayTeam": "43257277",
+      "round": "10",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "0484b136-49ad-4d0a-9864-0c05725248df": {
+      "id": "0484b136-49ad-4d0a-9864-0c05725248df",
+      "date": "2026-04-05",
+      "time": "17:30",
+      "homeTeam": "79951310",
+      "awayTeam": "40802544",
+      "round": "10",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "a155460f-bf20-4ce5-ac9d-27190f19ef91": {
+      "id": "a155460f-bf20-4ce5-ac9d-27190f19ef91",
+      "date": "2026-04-05",
+      "time": "17:30",
+      "homeTeam": "74496781",
+      "awayTeam": "40705706",
+      "round": "10",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "8e8a381f-bdad-491c-af32-65cb718fb1ad": {
+      "id": "8e8a381f-bdad-491c-af32-65cb718fb1ad",
+      "date": "2026-04-05",
+      "time": "19:30",
+      "homeTeam": "21891021",
+      "awayTeam": "90748914",
+      "round": "10",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "57f18619-cf72-4b2a-b5b7-85eb05f3ac70": {
+      "id": "57f18619-cf72-4b2a-b5b7-85eb05f3ac70",
+      "date": "2026-04-05",
+      "time": "19:30",
+      "homeTeam": "72275367",
+      "awayTeam": "69857423",
+      "round": "10",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c0d1b63b-50e1-44e8-8000-9fa01d57c2a2": {
+      "id": "c0d1b63b-50e1-44e8-8000-9fa01d57c2a2",
+      "date": "2026-04-05",
+      "time": "20:00",
+      "homeTeam": "79859601",
+      "awayTeam": "87595679",
+      "round": "10",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "7f0c0d73-5923-47f4-91c0-2afd88a01a64": {
+      "id": "7f0c0d73-5923-47f4-91c0-2afd88a01a64",
+      "date": "2026-04-05",
+      "time": "20:30",
+      "homeTeam": "59318961",
+      "awayTeam": "64334201",
+      "round": "10",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "5abff027-9423-46d0-8e6b-447d2df656dc": {
+      "id": "5abff027-9423-46d0-8e6b-447d2df656dc",
+      "date": "2026-04-11",
+      "time": "16:30",
+      "homeTeam": "64334201",
+      "awayTeam": "48594781",
+      "round": "11",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f5488f72-b396-4707-9fac-7f337ade6349": {
+      "id": "f5488f72-b396-4707-9fac-7f337ade6349",
+      "date": "2026-04-11",
+      "time": "16:30",
+      "homeTeam": "43257277",
+      "awayTeam": "55963133",
+      "round": "11",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "8136c239-f328-4331-8b2e-69c927942493": {
+      "id": "8136c239-f328-4331-8b2e-69c927942493",
+      "date": "2026-04-11",
+      "time": "18:30",
+      "homeTeam": "79859601",
+      "awayTeam": "21891021",
+      "round": "11",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "aa2561c1-ccd3-416c-a92c-f8777b1ac996": {
+      "id": "aa2561c1-ccd3-416c-a92c-f8777b1ac996",
+      "date": "2026-04-11",
+      "time": "20:00",
+      "homeTeam": "40705706",
+      "awayTeam": "79951310",
+      "round": "11",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "8b7d11a4-c999-4737-80cc-b8e1fd7a8b76": {
+      "id": "8b7d11a4-c999-4737-80cc-b8e1fd7a8b76",
+      "date": "2026-04-11",
+      "time": "20:30",
+      "homeTeam": "69857423",
+      "awayTeam": "59318961",
+      "round": "11",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "4065d03a-354c-4f7c-9b34-12dcc533f964": {
+      "id": "4065d03a-354c-4f7c-9b34-12dcc533f964",
+      "date": "2026-04-12",
+      "time": "11:00",
+      "homeTeam": "40802544",
+      "awayTeam": "41051526",
+      "round": "11",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "00ae3404-b0e7-4773-9b04-90e3a25db268": {
+      "id": "00ae3404-b0e7-4773-9b04-90e3a25db268",
+      "date": "2026-04-12",
+      "time": "16:00",
+      "homeTeam": "49823308",
+      "awayTeam": "21276332",
+      "round": "11",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "2b4edb4c-a719-4048-a62d-31fa63fd1070": {
+      "id": "2b4edb4c-a719-4048-a62d-31fa63fd1070",
+      "date": "2026-04-12",
+      "time": "18:00",
+      "homeTeam": "86586513",
+      "awayTeam": "74496781",
+      "round": "11",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "9abe2f35-b44f-4b95-b7c0-ee632a56992d": {
+      "id": "9abe2f35-b44f-4b95-b7c0-ee632a56992d",
+      "date": "2026-04-12",
+      "time": "18:30",
+      "homeTeam": "72275367",
+      "awayTeam": "90748914",
+      "round": "11",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "49c0ad65-8c3f-4562-98df-da4e49ab383a": {
+      "id": "49c0ad65-8c3f-4562-98df-da4e49ab383a",
+      "date": "2026-04-12",
+      "time": "18:30",
+      "homeTeam": "35971878",
+      "awayTeam": "87595679",
+      "round": "11",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "05ee4b28-791d-4521-b711-03f3ecce1e34": {
+      "id": "05ee4b28-791d-4521-b711-03f3ecce1e34",
+      "date": "2026-04-18",
+      "time": "18:30",
+      "homeTeam": "41051526",
+      "awayTeam": "49823308",
+      "round": "12",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "e41ba5c5-530d-44eb-92c9-4f13aabac626": {
+      "id": "e41ba5c5-530d-44eb-92c9-4f13aabac626",
+      "date": "2026-04-18",
+      "time": "18:30",
+      "homeTeam": "48594781",
+      "awayTeam": "55963133",
+      "round": "12",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "5f648d90-f3cc-46f5-8bb5-476be704d92d": {
+      "id": "5f648d90-f3cc-46f5-8bb5-476be704d92d",
+      "date": "2026-04-18",
+      "time": "20:00",
+      "homeTeam": "43257277",
+      "awayTeam": "72275367",
+      "round": "12",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "4b169e21-880b-4db7-8781-58012bcdb913": {
+      "id": "4b169e21-880b-4db7-8781-58012bcdb913",
+      "date": "2026-04-18",
+      "time": "20:30",
+      "homeTeam": "35971878",
+      "awayTeam": "59318961",
+      "round": "12",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "5b7e82ea-6346-4bc9-9cb8-29fc7e30bb3c": {
+      "id": "5b7e82ea-6346-4bc9-9cb8-29fc7e30bb3c",
+      "date": "2026-04-19",
+      "time": "11:00",
+      "homeTeam": "69857423",
+      "awayTeam": "79859601",
+      "round": "12",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "31ab2e1b-69fe-4e15-8998-7d055f2e281d": {
+      "id": "31ab2e1b-69fe-4e15-8998-7d055f2e281d",
+      "date": "2026-04-19",
+      "time": "16:00",
+      "homeTeam": "21276332",
+      "awayTeam": "79951310",
+      "round": "12",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "ae36999d-9a68-4f97-b744-e45aad269436": {
+      "id": "ae36999d-9a68-4f97-b744-e45aad269436",
+      "date": "2026-04-19",
+      "time": "16:00",
+      "homeTeam": "40705706",
+      "awayTeam": "86586513",
+      "round": "12",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "8c363c38-727c-470e-8c2a-fe22ef669f2b": {
+      "id": "8c363c38-727c-470e-8c2a-fe22ef669f2b",
+      "date": "2026-04-19",
+      "time": "18:30",
+      "homeTeam": "87595679",
+      "awayTeam": "64334201",
+      "round": "12",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "4f2abaab-10d8-4a24-a797-0c34c1dca59b": {
+      "id": "4f2abaab-10d8-4a24-a797-0c34c1dca59b",
+      "date": "2026-04-19",
+      "time": "18:30",
+      "homeTeam": "90748914",
+      "awayTeam": "40802544",
+      "round": "12",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "d7727dff-714d-400f-8650-771889ee2b39": {
+      "id": "d7727dff-714d-400f-8650-771889ee2b39",
+      "date": "2026-04-19",
+      "time": "19:30",
+      "homeTeam": "74496781",
+      "awayTeam": "21891021",
+      "round": "12",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "866f5bb0-b9fd-451d-a29a-65efb1db7a21": {
+      "id": "866f5bb0-b9fd-451d-a29a-65efb1db7a21",
+      "date": "2026-04-25",
+      "time": "18:30",
+      "homeTeam": "21891021",
+      "awayTeam": "40705706",
+      "round": "13",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "a4d9d14a-c158-43d2-9fa4-f3f4c07888d7": {
+      "id": "a4d9d14a-c158-43d2-9fa4-f3f4c07888d7",
+      "date": "2026-04-25",
+      "time": "18:30",
+      "homeTeam": "49823308",
+      "awayTeam": "69857423",
+      "round": "13",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c8e170fc-81a1-4fe5-acd1-452732ca3bdd": {
+      "id": "c8e170fc-81a1-4fe5-acd1-452732ca3bdd",
+      "date": "2026-04-25",
+      "time": "18:30",
+      "homeTeam": "64334201",
+      "awayTeam": "35971878",
+      "round": "13",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "d9ae2b7e-8190-485f-8d15-78d3888bd695": {
+      "id": "d9ae2b7e-8190-485f-8d15-78d3888bd695",
+      "date": "2026-04-25",
+      "time": "21:00",
+      "homeTeam": "55963133",
+      "awayTeam": "79859601",
+      "round": "13",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "68c59395-94fc-4c0e-9aef-1ecd168fc0b7": {
+      "id": "68c59395-94fc-4c0e-9aef-1ecd168fc0b7",
+      "date": "2026-04-26",
+      "time": "16:00",
+      "homeTeam": "72275367",
+      "awayTeam": "48594781",
+      "round": "13",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "3b1e64b2-35d4-4891-ad40-3272e6819193": {
+      "id": "3b1e64b2-35d4-4891-ad40-3272e6819193",
+      "date": "2026-04-26",
+      "time": "16:00",
+      "homeTeam": "59318961",
+      "awayTeam": "21276332",
+      "round": "13",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "dc8baa73-536e-4f7a-a205-75246611dbdc": {
+      "id": "dc8baa73-536e-4f7a-a205-75246611dbdc",
+      "date": "2026-04-26",
+      "time": "18:30",
+      "homeTeam": "40802544",
+      "awayTeam": "43257277",
+      "round": "13",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "637d1243-7018-4e9c-bacc-3c900dce9327": {
+      "id": "637d1243-7018-4e9c-bacc-3c900dce9327",
+      "date": "2026-04-26",
+      "time": "18:30",
+      "homeTeam": "87595679",
+      "awayTeam": "90748914",
+      "round": "13",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "69aa9506-ad5f-4d9a-a852-30eab67163db": {
+      "id": "69aa9506-ad5f-4d9a-a852-30eab67163db",
+      "date": "2026-04-26",
+      "time": "20:30",
+      "homeTeam": "79951310",
+      "awayTeam": "74496781",
+      "round": "13",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c0acadfa-3c14-44dc-a681-3a8491cd957f": {
+      "id": "c0acadfa-3c14-44dc-a681-3a8491cd957f",
+      "date": "2026-04-26",
+      "time": "20:30",
+      "homeTeam": "86586513",
+      "awayTeam": "41051526",
+      "round": "13",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "06a51228-6b17-4a3c-9056-ce4eccb99c42": {
+      "id": "06a51228-6b17-4a3c-9056-ce4eccb99c42",
+      "date": "2026-05-02",
+      "time": "16:00",
+      "homeTeam": "49823308",
+      "awayTeam": "64334201",
+      "round": "14",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c8dd1347-39ef-4e35-94e8-ff1cb946c325": {
+      "id": "c8dd1347-39ef-4e35-94e8-ff1cb946c325",
+      "date": "2026-05-02",
+      "time": "18:30",
+      "homeTeam": "90748914",
+      "awayTeam": "40705706",
+      "round": "14",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "aee1a786-af81-4916-8130-18a94f74a3bc": {
+      "id": "aee1a786-af81-4916-8130-18a94f74a3bc",
+      "date": "2026-05-02",
+      "time": "18:30",
+      "homeTeam": "43257277",
+      "awayTeam": "21276332",
+      "round": "14",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "e7e36f04-d373-4210-a9aa-cf1cd38bdf74": {
+      "id": "e7e36f04-d373-4210-a9aa-cf1cd38bdf74",
+      "date": "2026-05-02",
+      "time": "20:30",
+      "homeTeam": "40802544",
+      "awayTeam": "59318961",
+      "round": "14",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "8ffceeca-ecb1-4c16-9924-b80433d58b1a": {
+      "id": "8ffceeca-ecb1-4c16-9924-b80433d58b1a",
+      "date": "2026-05-02",
+      "time": "21:00",
+      "homeTeam": "35971878",
+      "awayTeam": "79951310",
+      "round": "14",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "161b9a93-916f-4636-8e01-f1906681bd3c": {
+      "id": "161b9a93-916f-4636-8e01-f1906681bd3c",
+      "date": "2026-05-03",
+      "time": "16:00",
+      "homeTeam": "74496781",
+      "awayTeam": "48594781",
+      "round": "14",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "8dd69465-70b5-47a1-8836-c2b85c6bd494": {
+      "id": "8dd69465-70b5-47a1-8836-c2b85c6bd494",
+      "date": "2026-05-03",
+      "time": "16:00",
+      "homeTeam": "55963133",
+      "awayTeam": "21891021",
+      "round": "14",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "18d39e30-62cb-4d7a-bc8b-00fd8b9060dd": {
+      "id": "18d39e30-62cb-4d7a-bc8b-00fd8b9060dd",
+      "date": "2026-05-03",
+      "time": "18:30",
+      "homeTeam": "41051526",
+      "awayTeam": "87595679",
+      "round": "14",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "2e0f72a1-8e37-4c9e-ae0e-38136a1c5a1f": {
+      "id": "2e0f72a1-8e37-4c9e-ae0e-38136a1c5a1f",
+      "date": "2026-05-03",
+      "time": "18:30",
+      "homeTeam": "69857423",
+      "awayTeam": "86586513",
+      "round": "14",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "003543cb-80d1-4b5c-bbc7-d449122158e6": {
+      "id": "003543cb-80d1-4b5c-bbc7-d449122158e6",
+      "date": "2026-05-03",
+      "time": "20:30",
+      "homeTeam": "79859601",
+      "awayTeam": "72275367",
+      "round": "14",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "e281b2f9-c9ef-4fab-9e81-f6901398a3de": {
+      "id": "e281b2f9-c9ef-4fab-9e81-f6901398a3de",
+      "date": "2026-05-09",
+      "time": "16:00",
+      "homeTeam": "21276332",
+      "awayTeam": "69857423",
+      "round": "15",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "ec782e35-e5a0-4a89-ade0-3371692f665c": {
+      "id": "ec782e35-e5a0-4a89-ade0-3371692f665c",
+      "date": "2026-05-09",
+      "time": "18:00",
+      "homeTeam": "86586513",
+      "awayTeam": "43257277",
+      "round": "15",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "b365cc44-9fb8-45a8-b5b5-13edd4ba0cbf": {
+      "id": "b365cc44-9fb8-45a8-b5b5-13edd4ba0cbf",
+      "date": "2026-05-09",
+      "time": "21:00",
+      "homeTeam": "21891021",
+      "awayTeam": "35971878",
+      "round": "15",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "1574b829-d839-48b2-ac62-1525966dbfa2": {
+      "id": "1574b829-d839-48b2-ac62-1525966dbfa2",
+      "date": "2026-05-10",
+      "time": "16:00",
+      "homeTeam": "79951310",
+      "awayTeam": "49823308",
+      "round": "15",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f72c4cbb-0aa3-49b9-8947-099ae2da1e73": {
+      "id": "f72c4cbb-0aa3-49b9-8947-099ae2da1e73",
+      "date": "2026-05-10",
+      "time": "16:00",
+      "homeTeam": "64334201",
+      "awayTeam": "90748914",
+      "round": "15",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "369e54cf-edf9-489f-a080-e692429f51ac": {
+      "id": "369e54cf-edf9-489f-a080-e692429f51ac",
+      "date": "2026-05-10",
+      "time": "18:30",
+      "homeTeam": "72275367",
+      "awayTeam": "55963133",
+      "round": "15",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "97b185a6-06a4-40d3-ad88-f054b9a9738c": {
+      "id": "97b185a6-06a4-40d3-ad88-f054b9a9738c",
+      "date": "2026-05-10",
+      "time": "18:30",
+      "homeTeam": "79859601",
+      "awayTeam": "41051526",
+      "round": "15",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "1debba27-6c8e-4869-928a-9cfe32c33b7b": {
+      "id": "1debba27-6c8e-4869-928a-9cfe32c33b7b",
+      "date": "2026-05-10",
+      "time": "18:30",
+      "homeTeam": "40705706",
+      "awayTeam": "87595679",
+      "round": "15",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "3b078596-091a-435e-b283-645d67079098": {
+      "id": "3b078596-091a-435e-b283-645d67079098",
+      "date": "2026-05-10",
+      "time": "19:30",
+      "homeTeam": "59318961",
+      "awayTeam": "74496781",
+      "round": "15",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "7c8c305d-3094-4b75-a3ea-6909f6f2de6f": {
+      "id": "7c8c305d-3094-4b75-a3ea-6909f6f2de6f",
+      "date": "2026-05-10",
+      "time": "20:30",
+      "homeTeam": "48594781",
+      "awayTeam": "40802544",
+      "round": "15",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "2fa88798-33bc-41a1-ab60-a9239fe494fd": {
+      "id": "2fa88798-33bc-41a1-ab60-a9239fe494fd",
+      "date": "2026-05-16",
+      "time": "18:30",
+      "homeTeam": "79951310",
+      "awayTeam": "79859601",
+      "round": "16",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "6fb27bd2-f7f5-4710-8d99-d871c6a362fc": {
+      "id": "6fb27bd2-f7f5-4710-8d99-d871c6a362fc",
+      "date": "2026-05-16",
+      "time": "18:30",
+      "homeTeam": "69857423",
+      "awayTeam": "48594781",
+      "round": "16",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "616ed2f8-0a9a-4ddd-929a-cb722f8012c4": {
+      "id": "616ed2f8-0a9a-4ddd-929a-cb722f8012c4",
+      "date": "2026-05-16",
+      "time": "19:00",
+      "homeTeam": "86586513",
+      "awayTeam": "55963133",
+      "round": "16",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "6c69dad7-4b95-47cc-becb-2017235e1183": {
+      "id": "6c69dad7-4b95-47cc-becb-2017235e1183",
+      "date": "2026-05-16",
+      "time": "21:00",
+      "homeTeam": "90748914",
+      "awayTeam": "35971878",
+      "round": "16",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "376edde6-c915-4d5d-8e39-fb150ce8a75e": {
+      "id": "376edde6-c915-4d5d-8e39-fb150ce8a75e",
+      "date": "2026-05-17",
+      "time": "11:00",
+      "homeTeam": "40705706",
+      "awayTeam": "21276332",
+      "round": "16",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "39aba636-871a-4e6c-864a-e2a0ca29a83c": {
+      "id": "39aba636-871a-4e6c-864a-e2a0ca29a83c",
+      "date": "2026-05-17",
+      "time": "16:00",
+      "homeTeam": "21891021",
+      "awayTeam": "59318961",
+      "round": "16",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "982f966d-387c-4c16-a2d1-013e1bf936fa": {
+      "id": "982f966d-387c-4c16-a2d1-013e1bf936fa",
+      "date": "2026-05-17",
+      "time": "16:00",
+      "homeTeam": "49823308",
+      "awayTeam": "72275367",
+      "round": "16",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "75aaedec-0496-45f0-bcf9-7b0a404bc9c9": {
+      "id": "75aaedec-0496-45f0-bcf9-7b0a404bc9c9",
+      "date": "2026-05-17",
+      "time": "18:30",
+      "homeTeam": "87595679",
+      "awayTeam": "43257277",
+      "round": "16",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "a2ad9508-8ae9-4868-a908-5f6b3ba916c0": {
+      "id": "a2ad9508-8ae9-4868-a908-5f6b3ba916c0",
+      "date": "2026-05-17",
+      "time": "18:30",
+      "homeTeam": "41051526",
+      "awayTeam": "64334201",
+      "round": "16",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "54dca056-46a9-4928-a702-a71744f8f70f": {
+      "id": "54dca056-46a9-4928-a702-a71744f8f70f",
+      "date": "2026-05-17",
+      "time": "19:30",
+      "homeTeam": "40802544",
+      "awayTeam": "74496781",
+      "round": "16",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "eb8af39d-a6cc-48ee-b70d-4b5d2157e8e8": {
+      "id": "eb8af39d-a6cc-48ee-b70d-4b5d2157e8e8",
+      "date": "2026-05-23",
+      "time": "17:00",
+      "homeTeam": "55963133",
+      "awayTeam": "49823308",
+      "round": "17",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "d7785420-1efa-4bd5-ac37-e04ab2cb4eb8": {
+      "id": "d7785420-1efa-4bd5-ac37-e04ab2cb4eb8",
+      "date": "2026-05-23",
+      "time": "17:00",
+      "homeTeam": "43257277",
+      "awayTeam": "69857423",
+      "round": "17",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "0db37511-f261-4595-80a0-3f2841608d32": {
+      "id": "0db37511-f261-4595-80a0-3f2841608d32",
+      "date": "2026-05-23",
+      "time": "19:00",
+      "homeTeam": "59318961",
+      "awayTeam": "40705706",
+      "round": "17",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f5ffecfc-b1f6-4e59-9096-be45ff315a3d": {
+      "id": "f5ffecfc-b1f6-4e59-9096-be45ff315a3d",
+      "date": "2026-05-23",
+      "time": "19:00",
+      "homeTeam": "79859601",
+      "awayTeam": "86586513",
+      "round": "17",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "db4603f5-b65e-423b-91f1-3f6dba5bd247": {
+      "id": "db4603f5-b65e-423b-91f1-3f6dba5bd247",
+      "date": "2026-05-23",
+      "time": "21:00",
+      "homeTeam": "74496781",
+      "awayTeam": "90748914",
+      "round": "17",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "fc15aee7-34c0-44b7-ae2f-1c5454cf6892": {
+      "id": "fc15aee7-34c0-44b7-ae2f-1c5454cf6892",
+      "date": "2026-05-24",
+      "time": "16:00",
+      "homeTeam": "35971878",
+      "awayTeam": "41051526",
+      "round": "17",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "aef8a476-1f44-4ca2-8047-d98a6a1c8de2": {
+      "id": "aef8a476-1f44-4ca2-8047-d98a6a1c8de2",
+      "date": "2026-05-24",
+      "time": "16:00",
+      "homeTeam": "64334201",
+      "awayTeam": "40802544",
+      "round": "17",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "d515f018-e958-4741-86d1-89cd04ff8f82": {
+      "id": "d515f018-e958-4741-86d1-89cd04ff8f82",
+      "date": "2026-05-24",
+      "time": "18:30",
+      "homeTeam": "72275367",
+      "awayTeam": "79951310",
+      "round": "17",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "8b3a793f-5371-48f3-835b-9ea57f90b9f2": {
+      "id": "8b3a793f-5371-48f3-835b-9ea57f90b9f2",
+      "date": "2026-05-24",
+      "time": "20:30",
+      "homeTeam": "48594781",
+      "awayTeam": "87595679",
+      "round": "17",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "95ca0d12-1e82-4d3d-a5ca-e1eed8697daf": {
+      "id": "95ca0d12-1e82-4d3d-a5ca-e1eed8697daf",
+      "date": "2026-05-25",
+      "time": "20:00",
+      "homeTeam": "21276332",
+      "awayTeam": "21891021",
+      "round": "17",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "a11961ab-4909-401f-8eac-bf9241f8b6a9": {
+      "id": "a11961ab-4909-401f-8eac-bf9241f8b6a9",
+      "date": "2026-05-30",
+      "time": "16:00",
+      "homeTeam": "40802544",
+      "awayTeam": "79859601",
+      "round": "18",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "a58b0e22-90bc-4285-84be-34d09bad7e81": {
+      "id": "a58b0e22-90bc-4285-84be-34d09bad7e81",
+      "date": "2026-05-30",
+      "time": "16:00",
+      "homeTeam": "74496781",
+      "awayTeam": "21276332",
+      "round": "18",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "bc164c24-7772-4131-9d54-4a5dea568a66": {
+      "id": "bc164c24-7772-4131-9d54-4a5dea568a66",
+      "date": "2026-05-30",
+      "time": "17:30",
+      "homeTeam": "21891021",
+      "awayTeam": "49823308",
+      "round": "18",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "9f5774ee-2b6a-411b-82da-3eb5fd7cd3ac": {
+      "id": "9f5774ee-2b6a-411b-82da-3eb5fd7cd3ac",
+      "date": "2026-05-30",
+      "time": "17:30",
+      "homeTeam": "59318961",
+      "awayTeam": "72275367",
+      "round": "18",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "e06b2b8b-6937-4aea-8f93-4a4de29dca12": {
+      "id": "e06b2b8b-6937-4aea-8f93-4a4de29dca12",
+      "date": "2026-05-30",
+      "time": "19:30",
+      "homeTeam": "64334201",
+      "awayTeam": "55963133",
+      "round": "18",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "3511536b-d5a5-4726-a43d-74181407c6dc": {
+      "id": "3511536b-d5a5-4726-a43d-74181407c6dc",
+      "date": "2026-05-30",
+      "time": "21:00",
+      "homeTeam": "40705706",
+      "awayTeam": "43257277",
+      "round": "18",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "dad19f74-0c66-4f9e-89ff-fb7d70ecc730": {
+      "id": "dad19f74-0c66-4f9e-89ff-fb7d70ecc730",
+      "date": "2026-05-31",
+      "time": "11:00",
+      "homeTeam": "87595679",
+      "awayTeam": "69857423",
+      "round": "18",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "6f0a56d6-4421-4c49-a9b7-632476836cd2": {
+      "id": "6f0a56d6-4421-4c49-a9b7-632476836cd2",
+      "date": "2026-05-31",
+      "time": "16:00",
+      "homeTeam": "90748914",
+      "awayTeam": "41051526",
+      "round": "18",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "20b29649-9651-44c1-b319-25c20e789865": {
+      "id": "20b29649-9651-44c1-b319-25c20e789865",
+      "date": "2026-05-31",
+      "time": "16:00",
+      "homeTeam": "48594781",
+      "awayTeam": "79951310",
+      "round": "18",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c2675647-ed12-4ee9-b51c-0e61b7c4cd84": {
+      "id": "c2675647-ed12-4ee9-b51c-0e61b7c4cd84",
+      "date": "2026-05-31",
+      "time": "20:30",
+      "homeTeam": "35971878",
+      "awayTeam": "86586513",
+      "round": "18",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "b07a4803-5f0d-44d7-bcb4-9d09b909bdee": {
+      "id": "b07a4803-5f0d-44d7-bcb4-9d09b909bdee",
+      "date": "2026-07-22",
+      "time": "17:00",
+      "homeTeam": "79951310",
+      "awayTeam": "21891021",
+      "round": "19",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "e6baa2ac-22c6-4c1d-8c6b-dc2336fa4053": {
+      "id": "e6baa2ac-22c6-4c1d-8c6b-dc2336fa4053",
+      "date": "2026-07-22",
+      "time": "17:00",
+      "homeTeam": "49823308",
+      "awayTeam": "40705706",
+      "round": "19",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f6bdcff0-0900-4f7f-b9e5-ff4e3a255351": {
+      "id": "f6bdcff0-0900-4f7f-b9e5-ff4e3a255351",
+      "date": "2026-07-22",
+      "time": "17:00",
+      "homeTeam": "41051526",
+      "awayTeam": "74496781",
+      "round": "19",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "7fed4801-6026-47cd-88f9-70cee5d717f7": {
+      "id": "7fed4801-6026-47cd-88f9-70cee5d717f7",
+      "date": "2026-07-22",
+      "time": "17:00",
+      "homeTeam": "72275367",
+      "awayTeam": "64334201",
+      "round": "19",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "cc658af9-13a4-419f-b27c-6d320db134ff": {
+      "id": "cc658af9-13a4-419f-b27c-6d320db134ff",
+      "date": "2026-07-22",
+      "time": "17:00",
+      "homeTeam": "21276332",
+      "awayTeam": "90748914",
+      "round": "19",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "dcccbe8b-c8e7-4bb9-a3c4-c9aca882afdb": {
+      "id": "dcccbe8b-c8e7-4bb9-a3c4-c9aca882afdb",
+      "date": "2026-07-22",
+      "time": "17:00",
+      "homeTeam": "86586513",
+      "awayTeam": "87595679",
+      "round": "19",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "57fc8fb5-da1e-4b1e-a423-0d5734c6e128": {
+      "id": "57fc8fb5-da1e-4b1e-a423-0d5734c6e128",
+      "date": "2026-07-22",
+      "time": "17:00",
+      "homeTeam": "69857423",
+      "awayTeam": "35971878",
+      "round": "19",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f4e41539-0f42-4a41-be8c-192121308bb2": {
+      "id": "f4e41539-0f42-4a41-be8c-192121308bb2",
+      "date": "2026-07-22",
+      "time": "17:00",
+      "homeTeam": "79859601",
+      "awayTeam": "59318961",
+      "round": "19",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "59c11d91-1e62-457c-bd62-82e81a7bc258": {
+      "id": "59c11d91-1e62-457c-bd62-82e81a7bc258",
+      "date": "2026-07-22",
+      "time": "17:00",
+      "homeTeam": "55963133",
+      "awayTeam": "40802544",
+      "round": "19",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "ec15288f-3047-43c8-b41a-e9d07e44d3ac": {
+      "id": "ec15288f-3047-43c8-b41a-e9d07e44d3ac",
+      "date": "2026-07-22",
+      "time": "17:00",
+      "homeTeam": "43257277",
+      "awayTeam": "48594781",
+      "round": "19",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f6be5cdf-0099-475a-a522-9ee6bc19799d": {
+      "id": "f6be5cdf-0099-475a-a522-9ee6bc19799d",
+      "date": "2026-07-26",
+      "time": "17:00",
+      "homeTeam": "40802544",
+      "awayTeam": "69857423",
+      "round": "20",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "7aff0447-6c31-45fa-90ac-c2c898c553ac": {
+      "id": "7aff0447-6c31-45fa-90ac-c2c898c553ac",
+      "date": "2026-07-26",
+      "time": "17:00",
+      "homeTeam": "21891021",
+      "awayTeam": "72275367",
+      "round": "20",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "fcc9e5ee-9498-4f41-b453-f97104ca0fbd": {
+      "id": "fcc9e5ee-9498-4f41-b453-f97104ca0fbd",
+      "date": "2026-07-26",
+      "time": "17:00",
+      "homeTeam": "87595679",
+      "awayTeam": "21276332",
+      "round": "20",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "d991bf78-7c0c-4a2a-82df-21d50871c468": {
+      "id": "d991bf78-7c0c-4a2a-82df-21d50871c468",
+      "date": "2026-07-26",
+      "time": "17:00",
+      "homeTeam": "35971878",
+      "awayTeam": "49823308",
+      "round": "20",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "bce4cdf7-a607-4123-bc0a-d7eab1170cde": {
+      "id": "bce4cdf7-a607-4123-bc0a-d7eab1170cde",
+      "date": "2026-07-26",
+      "time": "17:00",
+      "homeTeam": "74496781",
+      "awayTeam": "55963133",
+      "round": "20",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "ddc579bc-415e-49a7-8565-803fed09b773": {
+      "id": "ddc579bc-415e-49a7-8565-803fed09b773",
+      "date": "2026-07-26",
+      "time": "17:00",
+      "homeTeam": "59318961",
+      "awayTeam": "86586513",
+      "round": "20",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "fd289383-074a-432b-94a6-f908fe91a0ce": {
+      "id": "fd289383-074a-432b-94a6-f908fe91a0ce",
+      "date": "2026-07-26",
+      "time": "17:00",
+      "homeTeam": "90748914",
+      "awayTeam": "79951310",
+      "round": "20",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "7fc20ead-b3a1-48b2-a8da-5aeb0509ad4f": {
+      "id": "7fc20ead-b3a1-48b2-a8da-5aeb0509ad4f",
+      "date": "2026-07-26",
+      "time": "17:00",
+      "homeTeam": "64334201",
+      "awayTeam": "43257277",
+      "round": "20",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "6e56ee27-ce04-414c-9ef0-5e53f67ac4f8": {
+      "id": "6e56ee27-ce04-414c-9ef0-5e53f67ac4f8",
+      "date": "2026-07-26",
+      "time": "17:00",
+      "homeTeam": "40705706",
+      "awayTeam": "41051526",
+      "round": "20",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "9a93096e-e9c6-4845-929e-06069e323965": {
+      "id": "9a93096e-e9c6-4845-929e-06069e323965",
+      "date": "2026-07-26",
+      "time": "17:00",
+      "homeTeam": "48594781",
+      "awayTeam": "79859601",
+      "round": "20",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "0cbb7c52-b9f3-42d7-a5ba-98dc46f661c5": {
+      "id": "0cbb7c52-b9f3-42d7-a5ba-98dc46f661c5",
+      "date": "2026-07-29",
+      "time": "17:00",
+      "homeTeam": "79951310",
+      "awayTeam": "87595679",
+      "round": "21",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "ee66b298-088c-4d21-aa78-6ead5a496ae8": {
+      "id": "ee66b298-088c-4d21-aa78-6ead5a496ae8",
+      "date": "2026-07-29",
+      "time": "17:00",
+      "homeTeam": "49823308",
+      "awayTeam": "59318961",
+      "round": "21",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "603bce16-b95f-4683-82d9-e46590904565": {
+      "id": "603bce16-b95f-4683-82d9-e46590904565",
+      "date": "2026-07-29",
+      "time": "17:00",
+      "homeTeam": "41051526",
+      "awayTeam": "48594781",
+      "round": "21",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "37bbdf0e-94a9-4e60-8407-ceabf5c210f5": {
+      "id": "37bbdf0e-94a9-4e60-8407-ceabf5c210f5",
+      "date": "2026-07-29",
+      "time": "17:00",
+      "homeTeam": "72275367",
+      "awayTeam": "40802544",
+      "round": "21",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "51df47dd-a4a2-4c8b-87a1-41bf58188a40": {
+      "id": "51df47dd-a4a2-4c8b-87a1-41bf58188a40",
+      "date": "2026-07-29",
+      "time": "17:00",
+      "homeTeam": "21276332",
+      "awayTeam": "35971878",
+      "round": "21",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "7615d492-737c-4a8b-b9c4-064f2e33c151": {
+      "id": "7615d492-737c-4a8b-b9c4-064f2e33c151",
+      "date": "2026-07-29",
+      "time": "17:00",
+      "homeTeam": "86586513",
+      "awayTeam": "21891021",
+      "round": "21",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "ab8a7649-bb03-4c4d-a6cf-5d857f5e2956": {
+      "id": "ab8a7649-bb03-4c4d-a6cf-5d857f5e2956",
+      "date": "2026-07-29",
+      "time": "17:00",
+      "homeTeam": "69857423",
+      "awayTeam": "74496781",
+      "round": "21",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "149a6b15-daae-4037-89c1-7b0fc8adaf4c": {
+      "id": "149a6b15-daae-4037-89c1-7b0fc8adaf4c",
+      "date": "2026-07-29",
+      "time": "17:00",
+      "homeTeam": "79859601",
+      "awayTeam": "64334201",
+      "round": "21",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "dd97af90-c8e7-4a85-ba5b-653e2d6106b7": {
+      "id": "dd97af90-c8e7-4a85-ba5b-653e2d6106b7",
+      "date": "2026-07-29",
+      "time": "17:00",
+      "homeTeam": "55963133",
+      "awayTeam": "40705706",
+      "round": "21",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "44d900a7-5fb0-4527-acb4-b94fc7097ed3": {
+      "id": "44d900a7-5fb0-4527-acb4-b94fc7097ed3",
+      "date": "2026-07-29",
+      "time": "17:00",
+      "homeTeam": "43257277",
+      "awayTeam": "90748914",
+      "round": "21",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "cb567af5-b5ef-4ba7-9be7-3befc163e98e": {
+      "id": "cb567af5-b5ef-4ba7-9be7-3befc163e98e",
+      "date": "2026-08-09",
+      "time": "17:00",
+      "homeTeam": "21891021",
+      "awayTeam": "48594781",
+      "round": "22",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "61cb1491-ed8b-4912-bff0-0f186bc1652d": {
+      "id": "61cb1491-ed8b-4912-bff0-0f186bc1652d",
+      "date": "2026-08-09",
+      "time": "17:00",
+      "homeTeam": "49823308",
+      "awayTeam": "86586513",
+      "round": "22",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "47daae5b-5b80-4c5a-a69a-41f555169ffa": {
+      "id": "47daae5b-5b80-4c5a-a69a-41f555169ffa",
+      "date": "2026-08-09",
+      "time": "17:00",
+      "homeTeam": "87595679",
+      "awayTeam": "72275367",
+      "round": "22",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "1b72a148-9062-4643-a8c4-e345d8b8628c": {
+      "id": "1b72a148-9062-4643-a8c4-e345d8b8628c",
+      "date": "2026-08-09",
+      "time": "17:00",
+      "homeTeam": "21276332",
+      "awayTeam": "41051526",
+      "round": "22",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c43f810a-99af-43b2-a283-3df15eb2d6d6": {
+      "id": "c43f810a-99af-43b2-a283-3df15eb2d6d6",
+      "date": "2026-08-09",
+      "time": "17:00",
+      "homeTeam": "35971878",
+      "awayTeam": "79859601",
+      "round": "22",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "65e8ef27-aa40-4873-a687-cc1e55e03604": {
+      "id": "65e8ef27-aa40-4873-a687-cc1e55e03604",
+      "date": "2026-08-09",
+      "time": "17:00",
+      "homeTeam": "74496781",
+      "awayTeam": "43257277",
+      "round": "22",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "bd1c25b5-4530-4fc4-add9-772a10805b49": {
+      "id": "bd1c25b5-4530-4fc4-add9-772a10805b49",
+      "date": "2026-08-09",
+      "time": "17:00",
+      "homeTeam": "59318961",
+      "awayTeam": "55963133",
+      "round": "22",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "3ee6eaea-8caa-4ef4-a325-50a604a57114": {
+      "id": "3ee6eaea-8caa-4ef4-a325-50a604a57114",
+      "date": "2026-08-09",
+      "time": "17:00",
+      "homeTeam": "90748914",
+      "awayTeam": "69857423",
+      "round": "22",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "6a215879-a35c-4912-ba51-85985a30832a": {
+      "id": "6a215879-a35c-4912-ba51-85985a30832a",
+      "date": "2026-08-09",
+      "time": "17:00",
+      "homeTeam": "64334201",
+      "awayTeam": "79951310",
+      "round": "22",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "2fdc8a2b-da06-4042-8f24-f91c999a599b": {
+      "id": "2fdc8a2b-da06-4042-8f24-f91c999a599b",
+      "date": "2026-08-09",
+      "time": "17:00",
+      "homeTeam": "40705706",
+      "awayTeam": "40802544",
+      "round": "22",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "82234055-da83-47f4-8cdb-b57fc9d48431": {
+      "id": "82234055-da83-47f4-8cdb-b57fc9d48431",
+      "date": "2026-08-16",
+      "time": "17:00",
+      "homeTeam": "40802544",
+      "awayTeam": "87595679",
+      "round": "23",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "6dc27823-5965-4c81-805b-472c20634b4b": {
+      "id": "6dc27823-5965-4c81-805b-472c20634b4b",
+      "date": "2026-08-16",
+      "time": "17:00",
+      "homeTeam": "79951310",
+      "awayTeam": "59318961",
+      "round": "23",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "05031128-f935-491a-ac6c-e15ae24eb898": {
+      "id": "05031128-f935-491a-ac6c-e15ae24eb898",
+      "date": "2026-08-16",
+      "time": "17:00",
+      "homeTeam": "41051526",
+      "awayTeam": "21891021",
+      "round": "23",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "b4209988-c12e-4f1a-8bf8-5319796c2422": {
+      "id": "b4209988-c12e-4f1a-8bf8-5319796c2422",
+      "date": "2026-08-16",
+      "time": "17:00",
+      "homeTeam": "72275367",
+      "awayTeam": "35971878",
+      "round": "23",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "15f977eb-61e9-41cb-a404-bfde603dcfea": {
+      "id": "15f977eb-61e9-41cb-a404-bfde603dcfea",
+      "date": "2026-08-16",
+      "time": "17:00",
+      "homeTeam": "86586513",
+      "awayTeam": "90748914",
+      "round": "23",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c2cc8391-719e-435b-b42a-6e930dd11392": {
+      "id": "c2cc8391-719e-435b-b42a-6e930dd11392",
+      "date": "2026-08-16",
+      "time": "17:00",
+      "homeTeam": "69857423",
+      "awayTeam": "64334201",
+      "round": "23",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f818ba40-7d81-4c91-89a1-9c3efd3dd867": {
+      "id": "f818ba40-7d81-4c91-89a1-9c3efd3dd867",
+      "date": "2026-08-16",
+      "time": "17:00",
+      "homeTeam": "79859601",
+      "awayTeam": "74496781",
+      "round": "23",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c8018c5f-dc9a-4df8-92e8-a5f381511292": {
+      "id": "c8018c5f-dc9a-4df8-92e8-a5f381511292",
+      "date": "2026-08-16",
+      "time": "17:00",
+      "homeTeam": "55963133",
+      "awayTeam": "21276332",
+      "round": "23",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "831654ec-7dd2-49d5-9bdb-c9eb9a09ae38": {
+      "id": "831654ec-7dd2-49d5-9bdb-c9eb9a09ae38",
+      "date": "2026-08-16",
+      "time": "17:00",
+      "homeTeam": "48594781",
+      "awayTeam": "40705706",
+      "round": "23",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "e98486ad-4e1f-4895-90a7-9cc4456798d2": {
+      "id": "e98486ad-4e1f-4895-90a7-9cc4456798d2",
+      "date": "2026-08-16",
+      "time": "17:00",
+      "homeTeam": "43257277",
+      "awayTeam": "49823308",
+      "round": "23",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "9da6daa2-32f6-49d6-b8ad-85bdc9c8aecf": {
+      "id": "9da6daa2-32f6-49d6-b8ad-85bdc9c8aecf",
+      "date": "2026-08-23",
+      "time": "17:00",
+      "homeTeam": "49823308",
+      "awayTeam": "40802544",
+      "round": "24",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "6697d641-80e6-4525-b55f-3d532a2c8cae": {
+      "id": "6697d641-80e6-4525-b55f-3d532a2c8cae",
+      "date": "2026-08-23",
+      "time": "17:00",
+      "homeTeam": "87595679",
+      "awayTeam": "59318961",
+      "round": "24",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "3c500d15-e083-4564-a73d-e5d40cc1a426": {
+      "id": "3c500d15-e083-4564-a73d-e5d40cc1a426",
+      "date": "2026-08-23",
+      "time": "17:00",
+      "homeTeam": "41051526",
+      "awayTeam": "55963133",
+      "round": "24",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f6d4080c-ab31-4099-9191-e1dc8255e810": {
+      "id": "f6d4080c-ab31-4099-9191-e1dc8255e810",
+      "date": "2026-08-23",
+      "time": "17:00",
+      "homeTeam": "21276332",
+      "awayTeam": "72275367",
+      "round": "24",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "a08a4d1d-02d6-416f-86a3-62604a3c2088": {
+      "id": "a08a4d1d-02d6-416f-86a3-62604a3c2088",
+      "date": "2026-08-23",
+      "time": "17:00",
+      "homeTeam": "35971878",
+      "awayTeam": "74496781",
+      "round": "24",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "2234318a-2851-469d-8a7b-4a586645275f": {
+      "id": "2234318a-2851-469d-8a7b-4a586645275f",
+      "date": "2026-08-23",
+      "time": "17:00",
+      "homeTeam": "86586513",
+      "awayTeam": "64334201",
+      "round": "24",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "5e587551-b376-4432-a4f3-4749b68c1cdc": {
+      "id": "5e587551-b376-4432-a4f3-4749b68c1cdc",
+      "date": "2026-08-23",
+      "time": "17:00",
+      "homeTeam": "69857423",
+      "awayTeam": "79951310",
+      "round": "24",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "d672a1b0-0a4f-480e-a20a-236ab9f2cc24": {
+      "id": "d672a1b0-0a4f-480e-a20a-236ab9f2cc24",
+      "date": "2026-08-23",
+      "time": "17:00",
+      "homeTeam": "90748914",
+      "awayTeam": "48594781",
+      "round": "24",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "b28f1d8d-aa8b-4ce3-8152-f94d79080af2": {
+      "id": "b28f1d8d-aa8b-4ce3-8152-f94d79080af2",
+      "date": "2026-08-23",
+      "time": "17:00",
+      "homeTeam": "40705706",
+      "awayTeam": "79859601",
+      "round": "24",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "860fc3d5-8884-4c74-923b-7d0a162d7f16": {
+      "id": "860fc3d5-8884-4c74-923b-7d0a162d7f16",
+      "date": "2026-08-23",
+      "time": "17:00",
+      "homeTeam": "43257277",
+      "awayTeam": "21891021",
+      "round": "24",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "dc860e6f-8c1e-49af-bda9-ec006108de69": {
+      "id": "dc860e6f-8c1e-49af-bda9-ec006108de69",
+      "date": "2026-08-30",
+      "time": "17:00",
+      "homeTeam": "40802544",
+      "awayTeam": "86586513",
+      "round": "25",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f0766f7e-a715-44b8-89df-5c4e813f23e3": {
+      "id": "f0766f7e-a715-44b8-89df-5c4e813f23e3",
+      "date": "2026-08-30",
+      "time": "17:00",
+      "homeTeam": "79951310",
+      "awayTeam": "43257277",
+      "round": "25",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "e82521ea-e2f0-4edd-8b89-18159c9c3e62": {
+      "id": "e82521ea-e2f0-4edd-8b89-18159c9c3e62",
+      "date": "2026-08-30",
+      "time": "17:00",
+      "homeTeam": "21891021",
+      "awayTeam": "69857423",
+      "round": "25",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "24300668-3ecc-4f55-a32d-e1244d786ab1": {
+      "id": "24300668-3ecc-4f55-a32d-e1244d786ab1",
+      "date": "2026-08-30",
+      "time": "17:00",
+      "homeTeam": "72275367",
+      "awayTeam": "40705706",
+      "round": "25",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "7d56b026-8ff6-4cd6-8d59-b2458f4d50fc": {
+      "id": "7d56b026-8ff6-4cd6-8d59-b2458f4d50fc",
+      "date": "2026-08-30",
+      "time": "17:00",
+      "homeTeam": "74496781",
+      "awayTeam": "49823308",
+      "round": "25",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "53de72a0-8367-4e86-ad06-4b42e7152113": {
+      "id": "53de72a0-8367-4e86-ad06-4b42e7152113",
+      "date": "2026-08-30",
+      "time": "17:00",
+      "homeTeam": "59318961",
+      "awayTeam": "41051526",
+      "round": "25",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "3453a822-b05f-4bff-87d3-9f9ab55a7755": {
+      "id": "3453a822-b05f-4bff-87d3-9f9ab55a7755",
+      "date": "2026-08-30",
+      "time": "17:00",
+      "homeTeam": "79859601",
+      "awayTeam": "90748914",
+      "round": "25",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "3b3a1e39-bc9c-4a52-aca9-8547dddb4672": {
+      "id": "3b3a1e39-bc9c-4a52-aca9-8547dddb4672",
+      "date": "2026-08-30",
+      "time": "17:00",
+      "homeTeam": "64334201",
+      "awayTeam": "21276332",
+      "round": "25",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c0edc0fd-b322-400c-968b-ce64d857dbbe": {
+      "id": "c0edc0fd-b322-400c-968b-ce64d857dbbe",
+      "date": "2026-08-30",
+      "time": "17:00",
+      "homeTeam": "55963133",
+      "awayTeam": "87595679",
+      "round": "25",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "7ffcd026-59e3-474e-b2b2-a213b8fc244f": {
+      "id": "7ffcd026-59e3-474e-b2b2-a213b8fc244f",
+      "date": "2026-08-30",
+      "time": "17:00",
+      "homeTeam": "48594781",
+      "awayTeam": "35971878",
+      "round": "25",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "3d0bdb27-b457-49c8-a8fb-9d809651c5b1": {
+      "id": "3d0bdb27-b457-49c8-a8fb-9d809651c5b1",
+      "date": "2026-09-06",
+      "time": "17:00",
+      "homeTeam": "49823308",
+      "awayTeam": "90748914",
+      "round": "26",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "124d51ce-d798-4e6f-abb5-7d36e1c828af": {
+      "id": "124d51ce-d798-4e6f-abb5-7d36e1c828af",
+      "date": "2026-09-06",
+      "time": "17:00",
+      "homeTeam": "87595679",
+      "awayTeam": "21891021",
+      "round": "26",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "96373716-1df5-479b-b2fd-685401b1f9c7": {
+      "id": "96373716-1df5-479b-b2fd-685401b1f9c7",
+      "date": "2026-09-06",
+      "time": "17:00",
+      "homeTeam": "72275367",
+      "awayTeam": "41051526",
+      "round": "26",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f350f972-7a48-434a-9d82-9f007a172b43": {
+      "id": "f350f972-7a48-434a-9d82-9f007a172b43",
+      "date": "2026-09-06",
+      "time": "17:00",
+      "homeTeam": "21276332",
+      "awayTeam": "79859601",
+      "round": "26",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "4ad35c92-8369-4fe2-81f0-524e431a905e": {
+      "id": "4ad35c92-8369-4fe2-81f0-524e431a905e",
+      "date": "2026-09-06",
+      "time": "17:00",
+      "homeTeam": "35971878",
+      "awayTeam": "40802544",
+      "round": "26",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "406b8f26-b7f5-4b89-8e7b-f8adbef58ebd": {
+      "id": "406b8f26-b7f5-4b89-8e7b-f8adbef58ebd",
+      "date": "2026-09-06",
+      "time": "17:00",
+      "homeTeam": "86586513",
+      "awayTeam": "48594781",
+      "round": "26",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "d77e4963-8b5e-4b8b-a11b-48fe40305df6": {
+      "id": "d77e4963-8b5e-4b8b-a11b-48fe40305df6",
+      "date": "2026-09-06",
+      "time": "17:00",
+      "homeTeam": "69857423",
+      "awayTeam": "40705706",
+      "round": "26",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "07225f1d-028b-463e-a33e-d1732c7b3c09": {
+      "id": "07225f1d-028b-463e-a33e-d1732c7b3c09",
+      "date": "2026-09-06",
+      "time": "17:00",
+      "homeTeam": "64334201",
+      "awayTeam": "74496781",
+      "round": "26",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "5b7cdd74-868d-49f4-aa23-ad2f0f73cc60": {
+      "id": "5b7cdd74-868d-49f4-aa23-ad2f0f73cc60",
+      "date": "2026-09-06",
+      "time": "17:00",
+      "homeTeam": "55963133",
+      "awayTeam": "79951310",
+      "round": "26",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "1b59e144-7899-4d66-83ba-df83b9b2e6fb": {
+      "id": "1b59e144-7899-4d66-83ba-df83b9b2e6fb",
+      "date": "2026-09-06",
+      "time": "17:00",
+      "homeTeam": "43257277",
+      "awayTeam": "59318961",
+      "round": "26",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "b812e82f-3069-4cac-9950-8bf55ecb3937": {
+      "id": "b812e82f-3069-4cac-9950-8bf55ecb3937",
+      "date": "2026-09-13",
+      "time": "17:00",
+      "homeTeam": "79951310",
+      "awayTeam": "86586513",
+      "round": "27",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f6f11a9b-331b-4caf-9258-f2e60b408178": {
+      "id": "f6f11a9b-331b-4caf-9258-f2e60b408178",
+      "date": "2026-09-13",
+      "time": "17:00",
+      "homeTeam": "21891021",
+      "awayTeam": "64334201",
+      "round": "27",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f79fe5eb-0d5c-4c2b-a1be-07040a85cd7a": {
+      "id": "f79fe5eb-0d5c-4c2b-a1be-07040a85cd7a",
+      "date": "2026-09-13",
+      "time": "17:00",
+      "homeTeam": "49823308",
+      "awayTeam": "87595679",
+      "round": "27",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "9a7ae4c4-3323-4181-9be7-73ed07e7ca2e": {
+      "id": "9a7ae4c4-3323-4181-9be7-73ed07e7ca2e",
+      "date": "2026-09-13",
+      "time": "17:00",
+      "homeTeam": "41051526",
+      "awayTeam": "69857423",
+      "round": "27",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "5b172698-7c25-48c5-b7d9-a2f51f798ec4": {
+      "id": "5b172698-7c25-48c5-b7d9-a2f51f798ec4",
+      "date": "2026-09-13",
+      "time": "17:00",
+      "homeTeam": "21276332",
+      "awayTeam": "40802544",
+      "round": "27",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "865625f6-8811-4518-ac2f-330ed023f2fb": {
+      "id": "865625f6-8811-4518-ac2f-330ed023f2fb",
+      "date": "2026-09-13",
+      "time": "17:00",
+      "homeTeam": "74496781",
+      "awayTeam": "72275367",
+      "round": "27",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "0f444809-ae56-41ac-b363-0f3b576dc46b": {
+      "id": "0f444809-ae56-41ac-b363-0f3b576dc46b",
+      "date": "2026-09-13",
+      "time": "17:00",
+      "homeTeam": "59318961",
+      "awayTeam": "48594781",
+      "round": "27",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "ac7c64e5-534f-4837-a5e1-791df5a7622c": {
+      "id": "ac7c64e5-534f-4837-a5e1-791df5a7622c",
+      "date": "2026-09-13",
+      "time": "17:00",
+      "homeTeam": "79859601",
+      "awayTeam": "43257277",
+      "round": "27",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f96c0230-1903-4300-acc9-3c728c89b5c0": {
+      "id": "f96c0230-1903-4300-acc9-3c728c89b5c0",
+      "date": "2026-09-13",
+      "time": "17:00",
+      "homeTeam": "90748914",
+      "awayTeam": "55963133",
+      "round": "27",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "ef689c64-dbfc-4291-8336-9300bbd6d988": {
+      "id": "ef689c64-dbfc-4291-8336-9300bbd6d988",
+      "date": "2026-09-13",
+      "time": "17:00",
+      "homeTeam": "40705706",
+      "awayTeam": "35971878",
+      "round": "27",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "226e8c27-1be4-4ae4-9bf1-c08be307e2ca": {
+      "id": "226e8c27-1be4-4ae4-9bf1-c08be307e2ca",
+      "date": "2026-09-20",
+      "time": "17:00",
+      "homeTeam": "40802544",
+      "awayTeam": "21891021",
+      "round": "28",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "9a820f1a-7e93-48de-a8c6-08dbdb47256d": {
+      "id": "9a820f1a-7e93-48de-a8c6-08dbdb47256d",
+      "date": "2026-09-20",
+      "time": "17:00",
+      "homeTeam": "79951310",
+      "awayTeam": "41051526",
+      "round": "28",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "31d4fb96-48ac-41ab-81da-0b98fd3d4671": {
+      "id": "31d4fb96-48ac-41ab-81da-0b98fd3d4671",
+      "date": "2026-09-20",
+      "time": "17:00",
+      "homeTeam": "72275367",
+      "awayTeam": "86586513",
+      "round": "28",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "03d5994a-5f8d-4122-a7f7-abbd360b9fcf": {
+      "id": "03d5994a-5f8d-4122-a7f7-abbd360b9fcf",
+      "date": "2026-09-20",
+      "time": "17:00",
+      "homeTeam": "74496781",
+      "awayTeam": "87595679",
+      "round": "28",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "cdbd7094-942c-4c1b-8873-4e092efca912": {
+      "id": "cdbd7094-942c-4c1b-8873-4e092efca912",
+      "date": "2026-09-20",
+      "time": "17:00",
+      "homeTeam": "59318961",
+      "awayTeam": "90748914",
+      "round": "28",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "01279162-4a99-4c2d-95d6-9601c75a76b3": {
+      "id": "01279162-4a99-4c2d-95d6-9601c75a76b3",
+      "date": "2026-09-20",
+      "time": "17:00",
+      "homeTeam": "79859601",
+      "awayTeam": "49823308",
+      "round": "28",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c1678842-41f0-41ee-88e7-28a291fed1ae": {
+      "id": "c1678842-41f0-41ee-88e7-28a291fed1ae",
+      "date": "2026-09-20",
+      "time": "17:00",
+      "homeTeam": "64334201",
+      "awayTeam": "40705706",
+      "round": "28",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "3bd7902b-f3f9-41c4-a6ef-4b6695a8534e": {
+      "id": "3bd7902b-f3f9-41c4-a6ef-4b6695a8534e",
+      "date": "2026-09-20",
+      "time": "17:00",
+      "homeTeam": "55963133",
+      "awayTeam": "69857423",
+      "round": "28",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "26df714d-1564-46c4-b93a-505f5e7c6c29": {
+      "id": "26df714d-1564-46c4-b93a-505f5e7c6c29",
+      "date": "2026-09-20",
+      "time": "17:00",
+      "homeTeam": "48594781",
+      "awayTeam": "21276332",
+      "round": "28",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "445b788c-b010-4b3b-98f5-05d49f6d18a3": {
+      "id": "445b788c-b010-4b3b-98f5-05d49f6d18a3",
+      "date": "2026-09-20",
+      "time": "17:00",
+      "homeTeam": "43257277",
+      "awayTeam": "35971878",
+      "round": "28",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "b986c9ed-e32a-4ca7-981f-b624e9883932": {
+      "id": "b986c9ed-e32a-4ca7-981f-b624e9883932",
+      "date": "2026-10-07",
+      "time": "17:00",
+      "homeTeam": "40802544",
+      "awayTeam": "79951310",
+      "round": "29",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "242b1f85-e4c9-4211-8de9-e3f35e9bd723": {
+      "id": "242b1f85-e4c9-4211-8de9-e3f35e9bd723",
+      "date": "2026-10-07",
+      "time": "17:00",
+      "homeTeam": "49823308",
+      "awayTeam": "48594781",
+      "round": "29",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "9ff77f3c-e916-40da-9fff-cf6a4ef35ec1": {
+      "id": "9ff77f3c-e916-40da-9fff-cf6a4ef35ec1",
+      "date": "2026-10-07",
+      "time": "17:00",
+      "homeTeam": "87595679",
+      "awayTeam": "79859601",
+      "round": "29",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "057691a2-2d8a-4dd0-9da6-4c3e09f6ade8": {
+      "id": "057691a2-2d8a-4dd0-9da6-4c3e09f6ade8",
+      "date": "2026-10-07",
+      "time": "17:00",
+      "homeTeam": "35971878",
+      "awayTeam": "55963133",
+      "round": "29",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "71330915-995d-4941-8c00-063f5a631910": {
+      "id": "71330915-995d-4941-8c00-063f5a631910",
+      "date": "2026-10-07",
+      "time": "17:00",
+      "homeTeam": "86586513",
+      "awayTeam": "21276332",
+      "round": "29",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "29b95102-286b-45c8-b92c-e3428ac412ce": {
+      "id": "29b95102-286b-45c8-b92c-e3428ac412ce",
+      "date": "2026-10-07",
+      "time": "17:00",
+      "homeTeam": "69857423",
+      "awayTeam": "72275367",
+      "round": "29",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "7a7e953d-0031-4e99-9e52-b90505127837": {
+      "id": "7a7e953d-0031-4e99-9e52-b90505127837",
+      "date": "2026-10-07",
+      "time": "17:00",
+      "homeTeam": "90748914",
+      "awayTeam": "21891021",
+      "round": "29",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c663d062-87ff-43f7-ac47-1e11bfb091f0": {
+      "id": "c663d062-87ff-43f7-ac47-1e11bfb091f0",
+      "date": "2026-10-07",
+      "time": "17:00",
+      "homeTeam": "64334201",
+      "awayTeam": "59318961",
+      "round": "29",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "bd9e92eb-dd37-48b5-b264-17b6deb9e271": {
+      "id": "bd9e92eb-dd37-48b5-b264-17b6deb9e271",
+      "date": "2026-10-07",
+      "time": "17:00",
+      "homeTeam": "40705706",
+      "awayTeam": "74496781",
+      "round": "29",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "5511c56b-49a0-4ff8-97bb-549b45af4d01": {
+      "id": "5511c56b-49a0-4ff8-97bb-549b45af4d01",
+      "date": "2026-10-07",
+      "time": "17:00",
+      "homeTeam": "43257277",
+      "awayTeam": "41051526",
+      "round": "29",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "6b8c4218-6cd5-42d2-9fd8-553b0fb9dd86": {
+      "id": "6b8c4218-6cd5-42d2-9fd8-553b0fb9dd86",
+      "date": "2026-10-11",
+      "time": "17:00",
+      "homeTeam": "79951310",
+      "awayTeam": "40705706",
+      "round": "30",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "ea3c7005-b3a8-46c3-83d8-0e3f4135a9a6": {
+      "id": "ea3c7005-b3a8-46c3-83d8-0e3f4135a9a6",
+      "date": "2026-10-11",
+      "time": "17:00",
+      "homeTeam": "21891021",
+      "awayTeam": "79859601",
+      "round": "30",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "b98fee28-cf9d-4999-947e-56956f5cb65c": {
+      "id": "b98fee28-cf9d-4999-947e-56956f5cb65c",
+      "date": "2026-10-11",
+      "time": "17:00",
+      "homeTeam": "87595679",
+      "awayTeam": "35971878",
+      "round": "30",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "d0ad8cfe-18f2-42e3-a768-ae93680f3f18": {
+      "id": "d0ad8cfe-18f2-42e3-a768-ae93680f3f18",
+      "date": "2026-10-11",
+      "time": "17:00",
+      "homeTeam": "41051526",
+      "awayTeam": "40802544",
+      "round": "30",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c91b41e4-6b38-41a1-b764-5135daf2fd6e": {
+      "id": "c91b41e4-6b38-41a1-b764-5135daf2fd6e",
+      "date": "2026-10-11",
+      "time": "17:00",
+      "homeTeam": "21276332",
+      "awayTeam": "49823308",
+      "round": "30",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "fd303ea3-d323-4ab8-ba53-d64d419c3253": {
+      "id": "fd303ea3-d323-4ab8-ba53-d64d419c3253",
+      "date": "2026-10-11",
+      "time": "17:00",
+      "homeTeam": "74496781",
+      "awayTeam": "86586513",
+      "round": "30",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "432684d7-2b06-44de-9ba1-a63be01bbad2": {
+      "id": "432684d7-2b06-44de-9ba1-a63be01bbad2",
+      "date": "2026-10-11",
+      "time": "17:00",
+      "homeTeam": "59318961",
+      "awayTeam": "69857423",
+      "round": "30",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "8e941964-753c-4f6d-bef2-99426f3e1a7e": {
+      "id": "8e941964-753c-4f6d-bef2-99426f3e1a7e",
+      "date": "2026-10-11",
+      "time": "17:00",
+      "homeTeam": "90748914",
+      "awayTeam": "72275367",
+      "round": "30",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "7fe8a463-2372-43ff-b108-ea396a297118": {
+      "id": "7fe8a463-2372-43ff-b108-ea396a297118",
+      "date": "2026-10-11",
+      "time": "17:00",
+      "homeTeam": "55963133",
+      "awayTeam": "43257277",
+      "round": "30",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "b60aa51d-b052-4932-9395-0ba18ffde148": {
+      "id": "b60aa51d-b052-4932-9395-0ba18ffde148",
+      "date": "2026-10-11",
+      "time": "17:00",
+      "homeTeam": "48594781",
+      "awayTeam": "64334201",
+      "round": "30",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "2b70a754-a86d-4f3a-baa6-9cc4eaade3f7": {
+      "id": "2b70a754-a86d-4f3a-baa6-9cc4eaade3f7",
+      "date": "2026-10-18",
+      "time": "17:00",
+      "homeTeam": "40802544",
+      "awayTeam": "90748914",
+      "round": "31",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "a090deac-9f0d-47d7-9dcc-75a596f111aa": {
+      "id": "a090deac-9f0d-47d7-9dcc-75a596f111aa",
+      "date": "2026-10-18",
+      "time": "17:00",
+      "homeTeam": "79951310",
+      "awayTeam": "21276332",
+      "round": "31",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "e533581e-cf7f-4bbb-8b73-6c2345d41e98": {
+      "id": "e533581e-cf7f-4bbb-8b73-6c2345d41e98",
+      "date": "2026-10-18",
+      "time": "17:00",
+      "homeTeam": "21891021",
+      "awayTeam": "74496781",
+      "round": "31",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f607a218-2947-48ff-9161-0131ddd52ae1": {
+      "id": "f607a218-2947-48ff-9161-0131ddd52ae1",
+      "date": "2026-10-18",
+      "time": "17:00",
+      "homeTeam": "49823308",
+      "awayTeam": "41051526",
+      "round": "31",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f6cf64a4-a567-46f0-b608-9b4014720486": {
+      "id": "f6cf64a4-a567-46f0-b608-9b4014720486",
+      "date": "2026-10-18",
+      "time": "17:00",
+      "homeTeam": "72275367",
+      "awayTeam": "43257277",
+      "round": "31",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "dcf0b4ec-c48d-424d-962a-223fa63e1cc0": {
+      "id": "dcf0b4ec-c48d-424d-962a-223fa63e1cc0",
+      "date": "2026-10-18",
+      "time": "17:00",
+      "homeTeam": "86586513",
+      "awayTeam": "40705706",
+      "round": "31",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "ccf43adb-8f28-4ff2-a423-1498bd46bc61": {
+      "id": "ccf43adb-8f28-4ff2-a423-1498bd46bc61",
+      "date": "2026-10-18",
+      "time": "17:00",
+      "homeTeam": "59318961",
+      "awayTeam": "35971878",
+      "round": "31",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "97c77fbc-c0ae-42d1-b108-3ee91c6c47ca": {
+      "id": "97c77fbc-c0ae-42d1-b108-3ee91c6c47ca",
+      "date": "2026-10-18",
+      "time": "17:00",
+      "homeTeam": "79859601",
+      "awayTeam": "69857423",
+      "round": "31",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "7ea0489e-24e3-4a74-a404-49b5144c65a2": {
+      "id": "7ea0489e-24e3-4a74-a404-49b5144c65a2",
+      "date": "2026-10-18",
+      "time": "17:00",
+      "homeTeam": "64334201",
+      "awayTeam": "87595679",
+      "round": "31",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "ba2ceb73-9343-48a3-a1ec-46c8bbac65f7": {
+      "id": "ba2ceb73-9343-48a3-a1ec-46c8bbac65f7",
+      "date": "2026-10-18",
+      "time": "17:00",
+      "homeTeam": "55963133",
+      "awayTeam": "48594781",
+      "round": "31",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "bc5d6a71-fde2-4295-8726-1b41fa3a76dc": {
+      "id": "bc5d6a71-fde2-4295-8726-1b41fa3a76dc",
+      "date": "2026-10-25",
+      "time": "18:00",
+      "homeTeam": "41051526",
+      "awayTeam": "86586513",
+      "round": "32",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "14942a24-d72e-48b0-8a77-c79ffad44224": {
+      "id": "14942a24-d72e-48b0-8a77-c79ffad44224",
+      "date": "2026-10-25",
+      "time": "18:00",
+      "homeTeam": "21276332",
+      "awayTeam": "59318961",
+      "round": "32",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "1465d1c7-af60-4ef6-ae50-6143ff62eb3f": {
+      "id": "1465d1c7-af60-4ef6-ae50-6143ff62eb3f",
+      "date": "2026-10-25",
+      "time": "18:00",
+      "homeTeam": "35971878",
+      "awayTeam": "64334201",
+      "round": "32",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "e90e341a-34d1-4bb0-b262-f0355c6dae29": {
+      "id": "e90e341a-34d1-4bb0-b262-f0355c6dae29",
+      "date": "2026-10-25",
+      "time": "18:00",
+      "homeTeam": "74496781",
+      "awayTeam": "79951310",
+      "round": "32",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "8e9a38d8-7089-4f71-a289-80c1db4dce96": {
+      "id": "8e9a38d8-7089-4f71-a289-80c1db4dce96",
+      "date": "2026-10-25",
+      "time": "18:00",
+      "homeTeam": "69857423",
+      "awayTeam": "49823308",
+      "round": "32",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "9e988f48-686b-4a46-ad39-94cb3902cd78": {
+      "id": "9e988f48-686b-4a46-ad39-94cb3902cd78",
+      "date": "2026-10-25",
+      "time": "18:00",
+      "homeTeam": "79859601",
+      "awayTeam": "55963133",
+      "round": "32",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "80156516-a673-4ce5-8856-777c442800a4": {
+      "id": "80156516-a673-4ce5-8856-777c442800a4",
+      "date": "2026-10-25",
+      "time": "18:00",
+      "homeTeam": "90748914",
+      "awayTeam": "87595679",
+      "round": "32",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "4cc19400-b918-4bc8-99dd-aff6ea63bb58": {
+      "id": "4cc19400-b918-4bc8-99dd-aff6ea63bb58",
+      "date": "2026-10-25",
+      "time": "18:00",
+      "homeTeam": "40705706",
+      "awayTeam": "21891021",
+      "round": "32",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "e320a5d5-e6fd-4ca5-a95c-1c9ab9555f77": {
+      "id": "e320a5d5-e6fd-4ca5-a95c-1c9ab9555f77",
+      "date": "2026-10-25",
+      "time": "18:00",
+      "homeTeam": "48594781",
+      "awayTeam": "72275367",
+      "round": "32",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "1854bbf5-671e-4d26-80d5-9f029d6b33bc": {
+      "id": "1854bbf5-671e-4d26-80d5-9f029d6b33bc",
+      "date": "2026-10-25",
+      "time": "18:00",
+      "homeTeam": "43257277",
+      "awayTeam": "40802544",
+      "round": "32",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "869cc045-ccee-4010-901e-50925d00742c": {
+      "id": "869cc045-ccee-4010-901e-50925d00742c",
+      "date": "2026-10-28",
+      "time": "18:00",
+      "homeTeam": "79951310",
+      "awayTeam": "35971878",
+      "round": "33",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "6b68eb42-881e-400b-abb8-0a0da63f9506": {
+      "id": "6b68eb42-881e-400b-abb8-0a0da63f9506",
+      "date": "2026-10-28",
+      "time": "18:00",
+      "homeTeam": "21891021",
+      "awayTeam": "55963133",
+      "round": "33",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "cbd48bb7-b0b7-4f18-bce1-e7393f0739c1": {
+      "id": "cbd48bb7-b0b7-4f18-bce1-e7393f0739c1",
+      "date": "2026-10-28",
+      "time": "18:00",
+      "homeTeam": "87595679",
+      "awayTeam": "41051526",
+      "round": "33",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "aba51ea2-6d30-4814-81a8-fb657eff1f40": {
+      "id": "aba51ea2-6d30-4814-81a8-fb657eff1f40",
+      "date": "2026-10-28",
+      "time": "18:00",
+      "homeTeam": "72275367",
+      "awayTeam": "79859601",
+      "round": "33",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "70b356a7-e221-432a-9852-ed0c49aad1e8": {
+      "id": "70b356a7-e221-432a-9852-ed0c49aad1e8",
+      "date": "2026-10-28",
+      "time": "18:00",
+      "homeTeam": "21276332",
+      "awayTeam": "43257277",
+      "round": "33",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "3c56188c-e441-4238-9a70-8376ca39f0ca": {
+      "id": "3c56188c-e441-4238-9a70-8376ca39f0ca",
+      "date": "2026-10-28",
+      "time": "18:00",
+      "homeTeam": "86586513",
+      "awayTeam": "69857423",
+      "round": "33",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "48feace7-c0fe-49c3-866c-bc80f8c847fc": {
+      "id": "48feace7-c0fe-49c3-866c-bc80f8c847fc",
+      "date": "2026-10-28",
+      "time": "18:00",
+      "homeTeam": "59318961",
+      "awayTeam": "40802544",
+      "round": "33",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "978d6fa1-0a5b-4b90-8486-7ce75ba38c71": {
+      "id": "978d6fa1-0a5b-4b90-8486-7ce75ba38c71",
+      "date": "2026-10-28",
+      "time": "18:00",
+      "homeTeam": "64334201",
+      "awayTeam": "49823308",
+      "round": "33",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "d97d472b-df8a-4c19-a8ea-bb515f23f291": {
+      "id": "d97d472b-df8a-4c19-a8ea-bb515f23f291",
+      "date": "2026-10-28",
+      "time": "18:00",
+      "homeTeam": "40705706",
+      "awayTeam": "90748914",
+      "round": "33",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "33d2a6d4-1c13-4bdb-9492-a9f9283c8a4f": {
+      "id": "33d2a6d4-1c13-4bdb-9492-a9f9283c8a4f",
+      "date": "2026-10-28",
+      "time": "18:00",
+      "homeTeam": "48594781",
+      "awayTeam": "74496781",
+      "round": "33",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "482d7b33-a59d-4595-9e1b-dea490ebf858": {
+      "id": "482d7b33-a59d-4595-9e1b-dea490ebf858",
+      "date": "2026-11-04",
+      "time": "18:00",
+      "homeTeam": "40802544",
+      "awayTeam": "48594781",
+      "round": "34",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "dbbc3502-6184-4476-8a2a-2d2d3a5f845d": {
+      "id": "dbbc3502-6184-4476-8a2a-2d2d3a5f845d",
+      "date": "2026-11-04",
+      "time": "18:00",
+      "homeTeam": "49823308",
+      "awayTeam": "79951310",
+      "round": "34",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "1feb6842-b2f2-4eb6-979e-4b784d7bf323": {
+      "id": "1feb6842-b2f2-4eb6-979e-4b784d7bf323",
+      "date": "2026-11-04",
+      "time": "18:00",
+      "homeTeam": "87595679",
+      "awayTeam": "40705706",
+      "round": "34",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "16c7c90f-3d2f-494b-8f0e-70b0f8c7818c": {
+      "id": "16c7c90f-3d2f-494b-8f0e-70b0f8c7818c",
+      "date": "2026-11-04",
+      "time": "18:00",
+      "homeTeam": "41051526",
+      "awayTeam": "79859601",
+      "round": "34",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "4f8511b5-9135-4d4b-9cd2-37b5507544af": {
+      "id": "4f8511b5-9135-4d4b-9cd2-37b5507544af",
+      "date": "2026-11-04",
+      "time": "18:00",
+      "homeTeam": "35971878",
+      "awayTeam": "21891021",
+      "round": "34",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "94aeee6c-8484-4626-a931-5cb0d466fd4b": {
+      "id": "94aeee6c-8484-4626-a931-5cb0d466fd4b",
+      "date": "2026-11-04",
+      "time": "18:00",
+      "homeTeam": "74496781",
+      "awayTeam": "59318961",
+      "round": "34",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "ab2d38d6-b328-4a5d-a40a-786043d6c90f": {
+      "id": "ab2d38d6-b328-4a5d-a40a-786043d6c90f",
+      "date": "2026-11-04",
+      "time": "18:00",
+      "homeTeam": "69857423",
+      "awayTeam": "21276332",
+      "round": "34",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "5d02782c-3c21-4f8c-945a-8d99947cecf6": {
+      "id": "5d02782c-3c21-4f8c-945a-8d99947cecf6",
+      "date": "2026-11-04",
+      "time": "18:00",
+      "homeTeam": "90748914",
+      "awayTeam": "64334201",
+      "round": "34",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "e0452c6f-369f-48dc-b0c4-9c71cb408b69": {
+      "id": "e0452c6f-369f-48dc-b0c4-9c71cb408b69",
+      "date": "2026-11-04",
+      "time": "18:00",
+      "homeTeam": "55963133",
+      "awayTeam": "72275367",
+      "round": "34",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "d17c87a5-1e11-47ba-a257-61dc828e072f": {
+      "id": "d17c87a5-1e11-47ba-a257-61dc828e072f",
+      "date": "2026-11-04",
+      "time": "18:00",
+      "homeTeam": "43257277",
+      "awayTeam": "86586513",
+      "round": "34",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "063b89a9-92f6-44d0-a514-42b7f89c269f": {
+      "id": "063b89a9-92f6-44d0-a514-42b7f89c269f",
+      "date": "2026-11-18",
+      "time": "18:00",
+      "homeTeam": "72275367",
+      "awayTeam": "49823308",
+      "round": "35",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "7113c094-536a-484d-8f48-df8ab4d8fc5a": {
+      "id": "7113c094-536a-484d-8f48-df8ab4d8fc5a",
+      "date": "2026-11-18",
+      "time": "18:00",
+      "homeTeam": "21276332",
+      "awayTeam": "40705706",
+      "round": "35",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "28a91ca2-8603-4c45-b4fc-455b630d16c7": {
+      "id": "28a91ca2-8603-4c45-b4fc-455b630d16c7",
+      "date": "2026-11-18",
+      "time": "18:00",
+      "homeTeam": "35971878",
+      "awayTeam": "90748914",
+      "round": "35",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "06baa0c4-aeb5-449a-99ee-d2e05cf5968e": {
+      "id": "06baa0c4-aeb5-449a-99ee-d2e05cf5968e",
+      "date": "2026-11-18",
+      "time": "18:00",
+      "homeTeam": "74496781",
+      "awayTeam": "40802544",
+      "round": "35",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "44ca17f1-4d19-4e1f-affe-36f764fec926": {
+      "id": "44ca17f1-4d19-4e1f-affe-36f764fec926",
+      "date": "2026-11-18",
+      "time": "18:00",
+      "homeTeam": "59318961",
+      "awayTeam": "21891021",
+      "round": "35",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f096d3ec-4980-4d63-9d21-4b8e4bdfb66c": {
+      "id": "f096d3ec-4980-4d63-9d21-4b8e4bdfb66c",
+      "date": "2026-11-18",
+      "time": "18:00",
+      "homeTeam": "79859601",
+      "awayTeam": "79951310",
+      "round": "35",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "7e0657c6-48f5-4f0b-b349-fc668682dd8e": {
+      "id": "7e0657c6-48f5-4f0b-b349-fc668682dd8e",
+      "date": "2026-11-18",
+      "time": "18:00",
+      "homeTeam": "64334201",
+      "awayTeam": "41051526",
+      "round": "35",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "51ed67e6-d366-41d2-999e-d16afb39a5cd": {
+      "id": "51ed67e6-d366-41d2-999e-d16afb39a5cd",
+      "date": "2026-11-18",
+      "time": "18:00",
+      "homeTeam": "55963133",
+      "awayTeam": "86586513",
+      "round": "35",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "92584977-1103-43f1-a191-1cfa2431ac03": {
+      "id": "92584977-1103-43f1-a191-1cfa2431ac03",
+      "date": "2026-11-18",
+      "time": "18:00",
+      "homeTeam": "48594781",
+      "awayTeam": "69857423",
+      "round": "35",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "00fa8adf-0196-49e1-8cfd-242495e56cc5": {
+      "id": "00fa8adf-0196-49e1-8cfd-242495e56cc5",
+      "date": "2026-11-18",
+      "time": "18:00",
+      "homeTeam": "43257277",
+      "awayTeam": "87595679",
+      "round": "35",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "23d8badb-295c-4a47-acf2-56c86192834b": {
+      "id": "23d8badb-295c-4a47-acf2-56c86192834b",
+      "date": "2026-11-22",
+      "time": "18:00",
+      "homeTeam": "40802544",
+      "awayTeam": "64334201",
+      "round": "36",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "6789fb26-73e6-40e5-8a56-e9b805c9c6a9": {
+      "id": "6789fb26-73e6-40e5-8a56-e9b805c9c6a9",
+      "date": "2026-11-22",
+      "time": "18:00",
+      "homeTeam": "79951310",
+      "awayTeam": "72275367",
+      "round": "36",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "25685f6b-30dd-4df6-8ad7-cebc64daf0e6": {
+      "id": "25685f6b-30dd-4df6-8ad7-cebc64daf0e6",
+      "date": "2026-11-22",
+      "time": "18:00",
+      "homeTeam": "21891021",
+      "awayTeam": "21276332",
+      "round": "36",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f59a0a1f-5fc9-4f43-b2b4-d3a481edb2fb": {
+      "id": "f59a0a1f-5fc9-4f43-b2b4-d3a481edb2fb",
+      "date": "2026-11-22",
+      "time": "18:00",
+      "homeTeam": "49823308",
+      "awayTeam": "55963133",
+      "round": "36",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "7ba1f85c-9177-4149-a72e-1d658cd28f25": {
+      "id": "7ba1f85c-9177-4149-a72e-1d658cd28f25",
+      "date": "2026-11-22",
+      "time": "18:00",
+      "homeTeam": "87595679",
+      "awayTeam": "48594781",
+      "round": "36",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "3120a2e2-e177-4583-9a9e-34847e6bdd90": {
+      "id": "3120a2e2-e177-4583-9a9e-34847e6bdd90",
+      "date": "2026-11-22",
+      "time": "18:00",
+      "homeTeam": "41051526",
+      "awayTeam": "35971878",
+      "round": "36",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "73b19d5d-f9cd-471a-90fb-fe31dd91e726": {
+      "id": "73b19d5d-f9cd-471a-90fb-fe31dd91e726",
+      "date": "2026-11-22",
+      "time": "18:00",
+      "homeTeam": "86586513",
+      "awayTeam": "79859601",
+      "round": "36",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "d2a117d1-cb3d-4fd0-a745-be61cc465113": {
+      "id": "d2a117d1-cb3d-4fd0-a745-be61cc465113",
+      "date": "2026-11-22",
+      "time": "18:00",
+      "homeTeam": "69857423",
+      "awayTeam": "43257277",
+      "round": "36",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "9097832d-bd0c-4e5e-99f3-ab734e0769de": {
+      "id": "9097832d-bd0c-4e5e-99f3-ab734e0769de",
+      "date": "2026-11-22",
+      "time": "18:00",
+      "homeTeam": "90748914",
+      "awayTeam": "74496781",
+      "round": "36",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "315d4152-5161-406e-b1c3-a6e1e0cd380f": {
+      "id": "315d4152-5161-406e-b1c3-a6e1e0cd380f",
+      "date": "2026-11-22",
+      "time": "18:00",
+      "homeTeam": "40705706",
+      "awayTeam": "59318961",
+      "round": "36",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "03871e06-9f0e-4a0f-ba17-38c1daf111c6": {
+      "id": "03871e06-9f0e-4a0f-ba17-38c1daf111c6",
+      "date": "2026-11-29",
+      "time": "18:00",
+      "homeTeam": "79951310",
+      "awayTeam": "48594781",
+      "round": "37",
+      "venue": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "5e4e2ea0-11da-4b9b-a529-a31c3c9e9bec": {
+      "id": "5e4e2ea0-11da-4b9b-a529-a31c3c9e9bec",
+      "date": "2026-11-29",
+      "time": "18:00",
+      "homeTeam": "49823308",
+      "awayTeam": "21891021",
+      "round": "37",
+      "venue": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "370ef96f-b085-4e0f-bddc-4ae992601935": {
+      "id": "370ef96f-b085-4e0f-bddc-4ae992601935",
+      "date": "2026-11-29",
+      "time": "18:00",
+      "homeTeam": "41051526",
+      "awayTeam": "90748914",
+      "round": "37",
+      "venue": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "1183575a-c00e-47e5-bf03-9b84454f1349": {
+      "id": "1183575a-c00e-47e5-bf03-9b84454f1349",
+      "date": "2026-11-29",
+      "time": "18:00",
+      "homeTeam": "72275367",
+      "awayTeam": "59318961",
+      "round": "37",
+      "venue": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "2cb185d8-69db-412e-8825-a653cfbca173": {
+      "id": "2cb185d8-69db-412e-8825-a653cfbca173",
+      "date": "2026-11-29",
+      "time": "18:00",
+      "homeTeam": "21276332",
+      "awayTeam": "74496781",
+      "round": "37",
+      "venue": "676f7911-038f-4ef7-b938-568a27a241b6",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "540f8901-e880-42bb-97e8-da3776be4e52": {
+      "id": "540f8901-e880-42bb-97e8-da3776be4e52",
+      "date": "2026-11-29",
+      "time": "18:00",
+      "homeTeam": "86586513",
+      "awayTeam": "35971878",
+      "round": "37",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "b8f30094-4f37-42e4-aada-e82da201e058": {
+      "id": "b8f30094-4f37-42e4-aada-e82da201e058",
+      "date": "2026-11-29",
+      "time": "18:00",
+      "homeTeam": "69857423",
+      "awayTeam": "87595679",
+      "round": "37",
+      "venue": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "82e25e2b-b8a8-4d6b-b97e-7241cb4fdfec": {
+      "id": "82e25e2b-b8a8-4d6b-b97e-7241cb4fdfec",
+      "date": "2026-11-29",
+      "time": "18:00",
+      "homeTeam": "79859601",
+      "awayTeam": "40802544",
+      "round": "37",
+      "venue": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "27faa334-3632-475f-bd12-60d6e802c7ff": {
+      "id": "27faa334-3632-475f-bd12-60d6e802c7ff",
+      "date": "2026-11-29",
+      "time": "18:00",
+      "homeTeam": "55963133",
+      "awayTeam": "64334201",
+      "round": "37",
+      "venue": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "d1e652f7-6081-48eb-a084-cdc265509831": {
+      "id": "d1e652f7-6081-48eb-a084-cdc265509831",
+      "date": "2026-11-29",
+      "time": "18:00",
+      "homeTeam": "43257277",
+      "awayTeam": "40705706",
+      "round": "37",
+      "venue": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "aa2da41c-b22e-4bb7-865d-d2ca44e23f0d": {
+      "id": "aa2da41c-b22e-4bb7-865d-d2ca44e23f0d",
+      "date": "2026-12-02",
+      "time": "18:00",
+      "homeTeam": "40802544",
+      "awayTeam": "55963133",
+      "round": "38",
+      "venue": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "13ed25b6-3608-42a2-9c9a-49485b3ddffa": {
+      "id": "13ed25b6-3608-42a2-9c9a-49485b3ddffa",
+      "date": "2026-12-02",
+      "time": "18:00",
+      "homeTeam": "21891021",
+      "awayTeam": "79951310",
+      "round": "38",
+      "venue": "2d1870a2-809c-421d-aca6-5f0050af545b",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "0a484476-2c33-4fa1-87d1-2089dafdb471": {
+      "id": "0a484476-2c33-4fa1-87d1-2089dafdb471",
+      "date": "2026-12-02",
+      "time": "18:00",
+      "homeTeam": "87595679",
+      "awayTeam": "86586513",
+      "round": "38",
+      "venue": "8041bb46-6ac8-4453-9dee-8521610238f8",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "7d8cc922-e9ef-44f5-adec-78f85573100d": {
+      "id": "7d8cc922-e9ef-44f5-adec-78f85573100d",
+      "date": "2026-12-02",
+      "time": "18:00",
+      "homeTeam": "35971878",
+      "awayTeam": "69857423",
+      "round": "38",
+      "venue": "05f48982-7919-49e0-a640-6c48fed5186d",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "f1e3d57e-4f77-45c8-9f90-1fa6b884ec22": {
+      "id": "f1e3d57e-4f77-45c8-9f90-1fa6b884ec22",
+      "date": "2026-12-02",
+      "time": "18:00",
+      "homeTeam": "74496781",
+      "awayTeam": "41051526",
+      "round": "38",
+      "venue": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "7c912f61-3e4c-425a-a220-62e59cb9ae5a": {
+      "id": "7c912f61-3e4c-425a-a220-62e59cb9ae5a",
+      "date": "2026-12-02",
+      "time": "18:00",
+      "homeTeam": "59318961",
+      "awayTeam": "79859601",
+      "round": "38",
+      "venue": "17570c58-5108-493d-88bd-63e3c67d774c",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "c0944a0c-d14e-45e5-ae4f-24772f960724": {
+      "id": "c0944a0c-d14e-45e5-ae4f-24772f960724",
+      "date": "2026-12-02",
+      "time": "18:00",
+      "homeTeam": "90748914",
+      "awayTeam": "21276332",
+      "round": "38",
+      "venue": "9a25800c-1081-4891-afb6-0487bd58117a",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "b5907515-2d83-4587-807c-ffb353d67b52": {
+      "id": "b5907515-2d83-4587-807c-ffb353d67b52",
+      "date": "2026-12-02",
+      "time": "18:00",
+      "homeTeam": "64334201",
+      "awayTeam": "72275367",
+      "round": "38",
+      "venue": "f676a697-26a3-4bfa-9fea-0530e5202560",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "886b34b9-501e-490e-bc6c-d6e3b81e38d1": {
+      "id": "886b34b9-501e-490e-bc6c-d6e3b81e38d1",
+      "date": "2026-12-02",
+      "time": "18:00",
+      "homeTeam": "40705706",
+      "awayTeam": "49823308",
+      "round": "38",
+      "venue": "8a066d73-881a-42eb-8868-cf407157e9ac",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    },
+    "83a7fd4b-6c59-4c89-a661-67bc5cfea1ed": {
+      "id": "83a7fd4b-6c59-4c89-a661-67bc5cfea1ed",
+      "date": "2026-12-02",
+      "time": "18:00",
+      "homeTeam": "48594781",
+      "awayTeam": "43257277",
+      "round": "38",
+      "venue": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+      "is_neutral_ground": false,
+      "status": "not_started",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "stats": null,
+      "playerStats": null,
+      "events": []
+    }
+  }
+}

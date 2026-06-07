@@ -1,0 +1,1256 @@
+[
+  {
+    "id": "43257277",
+    "full_name": "EC Vitória",
+    "name": "Vitória",
+    "nicknames": [
+      { "name": "Colossal", "gender": "m" },
+      { "name": "Rubro-Negro Baiano", "gender": "m" }
+    ],
+    "gender": "m",
+    "shortName": "VIT",
+    "stadiumId": "583688f7-b501-4f34-9fc0-f3c547defd4d",
+    "logo": "src/assets/clubs_logos/43257277.png",
+    "logo_tiny": "src/assets/clubs_logos/43257277_tiny.png",
+    "rivals_ids": ["21891021"],
+    "colors": {
+      "primary": {
+        "300": "#FF7A79",
+        "400": "#FF5451",
+        "500": "#ff1100",
+        "600": "#850300",
+        "700": "#4C0100"
+      },
+      "secondary": "#000000",
+      "contrast": "light"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/43257277_home.png",
+        "pattern": "striped",
+        "kit_group": "colored",
+        "base_colors": ["red", "black"],
+        "hex_colors": {
+          "primary": "#fb2c36",
+          "secondary": "#050505",
+          "detail": "#ffffff"
+        },
+        "tone": 35
+      },
+      "away": {
+        "image": "src/assets/uniforms/43257277_away.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["white"],
+        "hex_colors": {
+          "primary": "#ffffff",
+          "secondary": "#fb2c36",
+          "detail": "#050505"
+        },
+        "tone": 100
+      },
+      "third": {
+        "image": "src/assets/uniforms/43257277_third.png",
+        "pattern": "solid",
+        "kit_group": "black",
+        "base_colors": ["black"],
+        "hex_colors": {
+          "primary": "#111111",
+          "secondary": "#fb2c36",
+          "detail": "#fb2c36"
+        },
+        "tone": 7
+      }
+    },
+    "trainerId": "7ecd49db-7668-4e06-a42d-ad3025c17605",
+
+    "domestic_prestige": 4,
+    "international_prestige": 4,
+    "transfer_budget": 6.3,
+    "squad_value": 67.5
+  },
+  {
+    "id": "21891021",
+    "full_name": "EC Bahia",
+    "name": "Bahia",
+    "nicknames": [
+      { "name": "Esquadrão de Aço", "gender": "m" },
+      { "name": "Tricolor Baiano", "gender": "m" }
+    ],
+    "gender": "m",
+    "shortName": "BAH",
+    "stadiumId": "2d1870a2-809c-421d-aca6-5f0050af545b",
+    "logo": "src/assets/clubs_logos/21891021.png",
+    "logo_tiny": "src/assets/clubs_logos/21891021_tiny.png",
+    "rivals_ids": ["43257277"],
+    "colors": {
+      "primary": {
+        "300": "#4AA4FF",
+        "400": "#0088E1",
+        "500": "#0078C9",
+        "600": "#005C9C",
+        "700": "#004476"
+      },
+      "secondary": "#ED3237",
+      "contrast": "light"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/21891021_home.png",
+        "pattern": "striped",
+        "kit_group": "white",
+        "base_colors": ["white"],
+        "hex_colors": {
+          "primary": "#ffffff",
+          "secondary": "#0078C9",
+          "detail": "#ED3237"
+        },
+        "tone": 100
+      },
+      "away": {
+        "image": "src/assets/uniforms/21891021_away.png",
+        "pattern": "striped",
+        "kit_group": "colored",
+        "base_colors": ["blue", "red"],
+        "hex_colors": {
+          "primary": "#0078C9",
+          "secondary": "#ED3237",
+          "detail": "#ffffff"
+        },
+        "tone": 39
+      },
+      "third": {
+        "image": "src/assets/uniforms/21891021_third.png",
+        "pattern": "graphic",
+        "kit_group": "colored",
+        "base_colors": ["brown", "gold"],
+        "hex_colors": {
+          "primary": "#613321",
+          "secondary": "#cca043",
+          "detail": "#613321"
+        },
+        "tone": 23
+      }
+    },
+    "trainerId": "ba980538-521b-4ba1-b319-48a945428ff3"
+  },
+  {
+    "id": "86586513",
+    "full_name": "Fluminense Football Club",
+    "name": "Fluminense",
+    "nicknames": [{ "name": "Flu", "gender": "m" }],
+    "gender": "m",
+    "shortName": "FLU",
+    "stadiumId": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+    "logo": "src/assets/clubs_logos/86586513.png",
+    "logo_tiny": "src/assets/clubs_logos/86586513_tiny.png",
+    "rivals_ids": ["74496781", "48594781", "49823308"],
+    "colors": {
+      "primary": {
+        "300": "#DB1441",
+        "400": "#B20E33",
+        "500": "#8e0927",
+        "600": "#7A0720",
+        "700": "#47020F"
+      },
+      "secondary": "#00613c",
+      "contrast": "light"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/86586513_home.png",
+        "pattern": "striped",
+        "kit_group": "colored",
+        "base_colors": ["garnet", "green", "white"],
+        "hex_colors": {
+          "primary": "#8e0927",
+          "secondary": "#00613c",
+          "detail": "#ffffff"
+        },
+        "tone": 15
+      },
+      "away": {
+        "image": "src/assets/uniforms/86586513_away.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["white"],
+        "hex_colors": {
+          "primary": "#ffffff",
+          "secondary": "#8e0927",
+          "detail": "#00613c"
+        },
+        "tone": 100
+      },
+      "third": {
+        "image": "src/assets/uniforms/86586513_third.png",
+        "pattern": "solid",
+        "kit_group": "colored",
+        "base_colors": ["garnet", "gold"],
+        "hex_colors": {
+          "primary": "#521421",
+          "secondary": "#aba274",
+          "detail": "#aba274"
+        },
+        "tone": 13
+      }
+    },
+    "trainerId": "ff2a062e-a2dd-434d-acb0-74c77d68ed54"
+  },
+  {
+    "id": "74496781",
+    "full_name": "Clube de Regatas Flamengo",
+    "name": "Flamengo",
+    "nicknames": [{ "name": "Mengão", "gender": "m" }],
+    "gender": "m",
+    "shortName": "FLA",
+    "stadiumId": "78697e69-6fa9-46d3-9a58-2b2a411b7dd2",
+    "logo": "src/assets/clubs_logos/74496781.png",
+    "logo_tiny": "src/assets/clubs_logos/74496781_tiny.png",
+    "rivals_ids": ["86586513", "48594781", "49823308"],
+    "colors": {
+      "primary": {
+        "300": "#F87B77",
+        "400": "#F53427",
+        "500": "#C3271D",
+        "600": "#AD2318",
+        "700": "#861910"
+      },
+      "secondary": "#000000",
+      "contrast": "light"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/74496781_home.png",
+        "pattern": "hoops",
+        "kit_group": "colored",
+        "base_colors": ["red", "black"],
+        "hex_colors": {
+          "primary": "#C3271D",
+          "secondary": "#000000",
+          "detail": "#ffffff"
+        },
+        "tone": 28
+      },
+      "away": {
+        "image": "src/assets/uniforms/74496781_away.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["white"],
+        "hex_colors": {
+          "primary": "#ffffff",
+          "secondary": "#C3271D",
+          "detail": "#000000"
+        },
+        "tone": 100
+      },
+      "third": {
+        "image": "src/assets/uniforms/74496781_third.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["white", "gold"],
+        "hex_colors": {
+          "primary": "#f2edd8",
+          "secondary": "#d1b86e",
+          "detail": "#c3271d"
+        },
+        "tone": 93
+      }
+    },
+    "trainerId": "da170915-d21b-4bce-8a37-928e23a169c7"
+  },
+  {
+    "id": "59318961",
+    "full_name": "Grêmio Foot-Ball Porto Alegrense",
+    "name": "Grêmio",
+    "nicknames": [{ "name": "Imortal", "gender": "m" }],
+    "gender": "m",
+    "shortName": "GRE",
+    "stadiumId": "17570c58-5108-493d-88bd-63e3c67d774c",
+    "logo": "src/assets/clubs_logos/59318961.png",
+    "logo_tiny": "src/assets/clubs_logos/59318961_tiny.png",
+    "rivals_ids": ["69857423"],
+    "colors": {
+      "primary": {
+        "300": "#57B5FE",
+        "400": "#0F9BE6",
+        "500": "#0D80BF",
+        "600": "#06669A",
+        "700": "#034D76"
+      },
+      "secondary": "#000000",
+      "contrast": "light"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/59318961_home.png",
+        "pattern": "striped",
+        "kit_group": "colored",
+        "base_colors": ["blue", "black", "white"],
+        "hex_colors": {
+          "primary": "#0D80BF",
+          "secondary": "#000000",
+          "detail": "#ffffff"
+        },
+        "tone": 42
+      },
+      "away": {
+        "image": "src/assets/uniforms/59318961_away.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["white"],
+        "hex_colors": {
+          "primary": "#ffffff",
+          "secondary": "#57B5FE",
+          "detail": "#000000"
+        },
+        "tone": 100
+      },
+      "third": {
+        "image": "src/assets/uniforms/59318961_third.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["pink"],
+        "hex_colors": {
+          "primary": "#f2cbcd",
+          "secondary": "#111111",
+          "detail": "#111111"
+        },
+        "tone": 83
+      }
+    },
+    "trainerId": "5e9171d7-c957-444f-96d0-99ede41084b3"
+  },
+  {
+    "id": "69857423",
+    "full_name": "Sport Club Internacional",
+    "name": "Internacional",
+    "nicknames": [{ "name": "Colorado", "gender": "m" }],
+    "gender": "m",
+    "shortName": "INT",
+    "stadiumId": "7a2c5aab-6f17-48b0-9fd6-6302d7051ff5",
+    "logo": "src/assets/clubs_logos/69857423.png",
+    "logo_tiny": "src/assets/clubs_logos/69857423_tiny.png",
+    "rivals_ids": ["59318961"],
+    "colors": {
+      "primary": {
+        "300": "#FB8F91",
+        "400": "#FA5E61",
+        "500": "#ED1C24",
+        "600": "#C1141E",
+        "700": "#940D14"
+      },
+      "secondary": "#ffffff",
+      "contrast": "light"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/69857423_home.png",
+        "pattern": "solid",
+        "kit_group": "colored",
+        "base_colors": ["red"],
+        "hex_colors": {
+          "primary": "#ED1C24",
+          "secondary": "#ED1C24",
+          "detail": "#ffffff"
+        },
+        "tone": 29
+      },
+      "away": {
+        "image": "src/assets/uniforms/69857423_away.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["white"],
+        "hex_colors": {
+          "primary": "#ffffff",
+          "secondary": "#ED1C24",
+          "detail": "#ffffff"
+        },
+        "tone": 100
+      },
+      "third": {
+        "image": "src/assets/uniforms/69857423_third.png",
+        "pattern": "solid",
+        "kit_group": "black",
+        "base_colors": ["black"],
+        "hex_colors": {
+          "primary": "#111111",
+          "secondary": "#111111",
+          "detail": "#111111"
+        },
+        "tone": 7
+      }
+    },
+    "trainerId": "23552141-3734-4604-ace9-82514a5acb38"
+  },
+  {
+    "id": "40705706",
+    "full_name": "Santos Futebol Clube",
+    "name": "Santos",
+    "nicknames": [{ "name": "Peixe", "gender": "m" }],
+    "gender": "m",
+    "shortName": "SAN",
+    "stadiumId": "8a066d73-881a-42eb-8868-cf407157e9ac",
+    "logo": "src/assets/clubs_logos/40705706.png",
+    "logo_tiny": "src/assets/clubs_logos/40705706_tiny.png",
+    "rivals_ids": ["72275367", "90748914", "55963133"],
+    "colors": {
+      "primary": {
+        "300": "#ffffff",
+        "400": "#ffffff",
+        "500": "#ffffff",
+        "600": "#c6c6c6",
+        "700": "#919191"
+      },
+      "secondary": "#000000",
+      "contrast": "dark"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/40705706_home.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["white"],
+        "hex_colors": {
+          "primary": "#f8fafc",
+          "secondary": "#000000",
+          "detail": "#000000"
+        },
+        "tone": 98
+      },
+      "away": {
+        "image": "src/assets/uniforms/40705706_away.png",
+        "pattern": "striped",
+        "kit_group": "black",
+        "base_colors": ["black", "white"],
+        "hex_colors": {
+          "primary": "#000000",
+          "secondary": "#ffffff",
+          "detail": "#ffffff"
+        },
+        "tone": 0
+      },
+      "third": {
+        "image": "src/assets/uniforms/40705706_third.png",
+        "pattern": "solid",
+        "kit_group": "colored",
+        "base_colors": ["blue"],
+        "hex_colors": {
+          "primary": "#5cbbf2",
+          "secondary": "#5cbbf2",
+          "detail": "#5cbbf2"
+        },
+        "tone": 67
+      }
+    },
+    "trainerId": "ef322681-39c6-4f31-b24c-88d0dfb73090"
+  },
+  {
+    "id": "87595679",
+    "full_name": "Red Bull Bragantino",
+    "name": "RB Bragantino",
+    "nicknames": [{ "name": "Massa Bruta", "gender": "m" }],
+    "gender": "m",
+    "shortName": "RBB",
+    "stadiumId": "8041bb46-6ac8-4453-9dee-8521610238f8",
+    "logo": "src/assets/clubs_logos/87595679.png",
+    "logo_tiny": "src/assets/clubs_logos/87595679_tiny.png",
+    "rivals_ids": [""],
+    "colors": {
+      "primary": {
+        "300": "#FF7484",
+        "400": "#FF2152",
+        "500": "#D2003C",
+        "600": "#B50032",
+        "700": "#890024"
+      },
+      "secondary": "#ffffff",
+      "contrast": "light"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/87595679_home.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["white"],
+        "hex_colors": {
+          "primary": "#ffffff",
+          "secondary": "#D2003C",
+          "detail": "#D2003C"
+        },
+        "tone": 100
+      },
+      "away": {
+        "image": "src/assets/uniforms/87595679_away.png",
+        "pattern": "graphic",
+        "kit_group": "colored",
+        "base_colors": ["black", "garnet"],
+        "hex_colors": {
+          "primary": "#141213",
+          "secondary": "#3d1c21",
+          "detail": "#3d1c21"
+        },
+        "tone": 7
+      },
+      "third": {
+        "image": "src/assets/uniforms/87595679_third.png",
+        "pattern": "solid",
+        "kit_group": "colored",
+        "base_colors": ["navy"],
+        "hex_colors": {
+          "primary": "#001D46",
+          "secondary": "#001D46",
+          "detail": "#D2003C"
+        },
+        "tone": 10
+      }
+    },
+    "trainerId": "32a3a407-f723-49be-bc8b-cb148ab1e6d9"
+  },
+  {
+    "id": "72275367",
+    "full_name": "Sport Club Corinthians Paulista",
+    "name": "Corinthians",
+    "nicknames": [{ "name": "Timão", "gender": "m" }],
+    "gender": "m",
+    "shortName": "COR",
+    "stadiumId": "c8cceb56-5ea8-47d3-bed3-544244398ebe",
+    "logo": "src/assets/clubs_logos/72275367.png",
+    "logo_tiny": "src/assets/clubs_logos/72275367_tiny.png",
+    "rivals_ids": ["40705706", "90748914", "55963133"],
+    "colors": {
+      "primary": {
+        "300": "#ffffff",
+        "400": "#ffffff",
+        "500": "#ffffff",
+        "600": "#c6c6c6",
+        "700": "#919191"
+      },
+      "secondary": "#000000",
+      "contrast": "dark"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/72275367_home.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["white"],
+        "hex_colors": {
+          "primary": "#f8fafc",
+          "secondary": "#000000",
+          "detail": "#000000"
+        },
+        "tone": 98
+      },
+      "away": {
+        "image": "src/assets/uniforms/72275367_away.png",
+        "pattern": "striped",
+        "kit_group": "black",
+        "base_colors": ["black"],
+        "hex_colors": {
+          "primary": "#000000",
+          "secondary": "#ffffff",
+          "detail": "#ffffff"
+        },
+        "tone": 0
+      },
+      "third": {
+        "image": "src/assets/uniforms/72275367_third.png",
+        "pattern": "solid",
+        "kit_group": "black",
+        "base_colors": ["black"],
+        "hex_colors": {
+          "primary": "#111111",
+          "secondary": "#FF6D00",
+          "detail": "#FF6D00"
+        },
+        "tone": 7
+      }
+    },
+    "trainerId": "9588045c-365b-483a-9d55-f692447cae84"
+  },
+  {
+    "id": "90748914",
+    "full_name": "Sociedade Esportiva Palmeiras",
+    "name": "Palmeiras",
+    "nicknames": [{ "name": "Porco", "gender": "m" }],
+    "gender": "m",
+    "shortName": "PAL",
+    "stadiumId": "9a25800c-1081-4891-afb6-0487bd58117a",
+    "logo": "src/assets/clubs_logos/90748914.png",
+    "logo_tiny": "src/assets/clubs_logos/90748914_tiny.png",
+    "rivals_ids": ["40705706", "72275367", "55963133"],
+    "colors": {
+      "primary": {
+        "300": "#00AC63",
+        "400": "#00864C",
+        "500": "#006437",
+        "600": "#00502B",
+        "700": "#003E20"
+      },
+      "secondary": "#ffffff",
+      "contrast": "light"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/90748914_home.png",
+        "pattern": "solid",
+        "kit_group": "colored",
+        "base_colors": ["green"],
+        "hex_colors": {
+          "primary": "#006437",
+          "secondary": "#006437",
+          "detail": "#ffffff"
+        },
+        "tone": 30
+      },
+      "away": {
+        "image": "src/assets/uniforms/90748914_away.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["white"],
+        "hex_colors": {
+          "primary": "#ffffff",
+          "secondary": "#006437",
+          "detail": "#006437"
+        },
+        "tone": 100
+      },
+      "third": {
+        "image": "src/assets/uniforms/90748914_third.png",
+        "pattern": "solid",
+        "kit_group": "colored",
+        "base_colors": ["yellow", "green"],
+        "hex_colors": {
+          "primary": "#e6ca22",
+          "secondary": "#006437",
+          "detail": "#006437"
+        },
+        "tone": 77
+      }
+    },
+    "trainerId": "258142df-2b22-44ec-9da0-89f92d6b29ec"
+  },
+  {
+    "id": "79859601",
+    "full_name": "Mirassol Futebol Clube",
+    "name": "Mirassol",
+    "nicknames": [{ "name": "Leão Caipira", "gender": "m" }],
+    "gender": "m",
+    "shortName": "MIR",
+    "stadiumId": "fc6792ce-d304-4b78-b641-ee1b4889d433",
+    "logo": "src/assets/clubs_logos/79859601.png",
+    "logo_tiny": "src/assets/clubs_logos/79859601_tiny.png",
+    "rivals_ids": [],
+    "colors": {
+      "primary": {
+        "300": "#FEF70B",
+        "400": "#F8F10A",
+        "500": "#F3EC0A",
+        "600": "#BEB806",
+        "700": "#8C8703"
+      },
+      "secondary": "#126F3D",
+      "contrast": "light"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/79859601_home.png",
+        "pattern": "solid",
+        "kit_group": "colored",
+        "base_colors": ["yellow"],
+        "hex_colors": {
+          "primary": "#F3EC0A",
+          "secondary": "#F3EC0A",
+          "detail": "#126F3D"
+        },
+        "tone": 87
+      },
+      "away": {
+        "image": "src/assets/uniforms/79859601_away.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["white"],
+        "hex_colors": {
+          "primary": "#ffffff",
+          "secondary": "#F3EC0A",
+          "detail": "#126F3D"
+        },
+        "tone": 100
+      },
+      "third": {
+        "image": "src/assets/uniforms/79859601_third.png",
+        "pattern": "striped",
+        "kit_group": "colored",
+        "base_colors": ["green", "gold"],
+        "hex_colors": {
+          "primary": "#073b24",
+          "secondary": "#cca043",
+          "detail": "#cca043"
+        },
+        "tone": 18
+      }
+    },
+    "trainerId": "e7a78ed2-2bba-4c11-ae70-c6037f123cfb"
+  },
+  {
+    "id": "41051526",
+    "full_name": "Associação Chapecoense de Futebol",
+    "name": "Chapecoense",
+    "nicknames": [{ "name": "Chape", "gender": "f" }],
+    "gender": "f",
+    "shortName": "CHA",
+    "stadiumId": "fbe2ed60-d716-4843-b4ac-25aa7f940c1a",
+    "logo": "src/assets/clubs_logos/41051526.png",
+    "logo_tiny": "src/assets/clubs_logos/41051526_tiny.png",
+    "rivals_ids": [],
+    "colors": {
+      "primary": {
+        "300": "#3BA154",
+        "400": "#2A793E",
+        "500": "#1B552A",
+        "600": "#144420",
+        "700": "#0E3518"
+      },
+      "secondary": "#ffffff",
+      "contrast": "light"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/41051526_home.png",
+        "pattern": "striped",
+        "kit_group": "colored",
+        "base_colors": ["green", "white"],
+        "hex_colors": {
+          "primary": "#1B552A",
+          "secondary": "#ffffff",
+          "detail": "#ffffff"
+        },
+        "tone": 27
+      },
+      "away": {
+        "image": "src/assets/uniforms/41051526_away.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["white"],
+        "hex_colors": {
+          "primary": "#ffffff",
+          "secondary": "#1B552A",
+          "detail": "#1B552A"
+        },
+        "tone": 100
+      },
+      "third": {
+        "image": "src/assets/uniforms/41051526_third.png",
+        "pattern": "solid",
+        "kit_group": "colored",
+        "base_colors": ["garnet", "gold"],
+        "hex_colors": {
+          "primary": "#4a121a",
+          "secondary": "#cca043",
+          "detail": "#cca043"
+        },
+        "tone": 12
+      }
+    },
+    "trainerId": "aa2f77bf-e533-4ecb-83bf-52de5b08ca9c"
+  },
+  {
+    "id": "35971878",
+    "full_name": "Cruzeiro Esporte Clube",
+    "name": "Cruzeiro",
+    "nicknames": [
+      { "name": "Raposa", "gender": "f" },
+      { "name": "Cabuloso", "gender": "m" }
+    ],
+    "gender": "m",
+    "shortName": "CRU",
+    "stadiumId": "05f48982-7919-49e0-a640-6c48fed5186d",
+    "logo": "src/assets/clubs_logos/35971878.png",
+    "logo_tiny": "src/assets/clubs_logos/35971878_tiny.png",
+    "rivals_ids": ["79951310"],
+    "colors": {
+      "primary": {
+        "300": "#7593E8",
+        "400": "#4270D4",
+        "500": "#2F529E",
+        "600": "#254281",
+        "700": "#1B3365"
+      },
+      "secondary": "#ffffff",
+      "contrast": "light"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/35971878_home.png",
+        "pattern": "solid",
+        "kit_group": "colored",
+        "base_colors": ["blue"],
+        "hex_colors": {
+          "primary": "#2F529E",
+          "secondary": "#2F529E",
+          "detail": "#ffffff"
+        },
+        "tone": 31
+      },
+      "away": {
+        "image": "src/assets/uniforms/35971878_away.png",
+        "pattern": "hoops",
+        "kit_group": "white",
+        "base_colors": ["white", "blue"],
+        "hex_colors": {
+          "primary": "#ffffff",
+          "secondary": "#2F529E",
+          "detail": "#2F529E"
+        },
+        "tone": 100
+      },
+      "third": {
+        "image": "src/assets/uniforms/35971878_third.png",
+        "pattern": "solid",
+        "kit_group": "colored",
+        "base_colors": ["blue"],
+        "hex_colors": {
+          "primary": "#1e88e5",
+          "secondary": "#1e88e5",
+          "detail": "#ffb300"
+        },
+        "tone": 47
+      }
+    },
+    "trainerId": "2b879022-0dec-43f2-9368-2a125e32e079"
+  },
+  {
+    "id": "79951310",
+    "full_name": "Clube Atlético Mineiro",
+    "name": "Atlético MG",
+    "nicknames": [{ "name": "Galo", "gender": "m" }],
+    "gender": "m",
+    "shortName": "CAM",
+    "stadiumId": "3d24e886-ab2a-49d6-a8d7-92c78332e52a",
+    "logo": "src/assets/clubs_logos/79951310.png",
+    "logo_tiny": "src/assets/clubs_logos/79951310_tiny.png",
+    "rivals_ids": ["35971878"],
+    "colors": {
+      "primary": {
+        "300": "#5E5E5E",
+        "400": "#303030",
+        "500": "#000000",
+        "600": "#000000",
+        "700": "#000000"
+      },
+      "secondary": "#ffffff",
+      "contrast": "light"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/79951310_home.png",
+        "pattern": "striped",
+        "kit_group": "colored",
+        "base_colors": ["black", "white"],
+        "hex_colors": {
+          "primary": "#111111",
+          "secondary": "#ffffff",
+          "detail": "#ffffff"
+        },
+        "tone": 7
+      },
+      "away": {
+        "image": "src/assets/uniforms/79951310_away.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["white"],
+        "hex_colors": {
+          "primary": "#ffffff",
+          "secondary": "#111111",
+          "detail": "#111111"
+        },
+        "tone": 100
+      },
+      "third": {
+        "image": "src/assets/uniforms/79951310_third.png",
+        "pattern": "solid",
+        "kit_group": "colored",
+        "base_colors": ["yellow", "black"],
+        "hex_colors": {
+          "primary": "#f29d11",
+          "secondary": "#f29d11",
+          "detail": "#111111"
+        },
+        "tone": 65
+      }
+    },
+    "trainerId": "dc4125f9-0607-4f87-ab23-62156f30f4f7"
+  },
+  {
+    "id": "21276332",
+    "full_name": "Coritiba Foot Ball Club",
+    "name": "Coritiba",
+    "nicknames": [{ "name": "Coxa", "gender": "m" }],
+    "gender": "m",
+    "shortName": "CFC",
+    "stadiumId": "676f7911-038f-4ef7-b938-568a27a241b6",
+    "logo": "src/assets/clubs_logos/21276332.png",
+    "logo_tiny": "src/assets/clubs_logos/21276332_tiny.png",
+    "rivals_ids": ["40802544"],
+    "colors": {
+      "primary": {
+        "300": "#009F92",
+        "400": "#00786E",
+        "500": "#00544D",
+        "600": "#00433E",
+        "700": "#003531"
+      },
+      "secondary": "#ffffff",
+      "contrast": "light"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/21276332_home.png",
+        "pattern": "hoops",
+        "kit_group": "white",
+        "base_colors": ["white", "green"],
+        "hex_colors": {
+          "primary": "#ffffff",
+          "secondary": "#00544D",
+          "detail": "#00544D"
+        },
+        "tone": 100
+      },
+      "away": {
+        "image": "src/assets/uniforms/21276332_away.png",
+        "pattern": "striped",
+        "kit_group": "colored",
+        "base_colors": ["green", "white"],
+        "hex_colors": {
+          "primary": "#00544D",
+          "secondary": "#ffffff",
+          "detail": "#ffffff"
+        },
+        "tone": 26
+      },
+      "third": {
+        "image": "src/assets/uniforms/21276332_third.png",
+        "pattern": "halves",
+        "kit_group": "colored",
+        "base_colors": ["black", "green", "gold"],
+        "hex_colors": {
+          "primary": "#1c1c1c",
+          "secondary": "#113322",
+          "detail": "#cca043"
+        },
+        "tone": 11
+      }
+    },
+    "trainerId": "d1f22657-de01-4aa8-ad37-0da0cab5a530"
+  },
+  {
+    "id": "40802544",
+    "full_name": "Club Athletico Paranaense",
+    "name": "Athletico PR",
+    "nicknames": [{ "name": "Furacão", "gender": "m" }],
+    "gender": "m",
+    "shortName": "CAP",
+    "stadiumId": "c49a2a1b-3b50-48ba-938f-f9de2f4b57b1",
+    "logo": "src/assets/clubs_logos/40802544.png",
+    "logo_tiny": "src/assets/clubs_logos/40802544_tiny.png",
+    "rivals_ids": ["21276332"],
+    "colors": {
+      "primary": {
+        "300": "#FA797A",
+        "400": "#F93439",
+        "500": "#CE181E",
+        "600": "#A51116",
+        "700": "#7F0A0E"
+      },
+      "secondary": "#010101",
+      "contrast": "light"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/40802544_home.png",
+        "pattern": "striped",
+        "kit_group": "colored",
+        "base_colors": ["red", "black"],
+        "hex_colors": {
+          "primary": "#CE181E",
+          "secondary": "#010101",
+          "detail": "#010101"
+        },
+        "tone": 25
+      },
+      "away": {
+        "image": "src/assets/uniforms/40802544_away.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["white"],
+        "hex_colors": {
+          "primary": "#ffffff",
+          "secondary": "#010101",
+          "detail": "#010101"
+        },
+        "tone": 100
+      },
+      "third": {
+        "image": "src/assets/uniforms/40802544_third.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["pink"],
+        "hex_colors": {
+          "primary": "#E5C6B8",
+          "secondary": "#111111",
+          "detail": "#111111"
+        },
+        "tone": 80
+      }
+    },
+    "trainerId": "a7966946-b45c-472d-95df-7c6111f21f73"
+  },
+  {
+    "id": "48594781",
+    "full_name": "Club de Regatas Vasco da Gama",
+    "name": "Vasco",
+    "nicknames": [{ "name": "Gigante da Colina", "gender": "m" }],
+    "gender": "m",
+    "shortName": "VAS",
+    "stadiumId": "eabbcc39-947d-4092-a4ab-1641dda3b52f",
+    "logo": "src/assets/clubs_logos/48594781.png",
+    "logo_tiny": "src/assets/clubs_logos/48594781_tiny.png",
+    "rivals_ids": ["86586513", "74496781", "49823308"],
+    "colors": {
+      "primary": {
+        "300": "#5E5E5E",
+        "400": "#303030",
+        "500": "#000000",
+        "600": "#000000",
+        "700": "#000000"
+      },
+      "secondary": "#ffffff",
+      "contrast": "light"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/48594781_home.png",
+        "pattern": "solid",
+        "kit_group": "black",
+        "base_colors": ["black", "white"],
+        "hex_colors": {
+          "primary": "#111111",
+          "secondary": "#ffffff",
+          "detail": "#fb2c36"
+        },
+        "tone": 7
+      },
+      "away": {
+        "image": "src/assets/uniforms/48594781_away.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["white", "black"],
+        "hex_colors": {
+          "primary": "#ffffff",
+          "secondary": "#111111",
+          "detail": "#fb2c36"
+        },
+        "tone": 100
+      },
+      "third": {
+        "image": "src/assets/uniforms/48594781_third.png",
+        "pattern": "solid",
+        "kit_group": "colored",
+        "base_colors": ["brown"],
+        "hex_colors": {
+          "primary": "#40291d",
+          "secondary": "#d1d1d1",
+          "detail": "#d1d1d1"
+        },
+        "tone": 18
+      }
+    },
+    "trainerId": "558bf0bf-f450-4ba3-b10d-e6a9da443b75"
+  },
+  {
+    "id": "49823308",
+    "full_name": "Botafogo de Futebol e Regatas",
+    "name": "Botafogo",
+    "nicknames": [{ "name": "Glorioso", "gender": "m" }],
+    "gender": "m",
+    "shortName": "BOT",
+    "stadiumId": "a8726793-8891-4a83-9b99-09a7a80e2f8f",
+    "logo": "src/assets/clubs_logos/49823308.png",
+    "logo_tiny": "src/assets/clubs_logos/49823308_tiny.png",
+    "rivals_ids": ["86586513", "74496781", "48594781"],
+    "colors": {
+      "primary": {
+        "300": "#5E5E5E",
+        "400": "#303030",
+        "500": "#000000",
+        "600": "#000000",
+        "700": "#000000"
+      },
+      "secondary": "#ffffff",
+      "contrast": "light"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/49823308_home.png",
+        "pattern": "striped",
+        "kit_group": "colored",
+        "base_colors": ["black", "white"],
+        "hex_colors": {
+          "primary": "#111111",
+          "secondary": "#ffffff",
+          "detail": "#ffffff"
+        },
+        "tone": 7
+      },
+      "away": {
+        "image": "src/assets/uniforms/49823308_away.png",
+        "pattern": "solid",
+        "kit_group": "black",
+        "base_colors": ["black"],
+        "hex_colors": {
+          "primary": "#111111",
+          "secondary": "#111111",
+          "detail": "#ffffff"
+        },
+        "tone": 7
+      },
+      "third": {
+        "image": "src/assets/uniforms/49823308_third.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["white"],
+        "hex_colors": {
+          "primary": "#ffffff",
+          "secondary": "#ffffff",
+          "detail": "#111111"
+        },
+        "tone": 100
+      }
+    },
+    "trainerId": "37b9ec0b-3405-4c96-b58a-68958220d80d"
+  },
+  {
+    "id": "55963133",
+    "full_name": "São Paulo Futebol Clube",
+    "name": "São Paulo",
+    "nicknames": [{ "name": "Tricolor Paulista", "gender": "m" }],
+    "gender": "m",
+    "shortName": "SAO",
+    "stadiumId": "e354a998-0ffc-40ed-89a1-754af403b0e2",
+    "logo": "src/assets/clubs_logos/55963133.png",
+    "logo_tiny": "src/assets/clubs_logos/55963133_tiny.png",
+    "rivals_ids": ["40705706", "90748914", "72275367"],
+    "colors": {
+      "primary": {
+        "300": "#FF9191",
+        "400": "#FF6060",
+        "500": "#FE0000",
+        "600": "#CA0000",
+        "700": "#9C0000"
+      },
+      "secondary": "#000000",
+      "contrast": "light"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/55963133_home.png",
+        "pattern": "hoops",
+        "kit_group": "white",
+        "base_colors": ["white", "red", "black"],
+        "hex_colors": {
+          "primary": "#ffffff",
+          "secondary": "#FE0000",
+          "detail": "#000000"
+        },
+        "tone": 100
+      },
+      "away": {
+        "image": "src/assets/uniforms/55963133_away.png",
+        "pattern": "striped",
+        "kit_group": "colored",
+        "base_colors": ["red", "black", "white"],
+        "hex_colors": {
+          "primary": "#FE0000",
+          "secondary": "#000000",
+          "detail": "#ffffff"
+        },
+        "tone": 21
+      },
+      "third": {
+        "image": "src/assets/uniforms/55963133_third.png",
+        "pattern": "hoops",
+        "kit_group": "black",
+        "base_colors": ["black", "red", "white"],
+        "hex_colors": {
+          "primary": "#111111",
+          "secondary": "#FE0000",
+          "detail": "#ffffff"
+        },
+        "tone": 7
+      }
+    },
+    "trainerId": "de1877b6-acae-46d8-9ebe-6b549d7cda6e"
+  },
+  {
+    "id": "64334201",
+    "full_name": "Clube do Remo",
+    "name": "Remo",
+    "nicknames": [{ "name": "Leão Azul", "gender": "m" }],
+    "gender": "m",
+    "shortName": "REM",
+    "stadiumId": "f676a697-26a3-4bfa-9fea-0530e5202560",
+    "logo": "src/assets/clubs_logos/64334201.png",
+    "logo_tiny": "src/assets/clubs_logos/64334201_tiny.png",
+    "rivals_ids": [],
+    "colors": {
+      "primary": {
+        "300": "#5E5E5E",
+        "400": "#303030",
+        "500": "#000000",
+        "600": "#000000",
+        "700": "#000000"
+      },
+      "secondary": "#ffffff",
+      "contrast": "light"
+    },
+    "uniforms": {
+      "home": {
+        "image": "src/assets/uniforms/64334201_home.png",
+        "pattern": "solid",
+        "kit_group": "colored",
+        "base_colors": ["navy"],
+        "hex_colors": {
+          "primary": "#0a192f",
+          "secondary": "#0a192f",
+          "detail": "#ffffff"
+        },
+        "tone": 9
+      },
+      "away": {
+        "image": "src/assets/uniforms/64334201_away.png",
+        "pattern": "solid",
+        "kit_group": "white",
+        "base_colors": ["white"],
+        "hex_colors": {
+          "primary": "#ffffff",
+          "secondary": "#0a192f",
+          "detail": "#0a192f"
+        },
+        "tone": 100
+      },
+      "third": {
+        "image": "src/assets/uniforms/64334201_third.png",
+        "pattern": "solid",
+        "kit_group": "colored",
+        "base_colors": ["purple"],
+        "hex_colors": {
+          "primary": "#2F2A4D",
+          "secondary": "#ffffff",
+          "detail": "#111111"
+        },
+        "tone": 18
+      }
+    },
+    "trainerId": "67074c4c-479b-4a1f-bd99-77c7ed37aece"
+  }
+]

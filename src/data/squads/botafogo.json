@@ -1,0 +1,2152 @@
+[
+  {
+    "id": "c2d4b553-a1a4-4554-9686-4801c6d94c13",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Arthur Mendonça Cabral",
+      "short_name": "A. Cabral",
+      "birth_date": "1998-04-25",
+      "height_cm": 186,
+      "weight_kg": 91,
+      "nationality": "brazil",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/c2d4b553-a1a4-4554-9686-4801c6d94c13.png"
+    },
+    "contract": {
+      "market_value": 6000000,
+      "wage": 34000,
+      "valid_until": "2028-12-31",
+      "kit_number": 19,
+      "ownership_type": "permanent",
+      "origin_club_id": "Benfica",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 13200000,
+      "clause_release_international": 22800000
+    },
+    "technical_profile": {
+      "overall": 75,
+      "potential": 75,
+      "best_position": "ST",
+      "positions": ["ST"],
+      "skill_moves": 3,
+      "weak_foot": 4,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 50,
+        "finishing": 78,
+        "heading_accuracy": 77,
+        "short_passing": 74,
+        "volleys": 79
+      },
+      "skill": {
+        "dribbling": 71,
+        "ball_control": 77,
+        "curve": 63,
+        "long_passing": 56,
+        "fk_accuracy": 48
+      },
+      "movement": {
+        "acceleration": 66,
+        "sprint_speed": 67,
+        "agility": 69,
+        "reactions": 72,
+        "balance": 68
+      },
+      "power": {
+        "shot_power": 77,
+        "stamina": 72,
+        "strength": 87,
+        "jumping": 88,
+        "long_shots": 73
+      },
+      "mentality": {
+        "attack_position": 75,
+        "vision": 68,
+        "penalties": 70,
+        "composure": 75,
+        "interceptions": 24,
+        "aggression": 61
+      },
+      "defending": {
+        "defensive_awareness": 27,
+        "standing_tackle": 27,
+        "sliding_tackle": 25
+      },
+      "goalkeeping": {
+        "diving": 12,
+        "handling": 9,
+        "kicking": 14,
+        "positioning": 13,
+        "reflexes": 6
+      }
+    }
+  },
+  {
+    "id": "59c2afd1-800d-4b35-8465-f33fc0271e53",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Joaquín Correa",
+      "short_name": "J. Correa",
+      "birth_date": "1994-08-13",
+      "height_cm": 189,
+      "weight_kg": 78,
+      "nationality": "argentina",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/59c2afd1-800d-4b35-8465-f33fc0271e53.png"
+    },
+    "contract": {
+      "market_value": 4100000,
+      "wage": 33000,
+      "valid_until": "2027-12-31",
+      "kit_number": 30,
+      "ownership_type": "permanent",
+      "origin_club_id": " Inter Milan",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 9020000,
+      "clause_release_international": 15580000
+    },
+    "technical_profile": {
+      "overall": 74,
+      "potential": 74,
+      "best_position": "ST",
+      "positions": ["ST", "CAM"],
+      "skill_moves": 4,
+      "weak_foot": 4,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 73,
+        "finishing": 74,
+        "heading_accuracy": 69,
+        "short_passing": 77,
+        "volleys": 75
+      },
+      "skill": {
+        "dribbling": 82,
+        "ball_control": 82,
+        "curve": 81,
+        "long_passing": 68,
+        "fk_accuracy": 63
+      },
+      "movement": {
+        "acceleration": 62,
+        "sprint_speed": 61,
+        "agility": 83,
+        "reactions": 71,
+        "balance": 67
+      },
+      "power": {
+        "shot_power": 79,
+        "stamina": 70,
+        "strength": 65,
+        "jumping": 70,
+        "long_shots": 69
+      },
+      "mentality": {
+        "attack_position": 76,
+        "vision": 77,
+        "penalties": 57,
+        "composure": 75,
+        "interceptions": 36,
+        "aggression": 48
+      },
+      "defending": {
+        "defensive_awareness": 39,
+        "standing_tackle": 37,
+        "sliding_tackle": 26
+      },
+      "goalkeeping": {
+        "diving": 11,
+        "handling": 10,
+        "kicking": 7,
+        "positioning": 8,
+        "reflexes": 8
+      }
+    }
+  },
+  {
+    "id": "9c0afd6c-304d-4280-a6e8-54d7e6b0e285",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Christopher Ramos de la Flor",
+      "short_name": "Chris Ramos",
+      "birth_date": "1997-01-18",
+      "height_cm": 190,
+      "weight_kg": 82,
+      "nationality": "spain",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/9c0afd6c-304d-4280-a6e8-54d7e6b0e285.png"
+    },
+    "contract": {
+      "market_value": 2400000,
+      "wage": 27000,
+      "valid_until": "2026-12-31",
+      "kit_number": 9,
+      "ownership_type": "loan",
+      "origin_club_id": "Cádiz CF",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 5280000,
+      "clause_release_international": 9120000
+    },
+    "technical_profile": {
+      "overall": 72,
+      "potential": 72,
+      "best_position": "ST",
+      "positions": ["ST"],
+      "skill_moves": 3,
+      "weak_foot": 2,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 66,
+        "finishing": 71,
+        "heading_accuracy": 76,
+        "short_passing": 64,
+        "volleys": 62
+      },
+      "skill": {
+        "dribbling": 75,
+        "ball_control": 73,
+        "curve": 58,
+        "long_passing": 60,
+        "fk_accuracy": 53
+      },
+      "movement": {
+        "acceleration": 77,
+        "sprint_speed": 82,
+        "agility": 71,
+        "reactions": 65,
+        "balance": 45
+      },
+      "power": {
+        "shot_power": 70,
+        "stamina": 66,
+        "strength": 81,
+        "jumping": 92,
+        "long_shots": 68
+      },
+      "mentality": {
+        "attack_position": 70,
+        "vision": 66,
+        "penalties": 65,
+        "composure": 56,
+        "interceptions": 26,
+        "aggression": 40
+      },
+      "defending": {
+        "defensive_awareness": 39,
+        "standing_tackle": 24,
+        "sliding_tackle": 25
+      },
+      "goalkeeping": {
+        "diving": 11,
+        "handling": 10,
+        "kicking": 9,
+        "positioning": 8,
+        "reflexes": 7
+      }
+    }
+  },
+  {
+    "id": "74977ea6-c671-4ad2-bd7f-fa06c0dcfde7",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Álvaro Montoro",
+      "short_name": "Montoro",
+      "birth_date": "2007-04-17",
+      "height_cm": 169,
+      "weight_kg": 65,
+      "nationality": "argentina",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/74977ea6-c671-4ad2-bd7f-fa06c0dcfde7.png"
+    },
+    "contract": {
+      "market_value": 7000000,
+      "wage": 17000,
+      "valid_until": "2029-12-31",
+      "kit_number": 10,
+      "ownership_type": "permanent",
+      "origin_club_id": "Vélez Sarsfield",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 15400000,
+      "clause_release_international": 26600000
+    },
+    "technical_profile": {
+      "overall": 73,
+      "potential": 86,
+      "best_position": "LM",
+      "positions": ["LM", "CAM", "LW"],
+      "skill_moves": 4,
+      "weak_foot": 3,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 65,
+        "finishing": 64,
+        "heading_accuracy": 36,
+        "short_passing": 74,
+        "volleys": 51
+      },
+      "skill": {
+        "dribbling": 80,
+        "ball_control": 77,
+        "curve": 70,
+        "long_passing": 72,
+        "fk_accuracy": 55
+      },
+      "movement": {
+        "acceleration": 86,
+        "sprint_speed": 78,
+        "agility": 91,
+        "reactions": 66,
+        "balance": 90
+      },
+      "power": {
+        "shot_power": 62,
+        "stamina": 53,
+        "strength": 46,
+        "jumping": 55,
+        "long_shots": 61
+      },
+      "mentality": {
+        "attack_position": 58,
+        "vision": 74,
+        "penalties": 46,
+        "composure": 68,
+        "interceptions": 31,
+        "aggression": 43
+      },
+      "defending": {
+        "defensive_awareness": 38,
+        "standing_tackle": 32,
+        "sliding_tackle": 27
+      },
+      "goalkeeping": {
+        "diving": 11,
+        "handling": 13,
+        "kicking": 11,
+        "positioning": 12,
+        "reflexes": 12
+      }
+    }
+  },
+  {
+    "id": "3448b1ed-4a18-42f5-a4ef-19690283b865",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Edenílson Andrade dos Santos",
+      "short_name": "Edenílson",
+      "birth_date": "1989-12-18",
+      "height_cm": 175,
+      "weight_kg": 75,
+      "nationality": "brazil",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/3448b1ed-4a18-42f5-a4ef-19690283b865.png"
+    },
+    "contract": {
+      "market_value": 750000,
+      "wage": 17000,
+      "valid_until": "2026-12-31",
+      "kit_number": 88,
+      "ownership_type": "permanent",
+      "origin_club_id": "59318961",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 1650000,
+      "clause_release_international": 2850000
+    },
+    "technical_profile": {
+      "overall": 71,
+      "potential": 71,
+      "best_position": "CM",
+      "positions": ["CM", "CAM", "RM"],
+      "skill_moves": 3,
+      "weak_foot": 3,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 76,
+        "finishing": 58,
+        "heading_accuracy": 60,
+        "short_passing": 73,
+        "volleys": 58
+      },
+      "skill": {
+        "dribbling": 78,
+        "ball_control": 76,
+        "curve": 65,
+        "long_passing": 70,
+        "fk_accuracy": 62
+      },
+      "movement": {
+        "acceleration": 66,
+        "sprint_speed": 63,
+        "agility": 83,
+        "reactions": 70,
+        "balance": 76
+      },
+      "power": {
+        "shot_power": 69,
+        "stamina": 75,
+        "strength": 64,
+        "jumping": 79,
+        "long_shots": 66
+      },
+      "mentality": {
+        "attack_position": 68,
+        "vision": 72,
+        "penalties": 66,
+        "composure": 68,
+        "interceptions": 58,
+        "aggression": 64
+      },
+      "defending": {
+        "defensive_awareness": 68,
+        "standing_tackle": 65,
+        "sliding_tackle": 69
+      },
+      "goalkeeping": {
+        "diving": 12,
+        "handling": 6,
+        "kicking": 15,
+        "positioning": 9,
+        "reflexes": 5
+      }
+    }
+  },
+  {
+    "id": "d8e06a2f-e33b-457f-895a-3a7d928ab4e1",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Jordan Barrera",
+      "short_name": "J. Barrera",
+      "birth_date": "2006-04-11",
+      "height_cm": 172,
+      "weight_kg": 65,
+      "nationality": "colombia",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/d8e06a2f-e33b-457f-895a-3a7d928ab4e1.png"
+    },
+    "contract": {
+      "market_value": 1000000,
+      "wage": 5000,
+      "valid_until": "2029-12-31",
+      "kit_number": 14,
+      "ownership_type": "permanent",
+      "origin_club_id": "Junior FC",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 2200000,
+      "clause_release_international": 3800000
+    },
+    "technical_profile": {
+      "overall": 62,
+      "potential": 79,
+      "best_position": "CAM",
+      "positions": ["CAM", "LW", "LM", "CM"],
+      "skill_moves": 3,
+      "weak_foot": 4,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 33,
+        "finishing": 47,
+        "heading_accuracy": 40,
+        "short_passing": 63,
+        "volleys": 40
+      },
+      "skill": {
+        "dribbling": 72,
+        "ball_control": 66,
+        "curve": 48,
+        "long_passing": 61,
+        "fk_accuracy": 45
+      },
+      "movement": {
+        "acceleration": 74,
+        "sprint_speed": 78,
+        "agility": 75,
+        "reactions": 50,
+        "balance": 69
+      },
+      "power": {
+        "shot_power": 52,
+        "stamina": 57,
+        "strength": 48,
+        "jumping": 48,
+        "long_shots": 40
+      },
+      "mentality": {
+        "attack_position": 55,
+        "vision": 64,
+        "penalties": 49,
+        "composure": 55,
+        "interceptions": 30,
+        "aggression": 41
+      },
+      "defending": {
+        "defensive_awareness": 33,
+        "standing_tackle": 30,
+        "sliding_tackle": 33
+      },
+      "goalkeeping": {
+        "diving": 13,
+        "handling": 11,
+        "kicking": 15,
+        "positioning": 15,
+        "reflexes": 6
+      }
+    }
+  },
+  {
+    "id": "1dc9044d-5f23-443c-89b1-cefe5bb91801",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Matheus Martins",
+      "short_name": "Matheus M.",
+      "birth_date": "2003-07-16",
+      "height_cm": 179,
+      "weight_kg": 77,
+      "nationality": "brazil",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/1dc9044d-5f23-443c-89b1-cefe5bb91801.png"
+    },
+    "contract": {
+      "market_value": 3600000,
+      "wage": 14000,
+      "valid_until": "2028-12-31",
+      "kit_number": 11,
+      "ownership_type": "permanent",
+      "origin_club_id": " Udinese",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 7920000,
+      "clause_release_international": 13680000
+    },
+    "technical_profile": {
+      "overall": 70,
+      "potential": 78,
+      "best_position": "LM",
+      "positions": ["LM", "RM", "LW"],
+      "skill_moves": 3,
+      "weak_foot": 3,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 55,
+        "finishing": 65,
+        "heading_accuracy": 60,
+        "short_passing": 70,
+        "volleys": 70
+      },
+      "skill": {
+        "dribbling": 72,
+        "ball_control": 73,
+        "curve": 71,
+        "long_passing": 65,
+        "fk_accuracy": 58
+      },
+      "movement": {
+        "acceleration": 82,
+        "sprint_speed": 79,
+        "agility": 78,
+        "reactions": 62,
+        "balance": 69
+      },
+      "power": {
+        "shot_power": 75,
+        "stamina": 60,
+        "strength": 58,
+        "jumping": 73,
+        "long_shots": 70
+      },
+      "mentality": {
+        "attack_position": 72,
+        "vision": 69,
+        "penalties": 69,
+        "composure": 60,
+        "interceptions": 21,
+        "aggression": 46
+      },
+      "defending": {
+        "defensive_awareness": 30,
+        "standing_tackle": 22,
+        "sliding_tackle": 24
+      },
+      "goalkeeping": {
+        "diving": 7,
+        "handling": 8,
+        "kicking": 14,
+        "positioning": 10,
+        "reflexes": 9
+      }
+    }
+  },
+  {
+    "id": "9cadc4de-c4e2-4db3-99b0-5ac7c71eb802",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Nathan Ribeiro Fernandes",
+      "short_name": "Nathan",
+      "birth_date": "2005-02-16",
+      "height_cm": 173,
+      "weight_kg": 71,
+      "nationality": "brazil",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/9cadc4de-c4e2-4db3-99b0-5ac7c71eb802.png"
+    },
+    "contract": {
+      "market_value": 3100000,
+      "wage": 13000,
+      "valid_until": "2029-12-31",
+      "kit_number": 16,
+      "ownership_type": "permanent",
+      "origin_club_id": "59318961",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 6820000,
+      "clause_release_international": 11780000
+    },
+    "technical_profile": {
+      "overall": 69,
+      "potential": 80,
+      "best_position": "LM",
+      "positions": ["LM", "RM", "LW"],
+      "skill_moves": 4,
+      "weak_foot": 3,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 64,
+        "finishing": 44,
+        "heading_accuracy": 45,
+        "short_passing": 67,
+        "volleys": 53
+      },
+      "skill": {
+        "dribbling": 76,
+        "ball_control": 71,
+        "curve": 57,
+        "long_passing": 64,
+        "fk_accuracy": 43
+      },
+      "movement": {
+        "acceleration": 87,
+        "sprint_speed": 83,
+        "agility": 85,
+        "reactions": 61,
+        "balance": 82
+      },
+      "power": {
+        "shot_power": 59,
+        "stamina": 57,
+        "strength": 46,
+        "jumping": 60,
+        "long_shots": 43
+      },
+      "mentality": {
+        "attack_position": 60,
+        "vision": 70,
+        "penalties": 58,
+        "composure": 60,
+        "interceptions": 25,
+        "aggression": 35
+      },
+      "defending": {
+        "defensive_awareness": 29,
+        "standing_tackle": 34,
+        "sliding_tackle": 37
+      },
+      "goalkeeping": {
+        "diving": 13,
+        "handling": 14,
+        "kicking": 15,
+        "positioning": 15,
+        "reflexes": 10
+      }
+    }
+  },
+  {
+    "id": "d135f3d2-df39-4411-a4a2-393e38d25ace",
+    "team_id": "49823308",
+    "personal": {
+      "name": "José Antonio Dos Santos Júnior",
+      "short_name": "Jr Santos",
+      "birth_date": "1994-10-11",
+      "height_cm": 188,
+      "weight_kg": 85,
+      "nationality": "brazil",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/d135f3d2-df39-4411-a4a2-393e38d25ace.png"
+    },
+    "contract": {
+      "market_value": 1800000,
+      "wage": 23000,
+      "valid_until": "2026-12-31",
+      "kit_number": 17,
+      "ownership_type": "loan",
+      "origin_club_id": "79951310",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 3960000,
+      "clause_release_international": 6840000
+    },
+    "technical_profile": {
+      "overall": 71,
+      "potential": 71,
+      "best_position": "RM",
+      "positions": ["RM", "ST", "RW"],
+      "skill_moves": 3,
+      "weak_foot": 4,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 68,
+        "finishing": 71,
+        "heading_accuracy": 66,
+        "short_passing": 65,
+        "volleys": 59
+      },
+      "skill": {
+        "dribbling": 75,
+        "ball_control": 74,
+        "curve": 53,
+        "long_passing": 58,
+        "fk_accuracy": 51
+      },
+      "movement": {
+        "acceleration": 78,
+        "sprint_speed": 80,
+        "agility": 74,
+        "reactions": 74,
+        "balance": 55
+      },
+      "power": {
+        "shot_power": 78,
+        "stamina": 67,
+        "strength": 81,
+        "jumping": 71,
+        "long_shots": 63
+      },
+      "mentality": {
+        "attack_position": 67,
+        "vision": 59,
+        "penalties": 61,
+        "composure": 74,
+        "interceptions": 22,
+        "aggression": 56
+      },
+      "defending": {
+        "defensive_awareness": 21,
+        "standing_tackle": 23,
+        "sliding_tackle": 21
+      },
+      "goalkeeping": {
+        "diving": 7,
+        "handling": 10,
+        "kicking": 11,
+        "positioning": 11,
+        "reflexes": 5
+      }
+    }
+  },
+  {
+    "id": "9788703e-6a42-4c42-94f1-ca2597763467",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Santiago Rodríguez",
+      "short_name": "Rodríguez",
+      "birth_date": "2000-01-08",
+      "height_cm": 172,
+      "weight_kg": 60,
+      "nationality": "uruguay",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/9788703e-6a42-4c42-94f1-ca2597763467.png"
+    },
+    "contract": {
+      "market_value": 4000000,
+      "wage": 25000,
+      "valid_until": "2028-12-31",
+      "kit_number": 23,
+      "ownership_type": "permanent",
+      "origin_club_id": "New York City",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 8800000,
+      "clause_release_international": 15200000
+    },
+    "technical_profile": {
+      "overall": 73,
+      "potential": 76,
+      "best_position": "RM",
+      "positions": ["RM", "LM", "CAM", "RW"],
+      "skill_moves": 4,
+      "weak_foot": 3,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 65,
+        "finishing": 69,
+        "heading_accuracy": 36,
+        "short_passing": 72,
+        "volleys": 51
+      },
+      "skill": {
+        "dribbling": 76,
+        "ball_control": 73,
+        "curve": 57,
+        "long_passing": 64,
+        "fk_accuracy": 53
+      },
+      "movement": {
+        "acceleration": 81,
+        "sprint_speed": 73,
+        "agility": 87,
+        "reactions": 70,
+        "balance": 69
+      },
+      "power": {
+        "shot_power": 62,
+        "stamina": 76,
+        "strength": 45,
+        "jumping": 53,
+        "long_shots": 61
+      },
+      "mentality": {
+        "attack_position": 74,
+        "vision": 73,
+        "penalties": 66,
+        "composure": 70,
+        "interceptions": 42,
+        "aggression": 41
+      },
+      "defending": {
+        "defensive_awareness": 34,
+        "standing_tackle": 42,
+        "sliding_tackle": 31
+      },
+      "goalkeeping": {
+        "diving": 11,
+        "handling": 8,
+        "kicking": 6,
+        "positioning": 10,
+        "reflexes": 12
+      }
+    }
+  },
+  {
+    "id": "cabf595f-7896-474b-9cb4-a14dce2887a7",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Lucas Villalba",
+      "short_name": "L. Villalba",
+      "birth_date": "2001-05-11",
+      "height_cm": 182,
+      "weight_kg": 70,
+      "nationality": "uruguay",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/cabf595f-7896-474b-9cb4-a14dce2887a7.png"
+    },
+    "contract": {
+      "market_value": 2500000,
+      "wage": 17000,
+      "valid_until": "2029-12-31",
+      "kit_number": 77,
+      "ownership_type": "permanent",
+      "origin_club_id": "Nacional",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 5500000,
+      "clause_release_international": 9500000
+    },
+    "technical_profile": {
+      "overall": 70,
+      "potential": 76,
+      "best_position": "RM",
+      "positions": ["RM", "RW", "LM"],
+      "skill_moves": 3,
+      "weak_foot": 3,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 68,
+        "finishing": 67,
+        "heading_accuracy": 50,
+        "short_passing": 69,
+        "volleys": 58
+      },
+      "skill": {
+        "dribbling": 68,
+        "ball_control": 68,
+        "curve": 64,
+        "long_passing": 58,
+        "fk_accuracy": 56
+      },
+      "movement": {
+        "acceleration": 84,
+        "sprint_speed": 89,
+        "agility": 74,
+        "reactions": 61,
+        "balance": 73
+      },
+      "power": {
+        "shot_power": 62,
+        "stamina": 70,
+        "strength": 60,
+        "jumping": 70,
+        "long_shots": 65
+      },
+      "mentality": {
+        "attack_position": 67,
+        "vision": 65,
+        "penalties": 64,
+        "composure": 54,
+        "interceptions": 32,
+        "aggression": 54
+      },
+      "defending": {
+        "defensive_awareness": 44,
+        "standing_tackle": 37,
+        "sliding_tackle": 43
+      },
+      "goalkeeping": {
+        "diving": 9,
+        "handling": 11,
+        "kicking": 15,
+        "positioning": 13,
+        "reflexes": 7
+      }
+    }
+  },
+  {
+    "id": "89832657-7e81-4231-a5f6-87cad88e49fb",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Danilo Santos de Oliveira",
+      "short_name": "Danilo",
+      "birth_date": "2001-04-29",
+      "height_cm": 176,
+      "weight_kg": 72,
+      "nationality": "brazil",
+      "preferred_foot": "L",
+      "photo_url": "src/assets/players/89832657-7e81-4231-a5f6-87cad88e49fb.png"
+    },
+    "contract": {
+      "market_value": 10000000,
+      "wage": 27000,
+      "valid_until": "2029-12-31",
+      "kit_number": 8,
+      "ownership_type": "permanent",
+      "origin_club_id": "Nott'm Forest",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 22000000,
+      "clause_release_international": 38000000
+    },
+    "technical_profile": {
+      "overall": 76,
+      "potential": 80,
+      "best_position": "CDM",
+      "positions": ["CDM", "CM"],
+      "skill_moves": 2,
+      "weak_foot": 3,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 56,
+        "finishing": 64,
+        "heading_accuracy": 60,
+        "short_passing": 77,
+        "volleys": 44
+      },
+      "skill": {
+        "dribbling": 69,
+        "ball_control": 77,
+        "curve": 66,
+        "long_passing": 75,
+        "fk_accuracy": 56
+      },
+      "movement": {
+        "acceleration": 70,
+        "sprint_speed": 65,
+        "agility": 77,
+        "reactions": 77,
+        "balance": 76
+      },
+      "power": {
+        "shot_power": 68,
+        "stamina": 84,
+        "strength": 60,
+        "jumping": 68,
+        "long_shots": 60
+      },
+      "mentality": {
+        "attack_position": 65,
+        "vision": 71,
+        "penalties": 55,
+        "composure": 72,
+        "interceptions": 78,
+        "aggression": 77
+      },
+      "defending": {
+        "defensive_awareness": 73,
+        "standing_tackle": 75,
+        "sliding_tackle": 69
+      },
+      "goalkeeping": {
+        "diving": 10,
+        "handling": 6,
+        "kicking": 8,
+        "positioning": 6,
+        "reflexes": 11
+      }
+    }
+  },
+  {
+    "id": "906730d9-3cee-4330-b358-20d1a327638c",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Cristian Medina",
+      "short_name": "Medina",
+      "birth_date": "2002-06-01",
+      "height_cm": 178,
+      "weight_kg": 73,
+      "nationality": "argentina",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/906730d9-3cee-4330-b358-20d1a327638c.png"
+    },
+    "contract": {
+      "market_value": 8000000,
+      "wage": 27000,
+      "valid_until": "2029-12-31",
+      "kit_number": 6,
+      "ownership_type": "permanent",
+      "origin_club_id": "Estudiantes LP",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 17600000,
+      "clause_release_international": 30400000
+    },
+    "technical_profile": {
+      "overall": 75,
+      "potential": 79,
+      "best_position": "CM",
+      "positions": ["CM", "CAM", "CDM"],
+      "skill_moves": 3,
+      "weak_foot": 3,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 66,
+        "finishing": 65,
+        "heading_accuracy": 51,
+        "short_passing": 79,
+        "volleys": 49
+      },
+      "skill": {
+        "dribbling": 78,
+        "ball_control": 80,
+        "curve": 68,
+        "long_passing": 72,
+        "fk_accuracy": 52
+      },
+      "movement": {
+        "acceleration": 77,
+        "sprint_speed": 74,
+        "agility": 83,
+        "reactions": 74,
+        "balance": 87
+      },
+      "power": {
+        "shot_power": 64,
+        "stamina": 81,
+        "strength": 67,
+        "jumping": 70,
+        "long_shots": 61
+      },
+      "mentality": {
+        "attack_position": 74,
+        "vision": 74,
+        "penalties": 54,
+        "composure": 77,
+        "interceptions": 68,
+        "aggression": 79
+      },
+      "defending": {
+        "defensive_awareness": 70,
+        "standing_tackle": 75,
+        "sliding_tackle": 68
+      },
+      "goalkeeping": {
+        "diving": 8,
+        "handling": 8,
+        "kicking": 12,
+        "positioning": 6,
+        "reflexes": 6
+      }
+    }
+  },
+  {
+    "id": "5ae3d270-d53c-49da-9678-e78ae965c8c3",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Allan Marques Loureiro",
+      "short_name": "Allan",
+      "birth_date": "1991-01-08",
+      "height_cm": 175,
+      "weight_kg": 67,
+      "nationality": "brazil",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/5ae3d270-d53c-49da-9678-e78ae965c8c3.png"
+    },
+    "contract": {
+      "market_value": 1400000,
+      "wage": 29000,
+      "valid_until": "2026-12-31",
+      "kit_number": 25,
+      "ownership_type": "permanent",
+      "origin_club_id": "Al-Wahda",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 3080000,
+      "clause_release_international": 5320000
+    },
+    "technical_profile": {
+      "overall": 74,
+      "potential": 74,
+      "best_position": "CDM",
+      "positions": ["CDM", "CM"],
+      "skill_moves": 4,
+      "weak_foot": 3,
+      "reputation": 2
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 70,
+        "finishing": 67,
+        "heading_accuracy": 56,
+        "short_passing": 74,
+        "volleys": 54
+      },
+      "skill": {
+        "dribbling": 77,
+        "ball_control": 73,
+        "curve": 68,
+        "long_passing": 71,
+        "fk_accuracy": 49
+      },
+      "movement": {
+        "acceleration": 71,
+        "sprint_speed": 65,
+        "agility": 72,
+        "reactions": 73,
+        "balance": 86
+      },
+      "power": {
+        "shot_power": 73,
+        "stamina": 89,
+        "strength": 67,
+        "jumping": 70,
+        "long_shots": 66
+      },
+      "mentality": {
+        "attack_position": 74,
+        "vision": 68,
+        "penalties": 53,
+        "composure": 85,
+        "interceptions": 69,
+        "aggression": 77
+      },
+      "defending": {
+        "defensive_awareness": 74,
+        "standing_tackle": 75,
+        "sliding_tackle": 74
+      },
+      "goalkeeping": {
+        "diving": 13,
+        "handling": 13,
+        "kicking": 5,
+        "positioning": 5,
+        "reflexes": 8
+      }
+    }
+  },
+  {
+    "id": "e48c27f6-8a1f-4d21-8e53-2149d0a6aea5",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Newton Araújo da Costa Júnior",
+      "short_name": "Newton",
+      "birth_date": "2000-03-12",
+      "height_cm": 188,
+      "weight_kg": 78,
+      "nationality": "brazil",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/e48c27f6-8a1f-4d21-8e53-2149d0a6aea5.png"
+    },
+    "contract": {
+      "market_value": 1900000,
+      "wage": 18000,
+      "valid_until": "2027-12-31",
+      "kit_number": 28,
+      "ownership_type": "permanent",
+      "origin_club_id": "Criciúma",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 4180000,
+      "clause_release_international": 7220000
+    },
+    "technical_profile": {
+      "overall": 70,
+      "potential": 73,
+      "best_position": "CDM",
+      "positions": ["CDM", "CB", "CM"],
+      "skill_moves": 2,
+      "weak_foot": 3,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 49,
+        "finishing": 39,
+        "heading_accuracy": 68,
+        "short_passing": 74,
+        "volleys": 37
+      },
+      "skill": {
+        "dribbling": 61,
+        "ball_control": 58,
+        "curve": 43,
+        "long_passing": 66,
+        "fk_accuracy": 40
+      },
+      "movement": {
+        "acceleration": 55,
+        "sprint_speed": 63,
+        "agility": 60,
+        "reactions": 61,
+        "balance": 48
+      },
+      "power": {
+        "shot_power": 54,
+        "stamina": 75,
+        "strength": 78,
+        "jumping": 74,
+        "long_shots": 62
+      },
+      "mentality": {
+        "attack_position": 39,
+        "vision": 51,
+        "penalties": 47,
+        "composure": 60,
+        "interceptions": 72,
+        "aggression": 71
+      },
+      "defending": {
+        "defensive_awareness": 68,
+        "standing_tackle": 73,
+        "sliding_tackle": 70
+      },
+      "goalkeeping": {
+        "diving": 12,
+        "handling": 6,
+        "kicking": 14,
+        "positioning": 10,
+        "reflexes": 7
+      }
+    }
+  },
+  {
+    "id": "850d3b2f-a3c0-4f0f-bef1-9b072e702e67",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Alex Nicolao Telles",
+      "short_name": "Alex Telles",
+      "birth_date": "1992-12-15",
+      "height_cm": 181,
+      "weight_kg": 69,
+      "nationality": "brazil",
+      "preferred_foot": "L",
+      "photo_url": "src/assets/players/850d3b2f-a3c0-4f0f-bef1-9b072e702e67.png"
+    },
+    "contract": {
+      "market_value": 5000000,
+      "wage": 33000,
+      "valid_until": "2026-12-31",
+      "kit_number": 13,
+      "ownership_type": "permanent",
+      "origin_club_id": "Al-Nassr",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 11000000,
+      "clause_release_international": 19000000
+    },
+    "technical_profile": {
+      "overall": 76,
+      "potential": 76,
+      "best_position": "LB",
+      "positions": ["LB", "LM"],
+      "skill_moves": 3,
+      "weak_foot": 2,
+      "reputation": 3
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 81,
+        "finishing": 63,
+        "heading_accuracy": 66,
+        "short_passing": 77,
+        "volleys": 66
+      },
+      "skill": {
+        "dribbling": 75,
+        "ball_control": 76,
+        "curve": 87,
+        "long_passing": 76,
+        "fk_accuracy": 79
+      },
+      "movement": {
+        "acceleration": 72,
+        "sprint_speed": 74,
+        "agility": 72,
+        "reactions": 75,
+        "balance": 70
+      },
+      "power": {
+        "shot_power": 87,
+        "stamina": 81,
+        "strength": 61,
+        "jumping": 70,
+        "long_shots": 83
+      },
+      "mentality": {
+        "attack_position": 75,
+        "vision": 75,
+        "penalties": 77,
+        "composure": 75,
+        "interceptions": 71,
+        "aggression": 76
+      },
+      "defending": {
+        "defensive_awareness": 72,
+        "standing_tackle": 71,
+        "sliding_tackle": 72
+      },
+      "goalkeeping": {
+        "diving": 13,
+        "handling": 8,
+        "kicking": 12,
+        "positioning": 11,
+        "reflexes": 14
+      }
+    }
+  },
+  {
+    "id": "c768392f-1d29-4efb-80f4-d1511a648145",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Fernando Marçal de Oliveira",
+      "short_name": "Marçal",
+      "birth_date": "1989-02-19",
+      "height_cm": 178,
+      "weight_kg": 72,
+      "nationality": "brazil",
+      "preferred_foot": "L",
+      "photo_url": "src/assets/players/c768392f-1d29-4efb-80f4-d1511a648145.png"
+    },
+    "contract": {
+      "market_value": 350000,
+      "wage": 14000,
+      "valid_until": "2026-12-31",
+      "kit_number": 21,
+      "ownership_type": "permanent",
+      "origin_club_id": null,
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 770000,
+      "clause_release_international": 1330000
+    },
+    "technical_profile": {
+      "overall": 70,
+      "potential": 70,
+      "best_position": "LB",
+      "positions": ["LB", "CB", "LM"],
+      "skill_moves": 3,
+      "weak_foot": 3,
+      "reputation": 2
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 66,
+        "finishing": 52,
+        "heading_accuracy": 58,
+        "short_passing": 71,
+        "volleys": 44
+      },
+      "skill": {
+        "dribbling": 70,
+        "ball_control": 69,
+        "curve": 65,
+        "long_passing": 73,
+        "fk_accuracy": 55
+      },
+      "movement": {
+        "acceleration": 63,
+        "sprint_speed": 66,
+        "agility": 69,
+        "reactions": 67,
+        "balance": 69
+      },
+      "power": {
+        "shot_power": 73,
+        "stamina": 59,
+        "strength": 71,
+        "jumping": 74,
+        "long_shots": 54
+      },
+      "mentality": {
+        "attack_position": 60,
+        "vision": 65,
+        "penalties": 49,
+        "composure": 72,
+        "interceptions": 70,
+        "aggression": 77
+      },
+      "defending": {
+        "defensive_awareness": 70,
+        "standing_tackle": 72,
+        "sliding_tackle": 71
+      },
+      "goalkeeping": {
+        "diving": 6,
+        "handling": 11,
+        "kicking": 14,
+        "positioning": 13,
+        "reflexes": 11
+      }
+    }
+  },
+  {
+    "id": "8fcba6ef-2709-43d5-bdcd-8ffb28782024",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Alexander Barboza",
+      "short_name": "Barboza",
+      "birth_date": "1995-03-16",
+      "height_cm": 193,
+      "weight_kg": 92,
+      "nationality": "argentina",
+      "preferred_foot": "L",
+      "photo_url": "src/assets/players/8fcba6ef-2709-43d5-bdcd-8ffb28782024.png"
+    },
+    "contract": {
+      "market_value": 8500000,
+      "wage": 35000,
+      "valid_until": "2026-12-31",
+      "kit_number": 20,
+      "ownership_type": "permanent",
+      "origin_club_id": "Libertad",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": true,
+      "clause_release_domestic": 18700000,
+      "clause_release_international": 32300000
+    },
+    "technical_profile": {
+      "overall": 77,
+      "potential": 77,
+      "best_position": "CB",
+      "positions": ["CB"],
+      "skill_moves": 2,
+      "weak_foot": 3,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 48,
+        "finishing": 52,
+        "heading_accuracy": 81,
+        "short_passing": 70,
+        "volleys": 46
+      },
+      "skill": {
+        "dribbling": 64,
+        "ball_control": 66,
+        "curve": 43,
+        "long_passing": 64,
+        "fk_accuracy": 60
+      },
+      "movement": {
+        "acceleration": 52,
+        "sprint_speed": 56,
+        "agility": 51,
+        "reactions": 71,
+        "balance": 55
+      },
+      "power": {
+        "shot_power": 74,
+        "stamina": 83,
+        "strength": 91,
+        "jumping": 87,
+        "long_shots": 52
+      },
+      "mentality": {
+        "attack_position": 53,
+        "vision": 58,
+        "penalties": 67,
+        "composure": 74,
+        "interceptions": 70,
+        "aggression": 88
+      },
+      "defending": {
+        "defensive_awareness": 76,
+        "standing_tackle": 77,
+        "sliding_tackle": 74
+      },
+      "goalkeeping": {
+        "diving": 11,
+        "handling": 11,
+        "kicking": 10,
+        "positioning": 7,
+        "reflexes": 12
+      }
+    }
+  },
+  {
+    "id": "79b1a7da-c18e-497e-8ae5-3a8f21a06ff4",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Nahuel Ferraresi",
+      "short_name": "Ferraresi",
+      "birth_date": "1998-11-19",
+      "height_cm": 190,
+      "weight_kg": 85,
+      "nationality": "venezuela",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/79b1a7da-c18e-497e-8ae5-3a8f21a06ff4.png"
+    },
+    "contract": {
+      "market_value": 3500000,
+      "wage": 25000,
+      "valid_until": "2027-12-31",
+      "kit_number": 5,
+      "ownership_type": "loan",
+      "origin_club_id": "55963133",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 7700000,
+      "clause_release_international": 13300000
+    },
+    "technical_profile": {
+      "overall": 73,
+      "potential": 76,
+      "best_position": "CB",
+      "positions": ["CB", "RB"],
+      "skill_moves": 2,
+      "weak_foot": 3,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 62,
+        "finishing": 21,
+        "heading_accuracy": 66,
+        "short_passing": 69,
+        "volleys": 29
+      },
+      "skill": {
+        "dribbling": 59,
+        "ball_control": 57,
+        "curve": 27,
+        "long_passing": 70,
+        "fk_accuracy": 24
+      },
+      "movement": {
+        "acceleration": 59,
+        "sprint_speed": 74,
+        "agility": 53,
+        "reactions": 70,
+        "balance": 56
+      },
+      "power": {
+        "shot_power": 40,
+        "stamina": 64,
+        "strength": 80,
+        "jumping": 78,
+        "long_shots": 17
+      },
+      "mentality": {
+        "attack_position": 45,
+        "vision": 55,
+        "penalties": 42,
+        "composure": 61,
+        "interceptions": 71,
+        "aggression": 76
+      },
+      "defending": {
+        "defensive_awareness": 72,
+        "standing_tackle": 76,
+        "sliding_tackle": 75
+      },
+      "goalkeeping": {
+        "diving": 8,
+        "handling": 8,
+        "kicking": 6,
+        "positioning": 14,
+        "reflexes": 12
+      }
+    }
+  },
+  {
+    "id": "11b2f160-a9d6-4155-9963-129dbcac55f0",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Bartolomeu Quissanga",
+      "short_name": "Bastos",
+      "birth_date": "1991-03-27",
+      "height_cm": 184,
+      "weight_kg": 77,
+      "nationality": "angola",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/11b2f160-a9d6-4155-9963-129dbcac55f0.png"
+    },
+    "contract": {
+      "market_value": 1800000,
+      "wage": 31000,
+      "valid_until": "2026-12-31",
+      "kit_number": 15,
+      "ownership_type": "permanent",
+      "origin_club_id": "Al-Ahli",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 3960000,
+      "clause_release_international": 6840000
+    },
+    "technical_profile": {
+      "overall": 75,
+      "potential": 75,
+      "best_position": "CB",
+      "positions": ["CB"],
+      "skill_moves": 2,
+      "weak_foot": 3,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 36,
+        "finishing": 32,
+        "heading_accuracy": 72,
+        "short_passing": 66,
+        "volleys": 31
+      },
+      "skill": {
+        "dribbling": 57,
+        "ball_control": 63,
+        "curve": 35,
+        "long_passing": 62,
+        "fk_accuracy": 28
+      },
+      "movement": {
+        "acceleration": 77,
+        "sprint_speed": 76,
+        "agility": 64,
+        "reactions": 66,
+        "balance": 76
+      },
+      "power": {
+        "shot_power": 49,
+        "stamina": 58,
+        "strength": 78,
+        "jumping": 87,
+        "long_shots": 41
+      },
+      "mentality": {
+        "attack_position": 31,
+        "vision": 28,
+        "penalties": 50,
+        "composure": 66,
+        "interceptions": 75,
+        "aggression": 72
+      },
+      "defending": {
+        "defensive_awareness": 77,
+        "standing_tackle": 77,
+        "sliding_tackle": 81
+      },
+      "goalkeeping": {
+        "diving": 13,
+        "handling": 8,
+        "kicking": 11,
+        "positioning": 12,
+        "reflexes": 12
+      }
+    }
+  },
+  {
+    "id": "070395d8-0c18-4803-9748-3000a03b7841",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Kaio Fernando da Silva Pantaleão",
+      "short_name": "Kaio",
+      "birth_date": "1995-09-18",
+      "height_cm": 186,
+      "weight_kg": 80,
+      "nationality": "brazil",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/070395d8-0c18-4803-9748-3000a03b7841.png"
+    },
+    "contract": {
+      "market_value": 2000000,
+      "wage": 24000,
+      "valid_until": "2028-12-31",
+      "kit_number": 31,
+      "ownership_type": "permanent",
+      "origin_club_id": "Krasnodar",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 4400000,
+      "clause_release_international": 7600000
+    },
+    "technical_profile": {
+      "overall": 72,
+      "potential": 72,
+      "best_position": "CB",
+      "positions": ["CB", "CDM", "CM"],
+      "skill_moves": 3,
+      "weak_foot": 2,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 41,
+        "finishing": 33,
+        "heading_accuracy": 71,
+        "short_passing": 76,
+        "volleys": 28
+      },
+      "skill": {
+        "dribbling": 67,
+        "ball_control": 70,
+        "curve": 29,
+        "long_passing": 71,
+        "fk_accuracy": 27
+      },
+      "movement": {
+        "acceleration": 51,
+        "sprint_speed": 54,
+        "agility": 59,
+        "reactions": 69,
+        "balance": 57
+      },
+      "power": {
+        "shot_power": 59,
+        "stamina": 60,
+        "strength": 80,
+        "jumping": 78,
+        "long_shots": 47
+      },
+      "mentality": {
+        "attack_position": 30,
+        "vision": 55,
+        "penalties": 29,
+        "composure": 59,
+        "interceptions": 72,
+        "aggression": 71
+      },
+      "defending": {
+        "defensive_awareness": 70,
+        "standing_tackle": 72,
+        "sliding_tackle": 72
+      },
+      "goalkeeping": {
+        "diving": 7,
+        "handling": 10,
+        "kicking": 7,
+        "positioning": 7,
+        "reflexes": 12
+      }
+    }
+  },
+  {
+    "id": "c813473d-8b88-4161-bd72-cfc2eb8d6e5a",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Victor da Silva",
+      "short_name": "Vitinho",
+      "birth_date": "1999-07-23",
+      "height_cm": 174,
+      "weight_kg": 66,
+      "nationality": "brazil",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/c813473d-8b88-4161-bd72-cfc2eb8d6e5a.png"
+    },
+    "contract": {
+      "market_value": 9000000,
+      "wage": 30000,
+      "valid_until": "2029-12-31",
+      "kit_number": 2,
+      "ownership_type": "permanent",
+      "origin_club_id": "FC Burnley",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 19800000,
+      "clause_release_international": 34200000
+    },
+    "technical_profile": {
+      "overall": 76,
+      "potential": 79,
+      "best_position": "RB",
+      "positions": ["RB", "LB", "RM"],
+      "skill_moves": 3,
+      "weak_foot": 4,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 76,
+        "finishing": 33,
+        "heading_accuracy": 57,
+        "short_passing": 74,
+        "volleys": 29
+      },
+      "skill": {
+        "dribbling": 74,
+        "ball_control": 73,
+        "curve": 63,
+        "long_passing": 62,
+        "fk_accuracy": 41
+      },
+      "movement": {
+        "acceleration": 87,
+        "sprint_speed": 83,
+        "agility": 84,
+        "reactions": 72,
+        "balance": 81
+      },
+      "power": {
+        "shot_power": 67,
+        "stamina": 75,
+        "strength": 62,
+        "jumping": 75,
+        "long_shots": 50
+      },
+      "mentality": {
+        "attack_position": 62,
+        "vision": 65,
+        "penalties": 38,
+        "composure": 66,
+        "interceptions": 69,
+        "aggression": 68
+      },
+      "defending": {
+        "defensive_awareness": 71,
+        "standing_tackle": 72,
+        "sliding_tackle": 74
+      },
+      "goalkeeping": {
+        "diving": 11,
+        "handling": 9,
+        "kicking": 12,
+        "positioning": 9,
+        "reflexes": 8
+      }
+    }
+  },
+  {
+    "id": "a82ecd7b-0ad3-40ce-a985-4cfd26fe6d2e",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Mateo Ponte",
+      "short_name": "M. Ponte",
+      "birth_date": "2003-05-24",
+      "height_cm": 183,
+      "weight_kg": 74,
+      "nationality": "uruguay",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/a82ecd7b-0ad3-40ce-a985-4cfd26fe6d2e.png"
+    },
+    "contract": {
+      "market_value": 3000000,
+      "wage": 14000,
+      "valid_until": "2028-12-31",
+      "kit_number": 4,
+      "ownership_type": "permanent",
+      "origin_club_id": "Danubio FC",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 6600000,
+      "clause_release_international": 11400000
+    },
+    "technical_profile": {
+      "overall": 69,
+      "potential": 78,
+      "best_position": "RB",
+      "positions": ["RB", "CB", "RM"],
+      "skill_moves": 2,
+      "weak_foot": 3,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 68,
+        "finishing": 29,
+        "heading_accuracy": 45,
+        "short_passing": 69,
+        "volleys": 25
+      },
+      "skill": {
+        "dribbling": 64,
+        "ball_control": 64,
+        "curve": 51,
+        "long_passing": 58,
+        "fk_accuracy": 31
+      },
+      "movement": {
+        "acceleration": 84,
+        "sprint_speed": 81,
+        "agility": 82,
+        "reactions": 62,
+        "balance": 66
+      },
+      "power": {
+        "shot_power": 45,
+        "stamina": 64,
+        "strength": 65,
+        "jumping": 69,
+        "long_shots": 35
+      },
+      "mentality": {
+        "attack_position": 48,
+        "vision": 44,
+        "penalties": 41,
+        "composure": 47,
+        "interceptions": 61,
+        "aggression": 63
+      },
+      "defending": {
+        "defensive_awareness": 64,
+        "standing_tackle": 70,
+        "sliding_tackle": 67
+      },
+      "goalkeeping": {
+        "diving": 8,
+        "handling": 13,
+        "kicking": 10,
+        "positioning": 13,
+        "reflexes": 12
+      }
+    }
+  },
+  {
+    "id": "c7b6393e-b206-4223-9b2c-13d0e406fea8",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Norberto Murara Neto",
+      "short_name": "Neto",
+      "birth_date": "1989-07-19",
+      "height_cm": 191,
+      "weight_kg": 82,
+      "nationality": "brazil",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/c7b6393e-b206-4223-9b2c-13d0e406fea8.png"
+    },
+    "contract": {
+      "market_value": 625000,
+      "wage": 12000,
+      "valid_until": "2027-12-31",
+      "kit_number": 22,
+      "ownership_type": "permanent",
+      "origin_club_id": "Bournemouth",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 1375000,
+      "clause_release_international": 2375000
+    },
+    "technical_profile": {
+      "overall": 75,
+      "potential": 75,
+      "best_position": "GK",
+      "positions": ["GK"],
+      "skill_moves": 1,
+      "weak_foot": 2,
+      "reputation": 2
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 11,
+        "finishing": 15,
+        "heading_accuracy": 14,
+        "short_passing": 37,
+        "volleys": 12
+      },
+      "skill": {
+        "dribbling": 18,
+        "ball_control": 23,
+        "curve": 12,
+        "long_passing": 42,
+        "fk_accuracy": 13
+      },
+      "movement": {
+        "acceleration": 55,
+        "sprint_speed": 50,
+        "agility": 58,
+        "reactions": 75,
+        "balance": 48
+      },
+      "power": {
+        "shot_power": 55,
+        "stamina": 40,
+        "strength": 62,
+        "jumping": 67,
+        "long_shots": 20
+      },
+      "mentality": {
+        "attack_position": 11,
+        "vision": 43,
+        "penalties": 22,
+        "composure": 60,
+        "interceptions": 15,
+        "aggression": 40
+      },
+      "defending": {
+        "defensive_awareness": 17,
+        "standing_tackle": 14,
+        "sliding_tackle": 15
+      },
+      "goalkeeping": {
+        "diving": 76,
+        "handling": 70,
+        "kicking": 73,
+        "positioning": 75,
+        "reflexes": 77
+      }
+    }
+  },
+  {
+    "id": "0dd6e7d7-3b4c-4127-8c6f-30508dd66852",
+    "team_id": "49823308",
+    "personal": {
+      "name": "Leonardo Matias Baierdorsf Linck",
+      "short_name": "Léo Linck",
+      "birth_date": "2001-03-03",
+      "height_cm": 194,
+      "weight_kg": 89,
+      "nationality": "brazil",
+      "preferred_foot": "R",
+      "photo_url": "src/assets/players/0dd6e7d7-3b4c-4127-8c6f-30508dd66852.png"
+    },
+    "contract": {
+      "market_value": 3100000,
+      "wage": 9000,
+      "valid_until": "2028-12-31",
+      "kit_number": 24,
+      "ownership_type": "permanent",
+      "origin_club_id": "40802544",
+      "is_from_youth_academy": false,
+      "is_transfer_listed": false,
+      "is_untouchable": false,
+      "clause_release_domestic": 6820000,
+      "clause_release_international": 11780000
+    },
+    "technical_profile": {
+      "overall": 70,
+      "potential": 78,
+      "best_position": "GK",
+      "positions": ["GK"],
+      "skill_moves": 1,
+      "weak_foot": 2,
+      "reputation": 1
+    },
+    "attributes": {
+      "attacking": {
+        "crossing": 17,
+        "finishing": 13,
+        "heading_accuracy": 17,
+        "short_passing": 26,
+        "volleys": 19
+      },
+      "skill": {
+        "dribbling": 12,
+        "ball_control": 23,
+        "curve": 17,
+        "long_passing": 34,
+        "fk_accuracy": 12
+      },
+      "movement": {
+        "acceleration": 31,
+        "sprint_speed": 36,
+        "agility": 39,
+        "reactions": 66,
+        "balance": 32
+      },
+      "power": {
+        "shot_power": 45,
+        "stamina": 49,
+        "strength": 70,
+        "jumping": 58,
+        "long_shots": 11
+      },
+      "mentality": {
+        "attack_position": 11,
+        "vision": 38,
+        "penalties": 22,
+        "composure": 21,
+        "interceptions": 11,
+        "aggression": 12
+      },
+      "defending": {
+        "defensive_awareness": 13,
+        "standing_tackle": 13,
+        "sliding_tackle": 11
+      },
+      "goalkeeping": {
+        "diving": 71,
+        "handling": 66,
+        "kicking": 67,
+        "positioning": 67,
+        "reflexes": 72
+      }
+    }
+  }
+]

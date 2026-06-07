@@ -1,0 +1,506 @@
+{
+  "258142df-2b22-44ec-9da0-89f92d6b29ec": {
+    "id": "258142df-2b22-44ec-9da0-89f92d6b29ec",
+    "name": "Abel Ferreira",
+    "nationality": "portugal",
+    "currentClubId": "90748914",
+    "status": "employed",
+    "salaryBRL": 3000000,
+    "personality": "Intense, highly competitive, demanding, ultra-focused on mental resilience and discipline. Frequently praises tactical compliance and collective effort, but highly reactive to refereeing and media pressure.",
+    "tacticalStyle": {
+      "preferredFormation": "4-2-3-1",
+      "playStyle": "Reactive and highly efficient transitional football. Uses physical intensity, structural defensive blocks, rapid vertical counters, and lethal offensive set-pieces.",
+      "pressingIntensity": "High",
+      "lineHeight": "Medium"
+    },
+    "triggerRules": [
+      "Demands heavy investment in structural youth facilities and physical recovery.",
+      "Refuses to accept individual errors, shifting blame to external factors or demanding collective shield.",
+      "Becomes aggressive and ironical under heavy media questioning."
+    ],
+    "image": "src/assets/trainers/258142df-2b22-44ec-9da0-89f92d6b29ec.png"
+  },
+  "ba980538-521b-4ba1-b319-48a945428ff3": {
+    "id": "ba980538-521b-4ba1-b319-48a945428ff3",
+    "name": "Rogério Ceni",
+    "nationality": "brazil",
+    "currentClubId": "21891021",
+    "status": "employed",
+    "salaryBRL": 1000000,
+    "personality": "Obsessive perfectionist, highly technical, detailed, sometimes stubborn with specific players. Hard to deal with regarding transfer freedom, demands precise control over squad building.",
+    "tacticalStyle": {
+      "preferredFormation": "4-3-3",
+      "playStyle": "Positional and possession-heavy. Focuses on constructive build-up from the goalkeeper, high internal passing volume, and rapid ball circulation.",
+      "pressingIntensity": "Medium-High",
+      "lineHeight": "High"
+    },
+    "triggerRules": [
+      "Demands ball-playing goalkeepers and technical central midfielders.",
+      "Gets easily frustrated if the board sells key technical assets during the season.",
+      "Prefers tactical loyalty over raw talent if defensive duties are ignored."
+    ],
+    "image": "src/assets/trainers/ba980538-521b-4ba1-b319-48a945428ff3.png"
+  },
+  "e7a78ed2-2bba-4c11-ae70-c6037f123cfb": {
+    "id": "e7a78ed2-2bba-4c11-ae70-c6037f123cfb",
+    "name": "Rafael Guanaes",
+    "nationality": "brazil",
+    "currentClubId": "79859601",
+    "status": "employed",
+    "salaryBRL": 250000,
+    "personality": "Modern, highly analytical, academic, collaborative, values modern coaching processes, patient builder of young projects.",
+    "tacticalStyle": {
+      "preferredFormation": "4-3-3",
+      "playStyle": "Proactive positional play. Focuses on creating numerical overloads on the wings and systematic short passing sequences.",
+      "pressingIntensity": "Medium",
+      "lineHeight": "Medium-High"
+    },
+    "triggerRules": [
+      "Demands modern analytical software and performance data infrastructure.",
+      "Protects low-profile players from sudden transfer list changes."
+    ],
+    "image": "src/assets/trainers/e7a78ed2-2bba-4c11-ae70-c6037f123cfb.png"
+  },
+  "a7966946-b45c-472d-95df-7c6111f21f73": {
+    "id": "a7966946-b45c-472d-95df-7c6111f21f73",
+    "name": "Odair Hellmann",
+    "nationality": "brazil",
+    "currentClubId": "40802544",
+    "status": "employed",
+    "salaryBRL": 600000,
+    "personality": "Pragmatic, emotionally intelligent, close to the players, excellent locker room management, protective of squad under fire.",
+    "tacticalStyle": {
+      "preferredFormation": "4-2-3-1",
+      "playStyle": "Balanced, emphasis on solid defensive kitchen and lethal fast transitions through speedy wingers.",
+      "pressingIntensity": "Medium-Low",
+      "lineHeight": "Medium"
+    },
+    "triggerRules": [
+      "Prioritizes experienced defensive players over erratic young talents in crunch games.",
+      "Requests specialized low-block defensive defensive midfielders."
+    ],
+    "image": "src/assets/trainers/a7966946-b45c-472d-95df-7c6111f21f73.png"
+  },
+  "7ecd49db-7668-4e06-a42d-ad3025c17605": {
+    "id": "7ecd49db-7668-4e06-a42d-ad3025c17605",
+    "name": "Jair Ventura",
+    "nationality": "brazil",
+    "currentClubId": "43257277",
+    "status": "employed",
+    "salaryBRL": 400000,
+    "personality": "Survivalist, objective, intense, high energetic output from the bench, excellent at extracting maximum commitment from limited rosters.",
+    "tacticalStyle": {
+      "preferredFormation": "4-1-4-1",
+      "playStyle": "Strict low block, intense physical duels, lightning fast counter-attacks, maximizing defensive organization and set-piece efficiency.",
+      "pressingIntensity": "low",
+      "lineHeight": "low"
+    },
+    "triggerRules": [
+      "Demands fast-paced wingers with extreme physical defensive tracking compliance.",
+      "Urges immediate physical recovery adjustments when facing a congested schedule."
+    ],
+    "image": "src/assets/trainers/7ecd49db-7668-4e06-a42d-ad3025c17605.png"
+  },
+  "ff2a062e-a2dd-434d-acb0-74c77d68ed54": {
+    "id": "ff2a062e-a2dd-434d-acb0-74c77d68ed54",
+    "name": "Luis Zubeldía",
+    "nationality": "argentina",
+    "currentClubId": "86586513",
+    "status": "employed",
+    "salaryBRL": 1200000,
+    "personality": "Extremely volatile and passionate on the touchline, expressive, demands aggressive identity, high-octane emotional connection with the squad.",
+    "tacticalStyle": {
+      "preferredFormation": "4-2-3-1",
+      "playStyle": "Direct, aggressive transition, constant wide attacks, intense counter-pressing right after losing possession.",
+      "pressingIntensity": "High",
+      "lineHeight": "High"
+    },
+    "triggerRules": [
+      "Demands players with absolute high stamina and dirty work commitment.",
+      "Complains intensely about refereeing schedules and lack of protection for creative elements."
+    ],
+    "image": "src/assets/trainers/ff2a062e-a2dd-434d-acb0-74c77d68ed54.png"
+  },
+  "32a3a407-f723-49be-bc8b-cb148ab1e6d9": {
+    "id": "32a3a407-f723-49be-bc8b-cb148ab1e6d9",
+    "name": "Vagner Mancini",
+    "nationality": "brazil",
+    "currentClubId": "87595679",
+    "status": "employed",
+    "salaryBRL": 500000,
+    "personality": "Pragmatic firefighter, highly communicative, flexible, adaptive to club goals, swift tactical alterations mid-match.",
+    "tacticalStyle": {
+      "preferredFormation": "4-3-3",
+      "playStyle": "Fast-paced direct football, exploiting spaces quickly, intense utilization of physical vertical strikers.",
+      "pressingIntensity": "Medium",
+      "lineHeight": "Medium"
+    },
+    "triggerRules": [
+      "Requests fast physical target men in case of offensive inefficiency.",
+      "Quickly changes transfer lists if a player shows lack of commitment."
+    ],
+    "image": "src/assets/trainers/32a3a407-f723-49be-bc8b-cb148ab1e6d9.png"
+  },
+  "d1f22657-de01-4aa8-ad37-0da0cab5a530": {
+    "id": "d1f22657-de01-4aa8-ad37-0da0cab5a530",
+    "name": "Fernando Seabra",
+    "nationality": "brazil",
+    "currentClubId": "21276332",
+    "status": "employed",
+    "salaryBRL": 300000,
+    "personality": "Methodical, detailed-oriented, supportive of youth growth, low-key profile, corporate player who aligns closely with the board strategy.",
+    "tacticalStyle": {
+      "preferredFormation": "4-2-3-1",
+      "playStyle": "Constructive build-up, fluid dynamic movements, high exploitation of inner half-spaces and rapid ball recovery.",
+      "pressingIntensity": "Medium-High",
+      "lineHeight": "Medium-High"
+    },
+    "triggerRules": [
+      "Urges integration of under-20 starlets into the professional roster.",
+      "Avoids direct media warfare, maintaining institutional peace."
+    ],
+    "image": "src/assets/trainers/d1f22657-de01-4aa8-ad37-0da0cab5a530.png"
+  },
+  "5e9171d7-c957-444f-96d0-99ede41084b3": {
+    "id": "5e9171d7-c957-444f-96d0-99ede41084b3",
+    "name": "Luís Castro",
+    "nationality": "portugal",
+    "currentClubId": "59318961",
+    "status": "employed",
+    "salaryBRL": 1800000,
+    "personality": "Philosophical, highly structure-oriented, project builder, strategic thinker, calm under fire but uncompromising on collective identity.",
+    "tacticalStyle": {
+      "preferredFormation": "4-3-3",
+      "playStyle": "Fluid positional game, technical triangulation on the flanks, structured sustained attack with continuous defensive security.",
+      "pressingIntensity": "Medium-High",
+      "lineHeight": "High"
+    },
+    "triggerRules": [
+      "Requires long-term architectural authority over squad planning.",
+      "Rejects short-sighted pressure from results, demanding execution of process."
+    ],
+    "image": "src/assets/trainers/5e9171d7-c957-444f-96d0-99ede41084b3.png"
+  },
+  "23552141-3734-4604-ace9-82514a5acb38": {
+    "id": "23552141-3734-4604-ace9-82514a5acb38",
+    "name": "Paulo Pezzolano",
+    "nationality": "uruguai",
+    "currentClubId": "69857423",
+    "status": "employed",
+    "salaryBRL": 900000,
+    "personality": "Aggressive, ultra-intense, hyper-focused on high physical energy, demands absolute dynamic workrate and absolute verticality.",
+    "tacticalStyle": {
+      "preferredFormation": "4-3-3",
+      "playStyle": "Extreme high press, vertical suffocating attacks, intense physical pressure on opposition build-up.",
+      "pressingIntensity": "Extreme",
+      "lineHeight": "High"
+    },
+    "triggerRules": [
+      "Vetos players with low physical stamina or poor tactical workrate.",
+      "Demands intensive, exhausting training sessions which might increase injury risks if unmanaged."
+    ],
+    "image": "src/assets/trainers/23552141-3734-4604-ace9-82514a5acb38.png"
+  },
+  "dc4125f9-0607-4f87-ab23-62156f30f4f7": {
+    "id": "dc4125f9-0607-4f87-ab23-62156f30f4f7",
+    "name": "Eduardo Domínguez",
+    "nationality": "argentina",
+    "currentClubId": "79951310",
+    "status": "employed",
+    "salaryBRL": 1300000,
+    "personality": "Tactically astute, cold, analytical, stern locker room leader, highly competitive, values defensive compactness above all.",
+    "tacticalStyle": {
+      "preferredFormation": "3-5-2",
+      "playStyle": "Solid back-three build, utilizing wingbacks extensively, deadly counter-attacks, and supreme aerial control.",
+      "pressingIntensity": "Medium",
+      "lineHeight": "Medium"
+    },
+    "triggerRules": [
+      "Demands experienced, physically dominant central defenders.",
+      "Maintains a strict, professional distance from individual board members."
+    ],
+    "image": "src/assets/trainers/dc4125f9-0607-4f87-ab23-62156f30f4f7.png"
+  },
+  "558bf0bf-f450-4ba3-b10d-e6a9da443b75": {
+    "id": "558bf0bf-f450-4ba3-b10d-e6a9da443b75",
+    "name": "Renato Gaúcho",
+    "nationality": "brazil",
+    "currentClubId": "48594781",
+    "status": "employed",
+    "salaryBRL": 1200000,
+    "personality": "Charismatic, master man-manager, highly informal, protective father-figure to players, media magnet. Uses psychological leverage over tactics.",
+    "tacticalStyle": {
+      "preferredFormation": "4-2-3-1",
+      "playStyle": "Offensive freedom, technical creativity, fluid combination play in final third, exploiting individual brilliance.",
+      "pressingIntensity": "Medium-Low",
+      "lineHeight": "Medium"
+    },
+    "triggerRules": [
+      "Demands heavy weight in choosing veteran star signings.",
+      "Openly attacks the board if roster lacks depth to fight for silverware.",
+      "Defends players heavily in public, building fierce group loyalty."
+    ],
+    "image": "src/assets/trainers/558bf0bf-f450-4ba3-b10d-e6a9da443b75.png"
+  },
+  "67074c4c-479b-4a1f-bd99-77c7ed37aece": {
+    "id": "67074c4c-479b-4a1f-bd99-77c7ed37aece",
+    "name": "Léo Condé",
+    "nationality": "brazil",
+    "currentClubId": "64334201",
+    "status": "employed",
+    "salaryBRL": 250000,
+    "personality": "Calm, serene, silent organizer, low-profile tactical scientist, excellent at steadying turbulent locker rooms.",
+    "tacticalStyle": {
+      "preferredFormation": "4-3-3",
+      "playStyle": "Balanced block, rapid wing exploration, solid set-piece organization, high spatial intelligence.",
+      "pressingIntensity": "Medium",
+      "lineHeight": "Medium"
+    },
+    "triggerRules": [
+      "Requires time to implement silent structural adjustments.",
+      "Avoids heavy locker room public statements."
+    ],
+    "image": "src/assets/trainers/67074c4c-479b-4a1f-bd99-77c7ed37aece.png"
+  },
+  "da170915-d21b-4bce-8a37-928e23a169c7": {
+    "id": "da170915-d21b-4bce-8a37-928e23a169c7",
+    "name": "Leonardo Jardim",
+    "nationality": "portugal",
+    "currentClubId": "74496781",
+    "status": "employed",
+    "salaryBRL": 2800000,
+    "personality": "Elite European tactician, rigorous, pragmatic optimizer, quiet leader, master at extracting premium output from multi-million elite rosters.",
+    "tacticalStyle": {
+      "preferredFormation": "4-4-2",
+      "playStyle": "Devastating vertical transitions, compact lines, hyper-efficient attacking patterns, deadly lethal offensive speed.",
+      "pressingIntensity": "High",
+      "lineHeight": "Medium-High"
+    },
+    "triggerRules": [
+      "Demands absolute control over tactical hierarchy, ignoring star status.",
+      "Requires top-tier transfer market response to compete on international stages."
+    ],
+    "image": "src/assets/trainers/da170915-d21b-4bce-8a37-928e23a169c7.png"
+  },
+  "ef322681-39c6-4f31-b24c-88d0dfb73090": {
+    "id": "ef322681-39c6-4f31-b24c-88d0dfb73090",
+    "name": "Cuca",
+    "nationality": "brazil",
+    "currentClubId": "40705706",
+    "status": "employed",
+    "salaryBRL": 1000000,
+    "personality": "Superstitious, intense, emotional, high-stress manager, creates ultra-fast high-octane team connections but easily prone to sudden resignations if under intense personal or internal fire.",
+    "tacticalStyle": {
+      "preferredFormation": "4-3-3",
+      "playStyle": "Hyper-vertical, fast frantic attacks, intensive physical marking, immense reliance on dynamic set-pieces and long throws.",
+      "pressingIntensity": "High",
+      "lineHeight": "High"
+    },
+    "triggerRules": [
+      "Can quit unexpectedly if relation with direct presidency becomes cold.",
+      "Demands quick immediate short-term veteran fixes to win titles instantly."
+    ],
+    "image": "src/assets/trainers/ef322681-39c6-4f31-b24c-88d0dfb73090.png"
+  },
+  "2b879022-0dec-43f2-9368-2a125e32e079": {
+    "id": "2b879022-0dec-43f2-9368-2a125e32e079",
+    "name": "Artur Jorge",
+    "nationality": "portugal",
+    "currentClubId": "35971878",
+    "status": "employed",
+    "salaryBRL": 2000000,
+    "personality": "Aggressive football idealist, direct, authoritative, completely focused on offensive supremacy and collective fearlessness.",
+    "tacticalStyle": {
+      "preferredFormation": "4-2-4",
+      "playStyle": "Ultra-offensive, heavy box overloading, high-intensity width exploration, aggressive chokehold on opponent's build-up.",
+      "pressingIntensity": "High",
+      "lineHeight": "High"
+    },
+    "triggerRules": [
+      "Demands technical elite ball-strikers and dynamic fullbacks.",
+      "Openly embraces risky high-line defensive scenarios, refusing to back down."
+    ],
+    "image": "src/assets/trainers/2b879022-0dec-43f2-9368-2a125e32e079.png"
+  },
+  "37b9ec0b-3405-4c96-b58a-68958220d80d": {
+    "id": "37b9ec0b-3405-4c96-b58a-68958220d80d",
+    "name": "Franclim Carvalho",
+    "nationality": "portugal",
+    "currentClubId": "49823308",
+    "status": "employed",
+    "salaryBRL": 1200000,
+    "personality": "Ultra-modern European methodologist, tactical detail maniac, collective sync obsessive, cold analytical communicator.",
+    "tacticalStyle": {
+      "preferredFormation": "4-2-3-1",
+      "playStyle": "Intense suffocating counter-press, lightning speed switches, spatial dominance through tactical overloads.",
+      "pressingIntensity": "Extreme",
+      "lineHeight": "High"
+    },
+    "triggerRules": [
+      "Demands perfect execution of physical metrics and training GPS data.",
+      "Rejects single-player egocentric behaviors immediately."
+    ],
+    "image": "src/assets/trainers/37b9ec0b-3405-4c96-b58a-68958220d80d.png"
+  },
+  "9588045c-365b-483a-9d55-f692447cae84": {
+    "id": "9588045c-365b-483a-9d55-f692447cae84",
+    "name": "Fernando Diniz",
+    "nationality": "brazil",
+    "currentClubId": "72275367",
+    "status": "employed",
+    "salaryBRL": 1000000,
+    "personality": "Radical tactical idealist, intense psychologist, paternal but explosive during matches. Demands extreme technical courage from players, views football as an existential collective experience.",
+    "tacticalStyle": {
+      "preferredFormation": "4-2-3-1",
+      "playStyle": "Relationism / Anti-positional play. Extreme concentration of players near the ball, constant short passes in tight spaces, risk-heavy build-up inside own penalty box, continuous rotation.",
+      "pressingIntensity": "High",
+      "lineHeight": "Extreme"
+    },
+    "triggerRules": [
+      "Will absolutely refuse to clear the ball long, even if conceding catastrophic mistakes.",
+      "Reaches deep emotional bonds with castaway players, revitalizing their market values.",
+      "Becomes hyper-defensive against media critics who attack his methods."
+    ],
+    "image": "src/assets/trainers/9588045c-365b-483a-9d55-f692447cae84.png"
+  },
+  "aa2f77bf-e533-4ecb-83bf-52de5b08ca9c": {
+    "id": "aa2f77bf-e533-4ecb-83bf-52de5b08ca9c",
+    "name": "Fábio Matias",
+    "nationality": "brazil",
+    "currentClubId": "41051526",
+    "status": "employed",
+    "salaryBRL": 300000,
+    "personality": "Studious, energetic, new-wave tactical manager, highly adaptable, focused on modern pitch mechanics and team chemistry.",
+    "tacticalStyle": {
+      "preferredFormation": "4-3-3",
+      "playStyle": "Dynamic transitions, high wing-play reliance, safe constructive build-up, functional spatial control.",
+      "pressingIntensity": "Medium-High",
+      "lineHeight": "Medium"
+    },
+    "triggerRules": [
+      "Asks for backing when transitioning young stars into the first team.",
+      "Demands tactical flexibility and quick defensive retreats."
+    ],
+    "image": "src/assets/trainers/aa2f77bf-e533-4ecb-83bf-52de5b08ca9c.png"
+  },
+  "de1877b6-acae-46d8-9ebe-6b549d7cda6e": {
+    "id": "de1877b6-acae-46d8-9ebe-6b549d7cda6e",
+    "name": "Dorival Júnior",
+    "nationality": "brazil",
+    "currentClubId": "55963133",
+    "status": "employed",
+    "salaryBRL": 1500000,
+    "personality": "Gentleman, unifying, master harmonizer, tactical pragmatist who optimizes roster strengths without enforcing dogmas, serene under extreme crisis.",
+    "tacticalStyle": {
+      "preferredFormation": "4-2-3-1",
+      "playStyle": "Balanced, fluid technical passing networks, intelligent spatial occupation, defensive solid blocks with creative freedom in final third.",
+      "pressingIntensity": "Medium",
+      "lineHeight": "Medium-High"
+    },
+    "triggerRules": [
+      "Calms locker room riots instantly, restoring internal confidence.",
+      "Demands balanced technical midfielders who can dictate matching tempos."
+    ],
+    "image": "src/assets/trainers/de1877b6-acae-46d8-9ebe-6b549d7cda6e.png"
+  },
+  "9a735556-baad-4fb3-91b9-aa0ff6066caf": {
+    "id": "9a735556-baad-4fb3-91b9-aa0ff6066caf",
+    "name": "Tite",
+    "nationality": "brazil",
+    "currentClubId": null,
+    "status": "unemployed",
+    "salaryBRL": 2000000,
+    "personality": "Paternal, highly ethical, institutional, articulate communicator, master of defensive balance and structural equilibrium. Demands absolute human respect and collective sync.",
+    "tacticalStyle": {
+      "preferredFormation": "4-1-4-1",
+      "playStyle": "Positional supremacy, flawless defensive block, wide overlapping combinations, slow controlled build-up minimizing risks.",
+      "pressingIntensity": "Medium",
+      "lineHeight": "Medium"
+    },
+    "triggerRules": [
+      "Demands highly structured executive board leadership and total peace.",
+      "Refuses to accept messy internal politics or leaked board decisions."
+    ],
+    "image": "src/assets/trainers/9a735556-baad-4fb3-91b9-aa0ff6066caf.png"
+  },
+  "56196c43-608c-402e-86d8-3d05c5ea3b74": {
+    "id": "56196c43-608c-402e-86d8-3d05c5ea3b74",
+    "name": "Mano Menezes",
+    "nationality": "brazil",
+    "currentClubId": null,
+    "status": "unemployed",
+    "salaryBRL": 800000,
+    "personality": "Sarcastic, iron-fisted, defensive-minded pragmatist, demanding, speaks directly to media without corporate filters.",
+    "tacticalStyle": {
+      "preferredFormation": "4-2-3-1",
+      "playStyle": "Hermetic low-block defense, aggressive tackling, fast direct transitions, absolute tactical safety over creative beauty.",
+      "pressingIntensity": "Medium-Low",
+      "lineHeight": "low"
+    },
+    "triggerRules": [
+      "Demands aggressive, physical defensive shields in midfield.",
+      "Clashes with creative players who neglect their defensive backtrack duties."
+    ],
+    "image": "src/assets/trainers/56196c43-608c-402e-86d8-3d05c5ea3b74.png"
+  },
+  "3194ecad-f8ea-4e42-996e-2447fcc8ed07": {
+    "id": "3194ecad-f8ea-4e42-996e-2447fcc8ed07",
+    "name": "Luiz Felipe Scolari",
+    "nationality": "brazil",
+    "currentClubId": null,
+    "status": "unemployed",
+    "salaryBRL": 700000,
+    "personality": "Historical legend, ultra-paternal 'Família Scolari' builder, fierce warrior spirit, relies heavily on emotional psychology and absolute blind locker-room loyalty.",
+    "tacticalStyle": {
+      "preferredFormation": "4-2-3-1",
+      "playStyle": "Direct long balls, massive physical contact, aggressive aerial warfare, tight compact defensive block.",
+      "pressingIntensity": "low",
+      "lineHeight": "low"
+    },
+    "triggerRules": [
+      "Will turn the squad against anyone (including directors) who breaches team intimacy.",
+      "Demands old-school physical gladiators on the pitch."
+    ],
+    "image": "src/assets/trainers/3194ecad-f8ea-4e42-996e-2447fcc8ed07.png"
+  },
+  "ee924b14-03cc-436b-9e0b-9d2122f403d9": {
+    "id": "ee924b14-03cc-436b-9e0b-9d2122f403d9",
+    "name": "Thiago Carpini",
+    "nationality": "brazil",
+    "currentClubId": null,
+    "status": "unemployed",
+    "salaryBRL": 350000,
+    "personality": "Ambitious, modern, energetic, desperate to prove his elite elite readiness, prone to tactical overthinking under heavy external stress.",
+    "tacticalStyle": {
+      "preferredFormation": "4-2-3-1",
+      "playStyle": "Intense transition play, aggressive flanking, utilizing deep horizontal crosses, energetic pressing block.",
+      "pressingIntensity": "Medium-High",
+      "lineHeight": "Medium"
+    },
+    "triggerRules": [
+      "Requires explicit public board backing during initial rough patches.",
+      "Prone to get anxious if media starts heavy critical campaigns."
+    ],
+    "image": "src/assets/trainers/ee924b14-03cc-436b-9e0b-9d2122f403d9.png"
+  },
+  "6c2c5193-4bf5-44ea-9d82-c6c91e48ca0c": {
+    "id": "6c2c5193-4bf5-44ea-9d82-c6c91e48ca0c",
+    "name": "Ramón Díaz",
+    "nationality": "argentina",
+    "currentClubId": null,
+    "status": "unemployed",
+    "salaryBRL": 1200000,
+    "personality": "Arrogant, ultra-confident, charismatic savior, historic winner, uses sharp media psychological warfare, completely fearless facing crisis.",
+    "tacticalStyle": {
+      "preferredFormation": "4-3-1-2",
+      "playStyle": "Aggressive counter-attack, intense vertical combinations, vertical play through classic 'No. 10' playmakers, elite psychological motivation.",
+      "pressingIntensity": "Medium-High",
+      "lineHeight": "Medium"
+    },
+    "triggerRules": [
+      "Demands immediate high-profile signings if results stagger.",
+      "Controls the club's narrative completely, pushing pressure away from the roster to himself."
+    ],
+    "image": "src/assets/trainers/6c2c5193-4bf5-44ea-9d82-c6c91e48ca0c.png"
+  }
+}
