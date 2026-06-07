@@ -9,7 +9,6 @@ import { getSortedLeagueTable } from "../../utils/leagueTableUtils";
 import _teams from "../../data/teams.json";
 import { TransferIcon } from "../../icons/Transfer";
 import { formatDynamicDate } from "../../utils/formatDynamicDate";
-const teams = _teams as unknown as Team[];
 
 interface CalendarMarker {
     id: string;
@@ -113,7 +112,7 @@ const Calendar: React.FC = () => {
     const isTeamColorWhite = currentTeam.colors.primary[500] === "#fff" || currentTeam.colors.primary[500] === "#ffffff";
     const isNeutralTeamColor = isTeamColorBlack || isTeamColorWhite;
 
-    const selectedFixtureSortedTable = getSortedLeagueTable(selectedFixture.competition.standings, teams);
+    const selectedFixtureSortedTable = getSortedLeagueTable(selectedFixture.competition.standings);
 
     const goToDate = (date: string) => {
         if (date > saveData.currentDate && hasUnplayedMatchToday) {
@@ -226,7 +225,7 @@ const Calendar: React.FC = () => {
                                 {fixture && (
                                     <>
                                         <img
-                                            src={fixture.competition.calendar_bg}
+                                            src={fixture.competition.bg_art}
                                             className="absolute inset-0 w-full h-full object-cover object-center brightness-90"
                                         />
                                         <div className={`absolute inset-0 ${isRival
@@ -274,7 +273,7 @@ const Calendar: React.FC = () => {
                         <>
                             <div className="absolute inset-0 brightness-10 pointer-events-none">
                                 <img
-                                    src={selectedFixture.competition.calendar_bg}
+                                    src={selectedFixture.competition.bg_art}
                                     alt=""
                                     className="w-full h-full object-cover object-center"
                                 />

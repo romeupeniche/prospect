@@ -260,7 +260,7 @@ export const Setup = () => {
                                         <h2 className="text-gray-500 uppercase text-[clamp(9px,0.8vw,11px)] font-bold tracking-[0.3em] text-center">
                                             Selecione seu Clube
                                         </h2>
-                                        <div className="grid grid-cols-6 gap-[1vw] max-h-[35vh] overflow-y-auto custom-scrollbar p-[1.5vw] bg-white/5 rounded-4xl border border-white/5">
+                                        <div className="grid grid-cols-6 gap-[1vw] max-h-[35vh] overflow-y-auto p-[1.5vw] bg-white/5 rounded-4xl border border-white/5">
                                             {teams.map((team) => (
                                                 <motion.div
                                                     key={team.id}

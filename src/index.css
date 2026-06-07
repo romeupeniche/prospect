@@ -57,6 +57,7 @@ img, span, h2, h3 {
   -webkit-backface-visibility: hidden;
 }
 
+.zone-leader { background-color: #D3AF37; }
 .zone-libertadores { background-color: #2563eb; }
 .zone-pre-libertadores { background-color: #06b6d4; }
 .zone-sulamericana { background-color: #16a34a; }

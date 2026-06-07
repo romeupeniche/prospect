@@ -1,7 +1,6 @@
-export const getSortedLeagueTable = (
-  standings: TeamStats[],
-  teams: Team[],
-): TableRow[] => {
+import teams from "../data/teams.json";
+
+export const getSortedLeagueTable = (standings: TeamStats[]): TableRow[] => {
   return [...standings]
     .sort((a, b) => {
       if (b.points !== a.points) return b.points - a.points;
@@ -33,6 +32,7 @@ export const getPositionZoneClass = (
   position: number,
   zones: LeagueZones,
 ): string => {
+  if (position === 1) return "zone-leader";
   if (zones.libertadores.includes(position)) return "zone-libertadores";
   if (zones.pre_libertadores.includes(position)) return "zone-pre-libertadores";
   if (zones.sulamericana.includes(position)) return "zone-sulamericana";

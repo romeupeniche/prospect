@@ -103,7 +103,7 @@ const MedicalDepartmentWidget = ({
                 </span>
             </div>
 
-            <div className="h-[calc(100%-3.5rem)] space-y-3 overflow-y-auto pr-2 custom-scrollbar">
+            <div className="h-[calc(100%-3.5rem)] space-y-3 overflow-y-auto pr-2">
                 {medicalPlayers.map((player) => (
                     <motion.button
                         key={player.id}
@@ -235,7 +235,7 @@ const SquadScreen = () => {
                         </div>
                     </div>
 
-                    <div className="min-h-0 flex-1 overflow-y-auto pr-2 custom-scrollbar">
+                    <div className="min-h-0 flex-1 overflow-y-auto pr-2">
                         <table className="w-full border-separate border-spacing-y-2 text-left text-xs">
                             <thead className="sticky top-0 z-10 bg-[#111] text-[10px] uppercase tracking-widest text-gray-500">
                                 <tr>

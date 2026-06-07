@@ -49,11 +49,10 @@ const Dashboard = () => {
 
           <button
             onClick={hasUnplayedMatchToday ? () => setScreen("matchday") : advanceDay}
-            className={`cursor-pointer ${
-              isTeamColorBlackOrWhite
-                ? "bg-white/10 hover:bg-white/20"
-                : "bg-(--team-color-600) hover:bg-(--team-color-700)"
-            } text-white px-8 py-3 rounded-2xl font-bold flex items-center gap-3 transition-all active:scale-95 group`}
+            className={`cursor-pointer ${isTeamColorBlackOrWhite
+              ? "bg-white/10 hover:bg-white/20"
+              : "bg-(--team-color-600) hover:bg-(--team-color-700)"
+              } text-white px-8 py-3 rounded-2xl font-bold flex items-center gap-3 transition-all active:scale-95 group`}
           >
             {hasUnplayedMatchToday ? "JOGAR PARTIDA" : "AVANÇAR DIA"}
             <span className="group-hover:translate-x-1 transition-transform">
@@ -65,22 +64,19 @@ const Dashboard = () => {
         <section className="col-span-3 row-span-5 flex flex-col gap-4 overflow-hidden">
           <div className="flex-1 bg-[#111] rounded-4xl border border-white/5 p-6 flex flex-col overflow-hidden">
             <h3
-              className={`text-[10px] font-black uppercase ${
-                isTeamColorBlack ? "#fff" : "text-(--team-color-400)"
-              } mb-4 tracking-widest`}
+              className={`text-[10px] font-black uppercase ${isTeamColorBlack ? "#fff" : "text-(--team-color-400)"
+                } mb-4 tracking-widest`}
             >
               Mensagens Diretas
             </h3>
-            <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar">
+            <div className="flex-1 overflow-y-auto pr-2">
               <div
-                className={`bg-white/5 p-3 rounded-2xl border-l-2 ${
-                  isTeamColorBlack ? "#fff" : "border-(--team-color-600)"
-                }`}
+                className={`bg-white/5 p-3 rounded-2xl border-l-2 ${isTeamColorBlack ? "#fff" : "border-(--team-color-600)"
+                  }`}
               >
                 <p
-                  className={`text-[10px] font-bold ${
-                    isTeamColorBlack ? "#fff" : "text-(--team-color-400)"
-                  }`}
+                  className={`text-[10px] font-bold ${isTeamColorBlack ? "#fff" : "text-(--team-color-400)"
+                    }`}
                 >
                   Técnico
                 </p>
@@ -95,7 +91,7 @@ const Dashboard = () => {
             <h3 className="text-[10px] font-black uppercase text-blue-400 mb-4 tracking-widest">
               Social & Imprensa
             </h3>
-            <div className="flex-1 overflow-y-auto space-y-3 opacity-80 text-[11px] custom-scrollbar pr-2">
+            <div className="flex-1 overflow-y-auto space-y-3 opacity-80 text-[11px] pr-2">
               <p className="text-white">
                 <strong>@TorcidaOrg_ECV:</strong> "A base vem forte! Quando o
                 Rene sobe pro profissional em definitivo?"
@@ -120,13 +116,12 @@ const Dashboard = () => {
                 {["V", "V", "E", "V", "D"].map((res, i) => (
                   <div
                     key={i}
-                    className={`w-7 h-7 rounded-lg flex items-center justify-center text-[10px] font-black text-white ${
-                      res === "V"
-                        ? "bg-emerald-500"
-                        : res === "E"
-                          ? "bg-yellow-500"
-                          : "bg-red-500"
-                    }`}
+                    className={`w-7 h-7 rounded-lg flex items-center justify-center text-[10px] font-black text-white ${res === "V"
+                      ? "bg-emerald-500"
+                      : res === "E"
+                        ? "bg-yellow-500"
+                        : "bg-red-500"
+                      }`}
                   >
                     {res}
                   </div>

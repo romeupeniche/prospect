@@ -262,7 +262,7 @@ const PlayerDrawer = ({ player, isTeamColorBlackOrWhite, onClose }: PlayerDrawer
             </div>
           </div>
 
-          <div className="flex-1 space-y-6 overflow-y-auto p-6 custom-scrollbar">
+          <div className="flex-1 space-y-6 overflow-y-auto p-6">
             {(player.runtime.ckRisk > 80 || player.runtime.injury) && (
               <div className="rounded-3xl border border-red-500/30 bg-red-500/10 p-4">
                 <p className="text-[10px] font-black uppercase tracking-[0.22em] text-red-300">

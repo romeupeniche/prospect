@@ -2,7 +2,7 @@
   "122d50dd-ec76-4254-ac63-e04e510c8ac1": {
     "id": "122d50dd-ec76-4254-ac63-e04e510c8ac1",
     "icon": "src/assets/competitions/122d50dd-ec76-4254-ac63-e04e510c8ac1.png",
-    "calendar_bg": "src/assets/competitions/122d50dd-ec76-4254-ac63-e04e510c8ac1_calendar.png",
+    "bg_art": "src/assets/competitions/122d50dd-ec76-4254-ac63-e04e510c8ac1_calendar.png",
     "name": "Brasileiro Série A",
     "short_name": "Brasileirão",
     "region": "brazil",

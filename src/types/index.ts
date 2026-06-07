@@ -47,7 +47,11 @@ declare global {
     tone: number;
   }
 
-  type UniformMap = Record<string, Uniform>;
+  interface UniformMap {
+    home: Uniform;
+    away: Uniform;
+    third: Uniform;
+  }
 
   interface Team {
     id: string;
@@ -327,6 +331,8 @@ declare global {
     events: MatchEvent[];
   }
 
+  type LeagueZones = Record<string, number[]>;
+
   type Fixture = Competition_Fixture_Obj & {
     competition: CompetitionData;
     venue: Stadium;
@@ -352,13 +358,13 @@ declare global {
   interface CompetitionData {
     id: string;
     icon: string;
-    calendar_bg: string;
+    bg_art: string;
     name: string;
     short_name: string;
     region: "brazil" | "south-america" | "global";
     season: number;
     standings: StandingRow[]; // Tabela ordenada
-    zones: Record<string, { name: string; positions: number[] }>;
+    zones: LeagueZones;
   }
 
   // ---------------------------------------- end competition

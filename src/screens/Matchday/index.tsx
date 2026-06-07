@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronRIcon } from "../../icons/ChevronR";
 import { useCareerStore } from "../../store/useCareerStore";
 import CompetitionTable from "../../components/DashboardWidgets/CompetitionTable";
-import KitCarousel from "./KitCarousel";
 import { useCompetitionsStore } from "../../store/useCompetitionsStore";
 import MatchSimulation from "../../components/MatchEngine/MatchSimulation";
 import FormationDiagram, { FormationPlayer, sortPlayersByFormation } from "../../components/MatchEngine/FormationDiagram";
@@ -17,25 +16,7 @@ import { CloudsIcon } from "../../icons/Clouds";
 import { WhistleIcon } from "../../icons/Whistle";
 import { CalendarIcon } from "../../icons/Calendar";
 import { formatDynamicDate } from "../../utils/formatDynamicDate";
-
-interface Uniform {
-    image: string;
-    pattern: "hoops" | "halves" | "graphic" | "striped" | "solid";
-    kit_group: "white" | "colored" | "black";
-    base_colors: string[];
-    hex_colors: {
-        primary: string;
-        secondary: string;
-        detail: string;
-    };
-    tone: number;
-}
-
-interface UniformMap {
-    home: Uniform;
-    away: Uniform;
-    third?: Uniform;
-}
+import MatchDetails from "./MatchDetails";
 
 function groupLine(pos: string): string {
     switch (pos) {
@@ -616,7 +597,7 @@ const Matchday: React.FC = () => {
             <main className="h-full w-full grid grid-cols-12 grid-rows-8 gap-4 overflow-hidden">
                 <div className="absolute -z-1 inset-0 brightness-10 pointer-events-none">
                     <img
-                        src={currentMatchData.competition.calendar_bg}
+                        src={currentMatchData.competition.bg_art}
                         alt=""
                         className="w-full h-full object-cover object-center"
                     />
@@ -726,7 +707,7 @@ const Matchday: React.FC = () => {
                                                 </button>
                                             </div>
 
-                                            <div className="flex-1 overflow-y-auto custom-scrollbar space-y-0.5 pr-1">
+                                            <div className="flex-1 overflow-y-auto space-y-0.5 pr-1">
                                                 {playerListTab === "field" && (
                                                     activeStarters.map((player, i) => {
                                                         const label = activeLabels[i] ?? "—";
@@ -879,7 +860,7 @@ const Matchday: React.FC = () => {
                                                         initial={{ opacity: 0, y: 8, scale: 0.985 }}
                                                         animate={{ opacity: 1, y: 0, scale: 1 }}
                                                         exit={{ opacity: 0, y: 8, scale: 0.985 }}
-                                                        className="absolute inset-3 z-30 overflow-y-auto rounded-2xl border border-white/10 bg-[#090909]/72 p-3 pt-14 shadow-2xl shadow-black/50 backdrop-blur-md custom-scrollbar"
+                                                        className="absolute inset-3 z-30 overflow-y-auto rounded-2xl border border-white/10 bg-[#090909]/72 p-3 pt-14 shadow-2xl shadow-black/50 backdrop-blur-md"
                                                     >
                                                         <div className="grid grid-cols-2 gap-2">
                                                             {FORMATION_OPTIONS.filter((formation) => FORMATIONS[formation]).map((formation) => (
@@ -916,7 +897,7 @@ const Matchday: React.FC = () => {
                                                             X
                                                         </button>
                                                     </div>
-                                                    <div className="custom-scrollbar flex max-h-24 gap-2 overflow-x-auto pb-1">
+                                                    <div className="flex max-h-24 gap-2 overflow-x-auto pb-1">
                                                         {activeBench.length === 0 ? (
                                                             <p className="text-[10px] text-gray-500">Banco vazio</p>
                                                         ) : (
@@ -951,37 +932,17 @@ const Matchday: React.FC = () => {
                                 </motion.div>
                             )}
                             {activeTab === "stats" && (
-                                <motion.div key="stats" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} className="flex-1 flex flex-col justify-around custom-scrollbar overflow-y-auto">
-                                    <div className="grid grid-cols-8 gap-4 h-full">
-                                        <section className={`col-span-2 bg-[#111]/50 rounded-4xl border ${hasVisualConflict ? "border-yellow-600/60" : "border-white/5"} py-6 px-2 flex flex-col justify-between overflow-hidden`}>
-                                            <div className="w-full shrink-0">
-                                                <h3 className={`${hasVisualConflict ? "animate-pulse text-yellow-600 text-center" : ""} text-center text-xs font-black uppercase ${isTeamColorBlack ? "text-white" : "text-(--team-color-400)"} mb-2 tracking-widest`}>
-                                                    {hasVisualConflict ? "Risco de confusão" : "Uniformes"}
-                                                </h3>
-                                            </div>
-                                            <div className="flex-1 flex flex-col justify-center items-center gap-2">
-                                                <KitCarousel teamName={isHomeGame ? currentTeam.name : matchInfo.opponent.name} uniforms={homeTeamKits} selectedKit={homeKit} onSelectKit={setHomeKit} teamImage={isHomeGame ? currentTeam.logo : matchInfo.opponent.logo} />
-                                                <KitCarousel teamName={isHomeGame ? matchInfo.opponent.name : currentTeam.name} uniforms={awayTeamKits} selectedKit={awayKit} onSelectKit={setAwayKit} teamImage={isHomeGame ? matchInfo.opponent.logo : currentTeam.logo} />
-                                            </div>
-                                        </section>
-                                        {[currentMatchData.homeTeam, currentMatchData.awayTeam].map((team) => {
-                                            const logo = team.logo
-                                            const name = team.name
-                                            return (
-                                                <section className="relative col-span-3 bg-[#111]/50 border-white/5 border rounded-4xl p-4 overflow-hidden">
-                                                    <img
-                                                        src={logo}
-                                                        alt={`${name} logo`}
-                                                        className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-full h-auto pointer-events-none opacity-5"
-                                                    />
-                                                    <header className="flex items-center justify-center gap-2">
-                                                        <h2 className="font-oswald font-medium text-3xl">{name}</h2>
-                                                    </header>
-                                                </section>
-                                            )
-                                        })}
-                                    </div>
-                                </motion.div>
+                                <MatchDetails
+                                    awayKit={awayKit}
+                                    awayTeamKits={awayTeamKits}
+                                    currentMatchData={currentMatchData}
+                                    hasVisualConflict={hasVisualConflict}
+                                    homeKit={homeKit}
+                                    homeTeamKits={homeTeamKits}
+                                    isTeamColorBlack={isTeamColorBlack}
+                                    setAwayKit={setAwayKit}
+                                    setHomeKit={setHomeKit}
+                                />
                             )}
                         </AnimatePresence>
                     </div>

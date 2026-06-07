@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { getSortedLeagueTable, getPositionZoneClass } from '../utils/leagueTableUtils';
 import _teams from "../data/teams.json";
-const teams = _teams as Team[];
 
 interface Props {
     standings: any[];
@@ -16,7 +15,7 @@ export const LeagueTableCard: React.FC<Props> = ({
     selectedTeamId,
     opponentId
 }) => {
-    const table = getSortedLeagueTable(standings, teams);
+    const table = getSortedLeagueTable(standings);
     const selectedRef = useRef<HTMLTableRowElement>(null);
     const containerRef = useRef<HTMLDivElement>(null);
 
@@ -36,7 +35,7 @@ export const LeagueTableCard: React.FC<Props> = ({
     }, [selectedTeamId, standings, opponentId]);
 
     return (
-        <div ref={containerRef} className="flex-1 overflow-y-auto custom-scrollbar pr-1">
+        <div ref={containerRef} className="flex-1 overflow-y-auto pr-1">
             <table className="w-full text-[11px] border-separate border-spacing-y-1">
                 <tbody>
                     {table.map((item) => {

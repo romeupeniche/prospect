@@ -59,9 +59,10 @@ const NextFixture: React.FC<{ currentTeam: Team, saveData: SaveData }> = ({ curr
     return (
         <div
             onClick={() => setScreen('matchday')}
-            className={`bg-[#111] cursor-pointer hover:scale-101 ${isTeamColorBlack ? "hover:bg-white/10" : "hover:bg-(--team-color-500)/10"} transition rounded-4xl border ${nextFixtureAgainstRival ? 'border-red-500/30' : 'border-white/5'} px-5 flex flex-col justify-center items-center relative overflow-hidden`}
+            className={`bg-[#111] group cursor-pointer ${isTeamColorBlack ? "hover:bg-white/10" : "hover:bg-(--team-color-500)/10"} transition duration-300 rounded-4xl border ${nextFixtureAgainstRival ? 'border-red-500/30' : 'border-white/5'} px-5 flex flex-col justify-center items-center relative overflow-hidden`}
         >
-            <div className="flex justify-between items-center w-full h-10">
+            <img src={nextFixture.competition.bg_art} className="absolute transition duration-300 opacity-0 group-hover:opacity-10 top-0 left-0 w-full h-full object-cover" />
+            <div className="flex justify-between items-center w-full h-10 z-10">
                 <span
                     className={`${nextFixtureAgainstRival ? 'text-red-500' : 'white'}
                                 text-xs font-bold uppercase leading-none 

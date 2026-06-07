@@ -454,7 +454,7 @@ const WorldFootballNews = ({ currentTeam, saveData }: WorldFootballNewsProps) =>
   return (
     <LayoutGroup>
       <section
-        className="relative flex h-full min-h-0 flex-col overflow-hidden rounded-4xl border border-white/5 bg-[#111] [padding:clamp(1rem,1.45vw,1.75rem)]"
+        className="relative flex h-full min-h-0 flex-col overflow-hidden rounded-4xl border border-white/5 bg-[#111] p-[clamp(1rem,1.45vw,1.75rem)]"
         style={{ "--news-accent": accent } as CSSProperties}
       >
         <AnimatePresence mode="wait">
@@ -468,32 +468,32 @@ const WorldFootballNews = ({ currentTeam, saveData }: WorldFootballNewsProps) =>
               transition={listTransition}
             >
               <motion.h3
-                className="shrink-0 font-black uppercase text-gray-500 [font-size:clamp(0.58rem,0.72vw,0.7rem)] [letter-spacing:0.28em] [margin-bottom:clamp(0.8rem,1.2vw,1.4rem)]"
+                className="shrink-0 font-black uppercase text-gray-500 text-[clamp(0.58rem,0.72vw,0.7rem)] tracking-[0.28em] mb-[clamp(0.8rem,1.2vw,1.4rem)]"
                 exit={{ opacity: 0 }}
                 transition={listTransition}
               >
                 Mundo do Futebol
               </motion.h3>
 
-              <div className="custom-scrollbar min-h-0 flex-1 overflow-y-auto [padding-right:clamp(0.25rem,0.45vw,0.55rem)]">
+              <div className="min-h-0 flex-1 overflow-y-auto pr-[clamp(0.25rem,0.45vw,0.55rem)]">
                 {articles.length === 0 ? (
-                  <div className="flex h-full flex-col justify-center text-gray-500 [font-size:clamp(0.72rem,0.82vw,0.88rem)] [line-height:1.55]">
+                  <div className="flex h-full flex-col justify-center text-gray-500 text-[clamp(0.72rem,0.82vw,0.88rem)] leading-[1.55]">
                     Nenhuma notícia confirmada para hoje. O feed será atualizado quando houver dados oficiais de partida, elenco, lesão ou desempenho.
                   </div>
                 ) : (
-                  <div className="flex flex-col [gap:clamp(0.85rem,1.15vw,1.35rem)]">
+                  <div className="flex flex-col gap-[clamp(0.85rem,1.15vw,1.35rem)]">
                     {articles.map((article) => (
                       <motion.article
                         key={article.id}
                         layout
-                        className="group cursor-pointer border-white/5 [border-top-width:0.0625rem] [padding-top:clamp(0.65rem,0.9vw,1rem)] first:border-t-0 first:pt-0"
+                        className="group cursor-pointer border-white/5 [border-top-width:0.0625rem] pt-[clamp(0.65rem,0.9vw,1rem)] first:border-t-0 first:pt-0"
                         onClick={() => setSelectedId(article.id)}
                         exit={{ opacity: 0 }}
                         whileHover={{ x: "0.35rem" }}
                         transition={listTransition}
                       >
                         <motion.div
-                          className="font-black uppercase text-[var(--news-accent)] [font-size:clamp(0.56rem,0.68vw,0.68rem)] [letter-spacing:0.2em] [margin-bottom:clamp(0.22rem,0.32vw,0.36rem)]"
+                          className="font-black uppercase text-(--news-accent) text-[clamp(0.56rem,0.68vw,0.68rem)] tracking-[0.2em] mb-[clamp(0.22rem,0.32vw,0.36rem)]"
                           exit={{ opacity: 0 }}
                         >
                           {article.category}
@@ -501,14 +501,14 @@ const WorldFootballNews = ({ currentTeam, saveData }: WorldFootballNewsProps) =>
 
                         <motion.h4
                           layoutId={`world-news-title-${article.id}`}
-                          className="font-black leading-tight text-white transition-colors group-hover:text-[var(--news-accent)] [font-size:clamp(0.82rem,0.98vw,1rem)]"
+                          className="font-black leading-tight text-white transition-colors group-hover:text-(--news-accent) text-[clamp(0.82rem,0.98vw,1rem)]"
                           transition={titleTransition}
                         >
                           {article.title}
                         </motion.h4>
 
                         <motion.p
-                          className="overflow-hidden text-gray-500 [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:2] [font-size:clamp(0.68rem,0.78vw,0.8rem)] [line-height:1.35] [margin-top:clamp(0.22rem,0.34vw,0.42rem)]"
+                          className="overflow-hidden text-gray-500 [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:2] text-[clamp(0.68rem,0.78vw,0.8rem)] leading-[1.35] mt-[clamp(0.22rem,0.34vw,0.42rem)]"
                           exit={{ opacity: 0 }}
                         >
                           {article.subtitle}
@@ -528,15 +528,15 @@ const WorldFootballNews = ({ currentTeam, saveData }: WorldFootballNewsProps) =>
               exit={{ opacity: 0 }}
               transition={listTransition}
             >
-              <div className="flex shrink-0 items-start justify-between [gap:clamp(0.75rem,1vw,1.1rem)]">
+              <div className="flex shrink-0 items-start justify-between gap-[clamp(0.75rem,1vw,1.1rem)]">
                 <button
                   type="button"
                   onClick={() => setSelectedId(null)}
-                  className="cursor-pointer rounded-full border border-white/10 bg-white/5 text-gray-300 transition hover:border-white/20 hover:bg-white/10 hover:text-white [padding-block:clamp(0.35rem,0.45vw,0.5rem)] [padding-inline:clamp(0.65rem,0.85vw,0.95rem)] [font-size:clamp(0.62rem,0.72vw,0.74rem)]"
+                  className="cursor-pointer rounded-full border border-white/10 bg-white/5 text-gray-300 transition hover:border-white/20 hover:bg-white/10 hover:text-white py-[clamp(0.35rem,0.45vw,0.5rem)] px-[clamp(0.65rem,0.85vw,0.95rem)] text-[clamp(0.62rem,0.72vw,0.74rem)]"
                 >
                   Voltar
                 </button>
-                <span className="font-black uppercase text-[var(--news-accent)] [font-size:clamp(0.55rem,0.66vw,0.68rem)] [letter-spacing:0.18em]">
+                <span className="font-black uppercase text-(--news-accent) text-[clamp(0.55rem,0.66vw,0.68rem)] tracking-[0.18em]">
                   {selectedArticle.category}
                 </span>
               </div>
@@ -544,26 +544,26 @@ const WorldFootballNews = ({ currentTeam, saveData }: WorldFootballNewsProps) =>
               <motion.h2
                 layoutId={`world-news-title-${selectedArticle.id}`}
                 onClick={() => setSelectedId(null)}
-                className="cursor-pointer font-black leading-[1.06] text-white [font-size:clamp(1.22rem,1.7vw,1.85rem)] [margin-top:clamp(0.75rem,1.05vw,1.2rem)]"
+                className="cursor-pointer font-black leading-[1.06] text-white text-[clamp(1.22rem,1.7vw,1.85rem)] mt-[clamp(0.75rem,1.05vw,1.2rem)]"
                 transition={titleTransition}
               >
                 {selectedArticle.title}
               </motion.h2>
 
               <motion.div
-                className="min-h-0 flex-1 overflow-y-auto custom-scrollbar [padding-right:clamp(0.25rem,0.45vw,0.55rem)] [margin-top:clamp(0.65rem,0.9vw,1rem)]"
+                className="min-h-0 flex-1 overflow-y-auto pr-[clamp(0.25rem,0.45vw,0.55rem)] mt-[clamp(0.65rem,0.9vw,1rem)]"
                 initial={{ opacity: 0, y: "0.7rem" }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0 }}
                 transition={{ delay: 0.16, duration: 0.22, ease: "easeOut" }}
               >
-                <p className="font-bold text-[var(--news-accent)] [font-size:clamp(0.76rem,0.88vw,0.92rem)] [line-height:1.45]">
+                <p className="font-bold text-(--news-accent) text-[clamp(0.76rem,0.88vw,0.92rem)] leading-[1.45]">
                   {selectedArticle.subtitle}
                 </p>
 
-                <div className="text-gray-300 [margin-top:clamp(0.8rem,1vw,1.1rem)] [font-size:clamp(0.72rem,0.82vw,0.88rem)] [line-height:1.65]">
+                <div className="text-gray-300 mt-[clamp(0.8rem,1vw,1.1rem)] text-[clamp(0.72rem,0.82vw,0.88rem)] leading-[1.65]">
                   {selectedArticle.description.split(/\n\s*\n/).map((paragraph) => (
-                    <p key={paragraph} className="[margin-bottom:clamp(0.75rem,0.95vw,1rem)] last:mb-0">
+                    <p key={paragraph} className="mb-[clamp(0.75rem,0.95vw,1rem)] last:mb-0">
                       {paragraph}
                     </p>
                   ))}

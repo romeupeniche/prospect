@@ -37,8 +37,8 @@ const KitCarousel = ({ teamName, uniforms, selectedKit, onSelectKit, teamImage }
     };
 
     return (
-        <div className="flex flex-col items-center w-full py-4 overflow-hidden select-none">
-            <header className="flex items-center justify-between w-full xl:px-4 mb-6">
+        <div className="flex flex-col items-center w-full py-1 xl:py-2 overflow-hidden select-none flex-1 min-h-0 justify-center">
+            <header className="flex items-center justify-between w-full xl:px-4 mb-2 xl:mb-4 shrink-0">
                 <button
                     onClick={handlePrev}
                     className="w-7 h-7 rounded-xl bg-white/5 border border-white/5 flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/10 transition cursor-pointer active:scale-90"
@@ -60,7 +60,7 @@ const KitCarousel = ({ teamName, uniforms, selectedKit, onSelectKit, teamImage }
                 </button>
             </header>
 
-            <div className="relative w-full h-36 flex items-center justify-center">
+            <div className="relative w-full h-24 sm:h-28 md:h-32 xl:h-36 flex-1 min-h-0 flex items-center justify-center">
                 <img src={teamImage} className="absolute opacity-10 w-auto h-full top-1/2 right-0 translate-x-1/2 -translate-y-1/2" />
                 <img src={teamImage} className="absolute opacity-10 w-auto h-full top-1/2 left-0 -translate-x-1/2 -translate-y-1/2" />
                 {kitOrder.map((kitType) => {
@@ -100,13 +100,13 @@ const KitCarousel = ({ teamName, uniforms, selectedKit, onSelectKit, teamImage }
                                 filter: isSelected ? "drop-shadow(0 15px 15px rgba(0,0,0,0.5))" : "brightness(0.4) drop-shadow(0 0 0 rgba(0,0,0,0))"
                             }}
                             transition={{ type: "spring", stiffness: 300, damping: 28 }}
-                            className={`absolute w-auto h-full rounded-3xl p-3 flex items-center justify-center transition-colors cursor-pointer`}
+                            className="absolute w-auto h-full rounded-3xl p-3 flex items-center justify-center transition-colors cursor-pointer"
                         >
                             {isSelected && <div
                                 style={{
                                     backgroundColor: kitData.hex_colors.primary
                                 }}
-                                className={`transition-colors absolute -z-1 w-20 h-20 rounded-full blur-xl`} />}
+                                className="transition-all absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-1 w-[70%] h-[70%] rounded-full blur-xl opacity-75" />}
                             <img
                                 src={kitData.image}
                                 className="max-h-full max-w-full object-contain pointer-events-none"
