@@ -13,6 +13,7 @@ import {
 import { useCompetitionsStore } from "./useCompetitionsStore";
 import { useCareerStore } from "./useCareerStore";
 import { useTeamStore } from "./useTeamStore";
+import { formatPositionName, getPositionLanguageFromSave } from "../utils/positionI18n";
 
 export type ContactPresence =
   | "online"
@@ -197,7 +198,11 @@ const getCoachActor = (team: Team): ActorProfile => {
 const playerToActor = (player: Player): ActorProfile => ({
   id: `player-${player.id}`,
   name: player.personal.name,
-  role: player.technical_profile.best_position ?? "Jogador",
+  role:
+    formatPositionName(
+      player.technical_profile.best_position,
+      getPositionLanguageFromSave(useCareerStore.getState().saveData),
+    ) || "Jogador",
   kind: "player",
   category: "squad",
   linkedPlayerName: player.personal.name,
@@ -254,7 +259,10 @@ const positionGroups: Record<string, string[]> = {
 };
 
 const displayPosition = (position: string): string =>
-  position === "DM" ? "CDM" : position;
+  formatPositionName(
+    position === "DM" ? "CDM" : position,
+    getPositionLanguageFromSave(useCareerStore.getState().saveData),
+  );
 
 const groupsForPlayer = (player: Player): string[] => {
   const positions = new Set([
@@ -498,7 +506,7 @@ const buildPlayerContexts = (
             : "regular";
       const fitnessSummary = player.runtime?.injury
         ? `estou lesionado com ${player.runtime.injury.type}, retorno estimado em ${player.runtime.injury.daysRemaining} dia(s).`
-        : `minha condição está em ${player.runtime?.condition ?? 100}% e fitness de jogo em ${player.runtime?.matchFitness ?? 100}%.`;
+        : `minha condição está em ${player.runtime?.condition ?? 100}% e minha forma está em ${player.runtime?.form ?? 3}/5.`;
       const contractSummary = `Contrato até ${player.contract.valid_until}, salário ${player.contract.wage.toLocaleString("pt-BR")} e valor de mercado ${player.contract.market_value.toLocaleString("pt-BR")}.`;
       const transferPressure =
         player.contract.is_transfer_listed
@@ -516,7 +524,10 @@ const buildPlayerContexts = (
         {
           name: player.personal.name,
           age: ageForPlayer(player),
-          position: player.technical_profile.best_position,
+          position: formatPositionName(
+            player.technical_profile.best_position,
+            getPositionLanguageFromSave(useCareerStore.getState().saveData),
+          ),
           overall: player.technical_profile.overall,
           potential: player.technical_profile.potential,
           roleStatus,

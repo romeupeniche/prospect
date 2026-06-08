@@ -1,12 +1,15 @@
 import React from 'react';
-import { getTeamSquadPlayers } from "../../data/teamSquads";
 import { useCareerStore } from '../../store/useCareerStore';
+import { useTeamStore } from '../../store/useTeamStore';
+import { formatPosition, getPositionLanguageFromSave } from '../../utils/positionI18n';
 
 const FeaturedPlayers: React.FC = () => {
-    const { currentTeam } = useCareerStore();
+    const { currentTeam, saveData } = useCareerStore();
+    const playersByTeamId = useTeamStore((state) => state.playersByTeamId);
     if (!currentTeam) return null;
     const isTeamColorBlack = currentTeam.colors.primary[500] === "#000"
-    const players = getTeamSquadPlayers(currentTeam.id)
+    const positionLanguage = getPositionLanguageFromSave(saveData);
+    const players = (playersByTeamId[currentTeam.id] ?? [])
         .slice()
         .sort((a, b) => b.technical_profile.overall - a.technical_profile.overall)
         .slice(0, 6);
@@ -27,7 +30,7 @@ const FeaturedPlayers: React.FC = () => {
                             <div className="flex flex-col min-w-0">
                                 <p className="flex gap-1 items-center">
                                     <span className="text-[10px] font-medium text-zinc-500 shrink-0">
-                                        {player.technical_profile.best_position}
+                                        {formatPosition(player.technical_profile.best_position, positionLanguage)}
                                     </span>
                                     <span className="text-xs truncate text-zinc-300 hover:text-white cursor-pointer">
                                         {player.personal.short_name}

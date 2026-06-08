@@ -2,11 +2,13 @@ import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { RuntimePlayer, SeasonStats, useTeamStore } from "../../store/useTeamStore";
 import { SeedlingIcon } from "../../icons/Seedling";
+import { formatPosition } from "../../utils/positionI18n";
 
 interface PlayerDrawerProps {
   player: RuntimePlayer;
   isTeamColorBlackOrWhite: boolean;
   onClose: () => void;
+  language?: string;
 }
 
 interface HighlightStat {
@@ -119,7 +121,7 @@ const conditionTone = (value: number): string => {
   return "from-red-500 to-rose-400";
 };
 
-const PlayerDrawer = ({ player, isTeamColorBlackOrWhite, onClose }: PlayerDrawerProps) => {
+const PlayerDrawer = ({ player, isTeamColorBlackOrWhite, onClose, language = "pt" }: PlayerDrawerProps) => {
   const {
     toggleTransferList,
     toggleLoanList,
@@ -235,7 +237,7 @@ const PlayerDrawer = ({ player, isTeamColorBlackOrWhite, onClose }: PlayerDrawer
 
               <div className="min-w-0 flex-1">
                 <p className="text-[10px] font-black uppercase tracking-[0.24em] text-gray-500">
-                  {player.technical_profile.best_position} / {player.personal.nationality}
+                  {formatPosition(player.technical_profile.best_position, language)} / {player.personal.nationality}
                 </p>
                 <h2 className="mt-1 text-3xl truncate font-black leading-none text-white">
                   {player.personal.short_name}
@@ -315,20 +317,20 @@ const PlayerDrawer = ({ player, isTeamColorBlackOrWhite, onClose }: PlayerDrawer
               </h3>
               <div className="mt-4 space-y-4">
                 {[
-                  ["Condition", player.runtime.condition],
-                  ["Match Fitness", player.runtime.matchFitness],
-                  ["CK Risk", player.runtime.ckRisk],
-                ].map(([label, value]) => (
-                  <div key={label}>
+                  { label: "Condition", value: player.runtime.condition, display: `${player.runtime.condition}%`, width: player.runtime.condition },
+                  { label: "Form", value: player.runtime.form * 20, display: `${player.runtime.form}/5`, width: player.runtime.form * 20 },
+                  { label: "CK Risk", value: player.runtime.ckRisk, display: `${player.runtime.ckRisk}%`, width: player.runtime.ckRisk },
+                ].map((item) => (
+                  <div key={item.label}>
                     <div className="mb-1 flex justify-between text-[10px] font-bold uppercase tracking-wider text-gray-400">
-                      <span>{label}</span>
-                      <span>{value}%</span>
+                      <span>{item.label}</span>
+                      <span>{item.display}</span>
                     </div>
                     <div className="h-2 overflow-hidden rounded-full bg-white/10">
                       <div
-                        className={`h-full rounded-full bg-linear-to-r ${label === "CK Risk" ? "from-red-500 to-orange-300" : conditionTone(Number(value))
+                        className={`h-full rounded-full bg-linear-to-r ${item.label === "CK Risk" ? "from-red-500 to-orange-300" : conditionTone(Number(item.value))
                           }`}
-                        style={{ width: `${value}%` }}
+                        style={{ width: `${item.width}%` }}
                       />
                     </div>
                   </div>

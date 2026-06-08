@@ -51,7 +51,7 @@
       },
       "movement": {
         "acceleration": 78,
-        "Sprint_speed": 80,
+        "sprint_speed": 80,
         "agility": 73,
         "reactions": 77,
         "balance": 70
@@ -137,7 +137,7 @@
       },
       "movement": {
         "acceleration": 82,
-        "Sprint_speed": 82,
+        "sprint_speed": 82,
         "agility": 86,
         "reactions": 66,
         "balance": 73
@@ -223,7 +223,7 @@
       },
       "movement": {
         "acceleration": 65,
-        "Sprint_speed": 64,
+        "sprint_speed": 64,
         "agility": 62,
         "reactions": 60,
         "balance": 60
@@ -309,7 +309,7 @@
       },
       "movement": {
         "acceleration": 73,
-        "Sprint_speed": 72,
+        "sprint_speed": 72,
         "agility": 63,
         "reactions": 67,
         "balance": 61
@@ -395,7 +395,7 @@
       },
       "movement": {
         "acceleration": 79,
-        "Sprint_speed": 80,
+        "sprint_speed": 80,
         "agility": 77,
         "reactions": 68,
         "balance": 80
@@ -481,7 +481,7 @@
       },
       "movement": {
         "acceleration": 68,
-        "Sprint_speed": 70,
+        "sprint_speed": 70,
         "agility": 69,
         "reactions": 62,
         "balance": 68
@@ -567,7 +567,7 @@
       },
       "movement": {
         "acceleration": 84,
-        "Sprint_speed": 81,
+        "sprint_speed": 81,
         "agility": 84,
         "reactions": 70,
         "balance": 79
@@ -653,7 +653,7 @@
       },
       "movement": {
         "acceleration": 86,
-        "Sprint_speed": 86,
+        "sprint_speed": 86,
         "agility": 92,
         "reactions": 72,
         "balance": 87
@@ -739,7 +739,7 @@
       },
       "movement": {
         "acceleration": 75,
-        "Sprint_speed": 72,
+        "sprint_speed": 72,
         "agility": 77,
         "reactions": 65,
         "balance": 81
@@ -825,7 +825,7 @@
       },
       "movement": {
         "acceleration": 70,
-        "Sprint_speed": 70,
+        "sprint_speed": 70,
         "agility": 75,
         "reactions": 76,
         "balance": 73
@@ -911,7 +911,7 @@
       },
       "movement": {
         "acceleration": 83,
-        "Sprint_speed": 79,
+        "sprint_speed": 79,
         "agility": 81,
         "reactions": 59,
         "balance": 81
@@ -997,7 +997,7 @@
       },
       "movement": {
         "acceleration": 67,
-        "Sprint_speed": 71,
+        "sprint_speed": 71,
         "agility": 78,
         "reactions": 76,
         "balance": 79
@@ -1083,7 +1083,7 @@
       },
       "movement": {
         "acceleration": 59,
-        "Sprint_speed": 61,
+        "sprint_speed": 61,
         "agility": 69,
         "reactions": 73,
         "balance": 62
@@ -1169,7 +1169,7 @@
       },
       "movement": {
         "acceleration": 64,
-        "Sprint_speed": 68,
+        "sprint_speed": 68,
         "agility": 60,
         "reactions": 67,
         "balance": 66
@@ -1255,7 +1255,7 @@
       },
       "movement": {
         "acceleration": 80,
-        "Sprint_speed": 70,
+        "sprint_speed": 70,
         "agility": 76,
         "reactions": 74,
         "balance": 81
@@ -1341,7 +1341,7 @@
       },
       "movement": {
         "acceleration": 78,
-        "Sprint_speed": 68,
+        "sprint_speed": 68,
         "agility": 82,
         "reactions": 74,
         "balance": 81
@@ -1427,7 +1427,7 @@
       },
       "movement": {
         "acceleration": 63,
-        "Sprint_speed": 61,
+        "sprint_speed": 61,
         "agility": 65,
         "reactions": 60,
         "balance": 67
@@ -1513,7 +1513,7 @@
       },
       "movement": {
         "acceleration": 80,
-        "Sprint_speed": 81,
+        "sprint_speed": 81,
         "agility": 70,
         "reactions": 77,
         "balance": 74
@@ -1599,7 +1599,7 @@
       },
       "movement": {
         "acceleration": 72,
-        "Sprint_speed": 79,
+        "sprint_speed": 79,
         "agility": 52,
         "reactions": 64,
         "balance": 61
@@ -1685,7 +1685,7 @@
       },
       "movement": {
         "acceleration": 76,
-        "Sprint_speed": 79,
+        "sprint_speed": 79,
         "agility": 55,
         "reactions": 77,
         "balance": 49
@@ -1771,7 +1771,7 @@
       },
       "movement": {
         "acceleration": 65,
-        "Sprint_speed": 55,
+        "sprint_speed": 55,
         "agility": 55,
         "reactions": 74,
         "balance": 52
@@ -1857,7 +1857,7 @@
       },
       "movement": {
         "acceleration": 55,
-        "Sprint_speed": 57,
+        "sprint_speed": 57,
         "agility": 53,
         "reactions": 57,
         "balance": 55
@@ -1943,7 +1943,7 @@
       },
       "movement": {
         "acceleration": 81,
-        "Sprint_speed": 82,
+        "sprint_speed": 82,
         "agility": 75,
         "reactions": 75,
         "balance": 78
@@ -2029,7 +2029,7 @@
       },
       "movement": {
         "acceleration": 63,
-        "Sprint_speed": 59,
+        "sprint_speed": 59,
         "agility": 58,
         "reactions": 68,
         "balance": 65
@@ -2115,7 +2115,7 @@
       },
       "movement": {
         "acceleration": 64,
-        "Sprint_speed": 67,
+        "sprint_speed": 67,
         "agility": 52,
         "reactions": 55,
         "balance": 56
@@ -2201,7 +2201,7 @@
       },
       "movement": {
         "acceleration": 76,
-        "Sprint_speed": 72,
+        "sprint_speed": 72,
         "agility": 78,
         "reactions": 77,
         "balance": 84
@@ -2287,7 +2287,7 @@
       },
       "movement": {
         "acceleration": 72,
-        "Sprint_speed": 72,
+        "sprint_speed": 72,
         "agility": 74,
         "reactions": 69,
         "balance": 76
@@ -2373,7 +2373,7 @@
       },
       "movement": {
         "acceleration": 73,
-        "Sprint_speed": 70,
+        "sprint_speed": 70,
         "agility": 74,
         "reactions": 66,
         "balance": 72
@@ -2459,7 +2459,7 @@
       },
       "movement": {
         "acceleration": 42,
-        "Sprint_speed": 39,
+        "sprint_speed": 39,
         "agility": 35,
         "reactions": 74,
         "balance": 30
@@ -2545,7 +2545,7 @@
       },
       "movement": {
         "acceleration": 12,
-        "Sprint_speed": 11,
+        "sprint_speed": 11,
         "agility": 10,
         "reactions": 71,
         "balance": 13
@@ -2631,7 +2631,7 @@
       },
       "movement": {
         "acceleration": 36,
-        "Sprint_speed": 39,
+        "sprint_speed": 39,
         "agility": 42,
         "reactions": 63,
         "balance": 40

@@ -20,6 +20,7 @@ function formatDashboardDate(date: string): string {
 const Dashboard = () => {
   const { currentTeam, saveData, advanceDay } = useCareerStore();
   const getTeamFixturesForDate = useCompetitionsStore((state) => state.getTeamFixturesForDate);
+  const getTeamForm = useCompetitionsStore((state) => state.getTeamForm);
   const setScreen = useUIStore((state) => state.setScreen);
   if (!currentTeam || !saveData) return null;
 
@@ -28,6 +29,7 @@ const Dashboard = () => {
     isTeamColorBlack || currentTeam.colors.primary[500] === "#fff";
   const hasUnplayedMatchToday = getTeamFixturesForDate(currentTeam.id, saveData.currentDate)
     .some((fixture) => fixture.status === "not_started");
+  const teamForm = getTeamForm(currentTeam.id, 5);
 
   return (
     <motion.div
@@ -113,14 +115,16 @@ const Dashboard = () => {
                 Últimos 5 Jogos
               </h3>
               <div className="flex gap-2">
-                {["V", "V", "E", "V", "D"].map((res, i) => (
+                {teamForm.map((res, i) => (
                   <div
                     key={i}
                     className={`w-7 h-7 rounded-lg flex items-center justify-center text-[10px] font-black text-white ${res === "V"
                       ? "bg-emerald-500"
                       : res === "E"
                         ? "bg-yellow-500"
-                        : "bg-red-500"
+                        : res === "D"
+                          ? "bg-red-500"
+                          : "bg-white/10 text-white/30"
                       }`}
                   >
                     {res}

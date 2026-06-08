@@ -9,6 +9,7 @@ import {
     TeamStatsState,
     PlayerStatsState,
 } from "./Engine";
+import { formatPosition } from "../../utils/positionI18n";
 
 interface KitColors {
     hex_colors: { primary: string; secondary: string; detail: string };
@@ -51,8 +52,10 @@ interface MatchSimulationProps {
     homeTeam: { data: TeamData; kit: KitColors };
     awayTeam: { data: TeamData; kit: KitColors };
     matchInfo: MatchInfoData;
-    onFinishMatch: () => void;
+    onFinishMatch: (finalState?: MatchState) => void;
+    onLiveScoreChange?: (score: { home: number; away: number }) => void;
     userTeamId?: string;
+    language?: string;
 }
 
 const PITCH_W = 105;
@@ -567,7 +570,9 @@ const MatchSimulation: React.FC<MatchSimulationProps> = ({
     awayTeam,
     matchInfo,
     onFinishMatch,
+    onLiveScoreChange,
     userTeamId,
+    language = "pt",
 }) => {
     const [gameState, setGameState] = useState<MatchState | null>(null);
     const [drawer, setDrawer] = useState<SidebarDrawer>(null);
@@ -650,6 +655,11 @@ const MatchSimulation: React.FC<MatchSimulationProps> = ({
         return () => engine.stop();
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
+
+    useEffect(() => {
+        if (!gameState || !onLiveScoreChange) return;
+        onLiveScoreChange({ home: gameState.homeScore, away: gameState.awayScore });
+    }, [gameState?.homeScore, gameState?.awayScore, onLiveScoreChange]);
 
     const setPaused = useCallback((v: boolean) => engineRef.current?.setPaused(v), []);
     const setSpeed = useCallback((v: number) => engineRef.current?.setSpeed(v), []);
@@ -1037,7 +1047,7 @@ const MatchSimulation: React.FC<MatchSimulationProps> = ({
                                             )}
                                             <div className="min-w-0">
                                                 <p className="text-white text-sm font-black truncate">{selectedRaw?.personal?.name ?? selectedPlayer.name}</p>
-                                                <p className="text-[10px] text-gray-500 font-bold">{selectedPlayer.position} · {selectedAge ? `${selectedAge} yrs` : "Age -"}</p>
+                                                <p className="text-[10px] text-gray-500 font-bold">{formatPosition(selectedPlayer.position, language)} · {selectedAge ? `${selectedAge} yrs` : "Age -"}</p>
                                                 <p className="text-[10px] text-gray-500 font-bold">Contract: {selectedRaw?.contract?.valid_until ?? "-"}</p>
                                                 <p className="text-[10px] text-gray-500 font-bold">Stamina: {Math.round(selectedPlayer.stamina)}%</p>
                                                 <p className="text-[10px] text-gray-500 font-bold">Overall: {isUserTeam ? Math.round(selectedPlayer.overall * 100) : "-"}</p>
@@ -1173,7 +1183,7 @@ const MatchSimulation: React.FC<MatchSimulationProps> = ({
                         <motion.button
                             initial={{ opacity: 0, scale: 0.9 }}
                             animate={{ opacity: 1, scale: 1 }}
-                            onClick={onFinishMatch}
+                            onClick={() => onFinishMatch(gameState)}
                             className="bg-red-600 text-white px-5 py-1.5 rounded-xl
                          text-[10px] font-black hover:bg-red-700 transition-colors
                          uppercase tracking-wider"

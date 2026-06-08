@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import KitCarousel from "./KitCarousel";
 import { getPositionZoneClass, getSortedLeagueTable } from "../../utils/leagueTableUtils";
 import { ChevronRIcon } from "../../icons/ChevronR";
+import { RuntimePlayer, useTeamStore } from "../../store/useTeamStore";
+import { useCompetitionsStore } from "../../store/useCompetitionsStore";
 
 interface MatchDetailsProps {
     hasVisualConflict: boolean;
@@ -15,6 +17,15 @@ interface MatchDetailsProps {
     setAwayKit: any;
     currentMatchData: Fixture;
 }
+
+type LeaderboardPlayer = {
+    id: string;
+    name: string;
+    goals: number;
+    assists: number;
+    score: number;
+    matches: number;
+};
 
 export default function MatchDetails({
     hasVisualConflict,
@@ -30,6 +41,7 @@ export default function MatchDetails({
     const selectedFixtureSortedTable = getSortedLeagueTable(currentMatchData.competition.standings);
     const homeTeam = currentMatchData.homeTeam;
     const awayTeam = currentMatchData.awayTeam;
+
     return (
         <motion.div
             key="stats"
@@ -71,17 +83,29 @@ export default function MatchDetails({
                         zones={currentMatchData.competition.zones}
                     />
                 ))}
-
             </div>
         </motion.div>
     );
 }
 
+function toLeader(player: RuntimePlayer): LeaderboardPlayer {
+    return {
+        id: player.id,
+        name: player.personal.short_name,
+        goals: player.runtime.seasonStats.goals,
+        assists: player.runtime.seasonStats.assists,
+        score: player.runtime.seasonStats.rating,
+        matches: player.runtime.seasonStats.matches,
+    };
+}
+
 function TeamStatsCard({ team, selectedFixtureSortedTable, zones }: { team: Team, selectedFixtureSortedTable: TableRow[], zones: LeagueZones }) {
+    const runtimePlayers = useTeamStore((state) => state.playersByTeamId[team.id] ?? []);
+    const getTeamForm = useCompetitionsStore((state) => state.getTeamForm);
     const teamStanding = selectedFixtureSortedTable.find((standing) => standing.team_id === team.id);
     if (!teamStanding) return null;
-    const positionZoneClass = getPositionZoneClass(teamStanding.position, zones);
 
+    const positionZoneClass = getPositionZoneClass(teamStanding.position, zones);
     const points = teamStanding.points;
     const position = teamStanding.position;
     const played = teamStanding.played;
@@ -90,59 +114,34 @@ function TeamStatsCard({ team, selectedFixtureSortedTable, zones }: { team: Team
     const losses = teamStanding.losses;
     const goalsFor = teamStanding.goals_for;
     const goalsAgainst = teamStanding.goals_against;
-    const lastGames = ["-", "E", "D", "V", "V"];
+    const lastGames = getTeamForm(team.id, 5);
 
-    const topScorers = [
-        { name: "C. Da Fumaça", goals: 12, assists: 4 },
-        { name: "Oswaldinato", goals: 10, assists: 5 },
-        { name: "Ronaldo F.", goals: 9, assists: 2 },
-        { name: "M. Tanque", goals: 8, assists: 1 },
-        { name: "Deizinho", goals: 7, assists: 6 },
-        { name: "Pipoca", goals: 6, assists: 0 },
-        { name: "Gilsinho", goals: 5, assists: 3 },
-        { name: "Chicão", goals: 4, assists: 2 },
-        { name: "Keke", goals: 4, assists: 1 },
-        { name: "Canela", goals: 3, assists: 5 }
-    ];
-
-    const topAssists = [
-        { name: "C. Da Fumaça", assists: 9, goals: 6 },
-        { name: "Oswaldinato", assists: 8, goals: 4 },
-        { name: "Deizinho", assists: 7, goals: 3 },
-        { name: "Ronaldo F.", assists: 6, goals: 5 },
-        { name: "Bruninho", assists: 5, goals: 1 },
-        { name: "Gilsinho", assists: 5, goals: 2 },
-        { name: "Maestro", assists: 4, goals: 2 },
-        { name: "Vitinho", assists: 4, goals: 0 },
-        { name: "Zé Passos", assists: 3, goals: 1 },
-        { name: "Baiano", assists: 3, goals: 2 }
-    ];
-
-    const topRatings = [
-        { name: "C. Da Fumaça", score: 8.2 },
-        { name: "Oswaldinato", score: 7.7 },
-        { name: "Ronaldo F.", score: 7.5 },
-        { name: "Maestro", score: 7.4 },
-        { name: "M. Tanque", score: 7.3 },
-        { name: "Deizinho", score: 7.1 },
-        { name: "Gilsinho", score: 6.9 },
-        { name: "Pipoca", score: 6.8 },
-        { name: "Chiquinho", score: 6.6 },
-        { name: "Paredão", score: 6.5 }
-    ];
+    const leaderboardPlayers = runtimePlayers.map(toLeader);
+    const topScorers = leaderboardPlayers
+        .slice()
+        .sort((a, b) => b.goals - a.goals || b.assists - a.assists || b.score - a.score)
+        .slice(0, 10);
+    const topAssists = leaderboardPlayers
+        .slice()
+        .sort((a, b) => b.assists - a.assists || b.goals - a.goals || b.score - a.score)
+        .slice(0, 10);
+    const topRatings = leaderboardPlayers
+        .filter((player) => player.matches > 0 || player.score > 0)
+        .sort((a, b) => b.score - a.score || b.goals - a.goals || b.assists - a.assists)
+        .slice(0, 10);
 
     type TabKey = "ratings" | "scorers" | "assists";
-
     const [activeTab, setActiveTab] = useState<TabKey>("ratings");
 
-    const logo = team.logo;
-    const name = team.name;
-
-    const tabsConfig = {
+    const tabsConfig: Record<TabKey, {
+        label: string;
+        data: LeaderboardPlayer[];
+        renderBadge: (player: LeaderboardPlayer) => JSX.Element;
+    }> = {
         ratings: {
             label: "Notas",
             data: topRatings,
-            renderBadge: (player: typeof topRatings[0]) => (
+            renderBadge: (player) => (
                 <span className="font-mono font-bold text-amber-400 text-xs px-2 py-0.5 bg-amber-500/10 rounded">
                     {player.score.toFixed(1)}
                 </span>
@@ -151,7 +150,7 @@ function TeamStatsCard({ team, selectedFixtureSortedTable, zones }: { team: Team
         scorers: {
             label: "Gols",
             data: topScorers,
-            renderBadge: (player: typeof topScorers[0]) => (
+            renderBadge: (player) => (
                 <span className="font-mono font-bold text-white text-xs px-2 py-0.5 bg-white/5 rounded">
                     {player.goals}G
                 </span>
@@ -160,7 +159,7 @@ function TeamStatsCard({ team, selectedFixtureSortedTable, zones }: { team: Team
         assists: {
             label: "Assists.",
             data: topAssists,
-            renderBadge: (player: typeof topAssists[0]) => (
+            renderBadge: (player) => (
                 <span className="font-mono font-bold text-sky-400 text-xs px-2 py-0.5 bg-sky-500/10 rounded">
                     {player.assists}A
                 </span>
@@ -168,19 +167,21 @@ function TeamStatsCard({ team, selectedFixtureSortedTable, zones }: { team: Team
         }
     };
 
+    const currentData = tabsConfig[activeTab].data;
+
     return (
         <section className="relative col-span-3 bg-[#111]/50 border-white/5 border rounded-4xl py-6 px-4 overflow-hidden flex flex-col select-none group h-full">
             <img
-                src={logo}
+                src={team.logo}
                 alt=""
                 className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/3 w-5/6 h-auto pointer-events-none opacity-[0.03] grayscale transition-all duration-500 group-hover:scale-105"
             />
 
             <div className="relative z-10 flex flex-col gap-5 w-full shrink-0">
                 <header className="flex items-center justify-between border-b border-white/5 pb-4">
-                    <div className="flex items-center gap-3">
-                        <img src={logo} alt="" className="w-9 h-9 object-contain" />
-                        <h2 className="font-oswald text-nowrap truncate font-medium text-3xl tracking-wide uppercase text-white">{name}</h2>
+                    <div className="flex items-center gap-3 min-w-0">
+                        <img src={team.logo} alt="" className="w-9 h-9 object-contain shrink-0" />
+                        <h2 className="font-oswald text-nowrap truncate font-medium text-3xl tracking-wide uppercase text-white">{team.name}</h2>
                     </div>
                     <div className="flex text-right h-full gap-2">
                         <span className="font-oswald font-bold text-2xl">{position}º</span>
@@ -189,30 +190,12 @@ function TeamStatsCard({ team, selectedFixtureSortedTable, zones }: { team: Team
                 </header>
 
                 <div className="grid grid-cols-6 gap-2 text-center bg-black/20 p-3 rounded-2xl border border-white/5">
-                    <div>
-                        <span className="text-[10px] uppercase font-semibold tracking-wider text-white/40 block mb-0.5">Pts</span>
-                        <span className="font-oswald text-lg font-bold text-white">{points}</span>
-                    </div>
-                    <div>
-                        <span className="text-[10px] uppercase font-semibold tracking-wider text-white/40 block mb-0.5">J</span>
-                        <span className="font-oswald text-lg font-medium text-white/70">{played}</span>
-                    </div>
-                    <div>
-                        <span className="text-[10px] uppercase font-semibold tracking-wider text-white/40 block mb-0.5">V</span>
-                        <span className="font-oswald text-lg font-medium text-emerald-400/80">{wins}</span>
-                    </div>
-                    <div>
-                        <span className="text-[10px] uppercase font-semibold tracking-wider text-white/40 block mb-0.5">E</span>
-                        <span className="font-oswald text-lg font-medium text-white/50">{draws}</span>
-                    </div>
-                    <div>
-                        <span className="text-[10px] uppercase font-semibold tracking-wider text-white/40 block mb-0.5">D</span>
-                        <span className="font-oswald text-lg font-medium text-rose-400/80">{losses}</span>
-                    </div>
-                    <div>
-                        <span className="text-[10px] uppercase font-semibold tracking-wider text-white/40 block mb-0.5">G</span>
-                        <span className="font-oswald text-lg font-medium text-white/60">{goalsFor}:{goalsAgainst}</span>
-                    </div>
+                    <Stat label="Pts" value={points} />
+                    <Stat label="J" value={played} muted />
+                    <Stat label="V" value={wins} tone="text-emerald-400/80" />
+                    <Stat label="E" value={draws} muted />
+                    <Stat label="D" value={losses} tone="text-rose-400/80" />
+                    <Stat label="G" value={`${goalsFor}:${goalsAgainst}`} muted />
                 </div>
 
                 <div className="flex items-center justify-between bg-white/5 px-4 py-2.5 rounded-xl border border-white/5">
@@ -256,9 +239,14 @@ function TeamStatsCard({ team, selectedFixtureSortedTable, zones }: { team: Team
                 </div>
 
                 <div className="flex flex-col gap-1 flex-1 pr-1 min-h-0 overflow-y-auto custom-scrollbar">
-                    {tabsConfig[activeTab].data.slice(0, 10).map((player: any, idx: number) => (
+                    {currentData.length === 0 && (
+                        <div className="rounded-xl border border-dashed border-white/10 bg-white/2 px-3 py-5 text-center text-xs font-bold text-gray-500">
+                            Sem jogos registrados
+                        </div>
+                    )}
+                    {currentData.map((player, idx) => (
                         <div
-                            key={idx}
+                            key={player.id}
                             className="flex justify-between items-center bg-white/2 hover:bg-white/4 py-1.5 px-3 rounded-xl border border-white/3 transition-colors shrink-0"
                         >
                             <div className="flex items-center gap-2 min-w-0">
@@ -271,5 +259,16 @@ function TeamStatsCard({ team, selectedFixtureSortedTable, zones }: { team: Team
                 </div>
             </div>
         </section>
+    );
+}
+
+function Stat({ label, value, muted, tone }: { label: string; value: string | number; muted?: boolean; tone?: string }) {
+    return (
+        <div>
+            <span className="text-[10px] uppercase font-semibold tracking-wider text-white/40 block mb-0.5">{label}</span>
+            <span className={`font-oswald text-lg font-medium ${tone ?? (muted ? "text-white/60" : "text-white")}`}>
+                {value}
+            </span>
+        </div>
     );
 }

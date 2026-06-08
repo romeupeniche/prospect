@@ -1,5 +1,6 @@
 import { create } from "zustand";
 import teams from "../data/teams.json";
+import { useCompetitionsStore } from "./useCompetitionsStore";
 const teamsObj = teams as unknown as Team[];
 const SEASON_TEST_START_DATE = "2026-01-28";
 const LEGACY_TEST_START_DATE = "2026-05-13";
@@ -17,6 +18,7 @@ interface CareerState {
     name: string,
     teamId: string,
     saveName: string,
+    language?: string,
   ) => Promise<void>;
   loadSave: (save: any) => Promise<void>;
   advanceDay: () => void;
@@ -46,7 +48,7 @@ export const useCareerStore = create<CareerState>((set, get) => ({
     set({ savesList: saves });
   },
 
-  createNewCareer: async (name, teamId, saveName) => {
+  createNewCareer: async (name, teamId, saveName, language = "PT-BR") => {
     const { savePath } = get();
     if (!savePath) return;
 
@@ -57,6 +59,7 @@ export const useCareerStore = create<CareerState>((set, get) => ({
       saveName: saveName,
       saveVersion: "1.0.0",
       lastPlayed: new Date().toISOString(),
+      language,
     };
 
     const success = await window.ipcRenderer.invoke("save-game", {
@@ -87,6 +90,10 @@ export const useCareerStore = create<CareerState>((set, get) => ({
   advanceDay: () => {
     const { saveData } = get();
     if (!saveData) return;
+
+    useCompetitionsStore
+      .getState()
+      .simulateBackgroundMatchesForDate(saveData.currentDate, saveData.teamId);
 
     const date = new Date(saveData.currentDate);
     date.setDate(date.getDate() + 1);

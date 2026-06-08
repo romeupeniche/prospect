@@ -5,6 +5,7 @@ import { useCareerStore } from "../../store/useCareerStore";
 import { BasePlayer, RuntimePlayer, useTeamStore } from "../../store/useTeamStore";
 import LastMatchWidget from "./LastMatchWidget";
 import PlayerDrawer from "./PlayerDrawer";
+import { formatPosition, getPositionLanguageFromSave } from "../../utils/positionI18n";
 
 const rosterLimit = 35;
 
@@ -149,13 +150,14 @@ const MedicalDepartmentWidget = ({
 };
 
 const SquadScreen = () => {
-    const { currentTeam } = useCareerStore();
-    const { players, hydrateTeam } = useTeamStore();
+    const { currentTeam, saveData } = useCareerStore();
+    const { players, hydrateTeam, setActiveTeam } = useTeamStore();
     const [selectedPlayerId, setSelectedPlayerId] = useState<string | null>(null);
     const hydratedTeamIdRef = useRef<string | null>(null);
 
     useEffect(() => {
         if (!currentTeam) return;
+        setActiveTeam(currentTeam.id);
         const isCurrentTeamLoaded =
             players.length > 0 &&
             players.every((player) => player.team_id === currentTeam.id);
@@ -165,7 +167,7 @@ const SquadScreen = () => {
         hydratedTeamIdRef.current = currentTeam.id;
         hydrateTeam(getTeamSquadPlayers(currentTeam.id) as BasePlayer[]);
         setSelectedPlayerId(null);
-    }, [currentTeam, hydrateTeam, players]);
+    }, [currentTeam, hydrateTeam, players, setActiveTeam]);
 
     const selectedPlayer = useMemo(
         () => players.find((player) => player.id === selectedPlayerId) ?? null,
@@ -175,6 +177,7 @@ const SquadScreen = () => {
     const isTeamColorBlack = normalizeHex(currentTeam?.colors.primary[500]) === "#000";
     const isTeamColorWhite = normalizeHex(currentTeam?.colors.primary[500]) === "#fff";
     const isTeamColorBlackOrWhite = isTeamColorBlack || isTeamColorWhite || !currentTeam;
+    const positionLanguage = getPositionLanguageFromSave(saveData);
 
     const monthlyWageBill = players.reduce((total, player) => total + player.contract.wage, 0);
     const averageCondition =
@@ -290,7 +293,7 @@ const SquadScreen = () => {
                                             </td>
                                             <td className="border-y border-white/5 bg-white/2.5 px-3 py-3 text-center transition group-hover:border-white/15 group-hover:bg-white/5.5">
                                                 <span className="rounded-xl border border-white/10 bg-black/20 px-2.5 py-1 text-[10px] font-black text-gray-200">
-                                                    {player.technical_profile.best_position}
+                                                    {formatPosition(player.technical_profile.best_position, positionLanguage)}
                                                 </span>
                                             </td>
                                             <td className="border-y border-white/5 bg-white/2.5 px-3 py-3 text-center transition group-hover:border-white/15 group-hover:bg-white/5.5">
@@ -344,6 +347,7 @@ const SquadScreen = () => {
                         players={players}
                         teamLogo={currentTeam?.logo_tiny ?? currentTeam?.logo}
                         isTeamColorBlackOrWhite={isTeamColorBlackOrWhite}
+                        language={positionLanguage}
                         onPlayerClick={setSelectedPlayerId}
                     />
 
@@ -356,6 +360,7 @@ const SquadScreen = () => {
                             key={selectedPlayer.id}
                             player={selectedPlayer}
                             isTeamColorBlackOrWhite={isTeamColorBlackOrWhite}
+                            language={positionLanguage}
                             onClose={() => setSelectedPlayerId(null)}
                         />
                     )}

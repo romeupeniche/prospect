@@ -106,7 +106,7 @@ const KitCarousel = ({ teamName, uniforms, selectedKit, onSelectKit, teamImage }
                                 style={{
                                     backgroundColor: kitData.hex_colors.primary
                                 }}
-                                className="transition-all absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-1 w-[70%] h-[70%] rounded-full blur-xl opacity-75" />}
+                                className="transition-all absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-1 w-[50%] h-[50%] rounded-full blur-xl opacity-75" />}
                             <img
                                 src={kitData.image}
                                 className="max-h-full max-w-full object-contain pointer-events-none"

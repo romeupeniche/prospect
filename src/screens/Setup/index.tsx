@@ -109,7 +109,7 @@ export const Setup = () => {
     const handleConfirmStart = async () => {
         if (!savePath) return alert("Acesse as Opções e selecione um diretório de saves primeiro!");
         if (!formData.name || !formData.teamId || !formData.saveName) return alert("Preencha todos os campos.");
-        await createNewCareer(formData.name, formData.teamId, formData.saveName);
+        await createNewCareer(formData.name, formData.teamId, formData.saveName, language);
         startTransition("dashboard");
     };
 

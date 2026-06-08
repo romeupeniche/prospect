@@ -115,6 +115,7 @@ declare global {
     saveName: string;
     saveVersion: string;
     lastPlayed: string;
+    language?: string;
   }
 
   interface Player {
@@ -258,6 +259,7 @@ declare global {
     // Ataque / Geral
     goals: number;
     assists: number;
+    ownGoals?: number;
     shotsTotal: number;
     shotsOnTarget: number;
     bigChancesCreated: number;
@@ -284,6 +286,9 @@ declare global {
     dispossessed: number; // Bolas perdidas
     foulsCommitted: number; // Faltas cometidas
     foulsDrawn: number; // Faltas sofridas
+    yellowCards?: number;
+    redCards?: number;
+    goalsConceded?: number;
 
     // Exclusivo para Goleiros (opcional colocar aqui ou nulo para linha)
     goalkeeper?: {
@@ -297,10 +302,13 @@ declare global {
   interface MatchEvent {
     minute: number;
     extraMinute?: number; // Para gols/cartões nos acréscimos (ex: 45+2)
+    period?: "firstHalf" | "secondHalf" | "extraTime" | "penalties";
     team: "home" | "away";
     type: "goal" | "card" | "substitution" | "var";
     playerId: string; // Jogador principal envolvido
     detail: string; // Ex: "Regular Goal", "Yellow Card", "Own Goal", "Penalty"
+    rawType?: string;
+    rawText?: string;
     assistPlayerId?: string; // ID de quem deu a assistência (se for gol)
     playerInId?: string; // Se for substituição, quem entrou
     playerOutId?: string; // Se for substituição, quem saiu

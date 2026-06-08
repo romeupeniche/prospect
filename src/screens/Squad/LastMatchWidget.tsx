@@ -7,6 +7,7 @@ interface LastMatchWidgetProps {
   opponentLogo?: string;
   isTeamColorBlackOrWhite: boolean;
   onPlayerClick: (id: string) => void;
+  language?: string;
 }
 
 const positionSlots: Record<string, { x: number; y: number }> = {

@@ -8,6 +8,7 @@ import { NewsParser } from "../../services/NewsParser";
 import { useCompetitionsStore } from "../../store/useCompetitionsStore";
 import { useTeamStore } from "../../store/useTeamStore";
 import type { BasePlayer, RuntimePlayer } from "../../store/useTeamStore";
+import { formatPositionName } from "../../utils/positionI18n";
 
 type NewsKey =
   | "team_of_the_week"
@@ -122,8 +123,8 @@ function playerAge(player: BasePlayer, currentDate: string): number {
   return parseDate(currentDate).getFullYear() - parseDate(player.personal.birth_date).getFullYear();
 }
 
-function positionOf(player: BasePlayer | RuntimePlayer | undefined): string {
-  return player?.technical_profile.best_position ?? "";
+function positionOf(player: BasePlayer | RuntimePlayer | undefined, language?: string): string {
+  return formatPositionName(player?.technical_profile.best_position, language);
 }
 
 function dailySquadPlayer(teamId: string, currentDate: string, offset = 0): BasePlayer | null {
@@ -231,7 +232,7 @@ function buildSquadCandidate(fixture: Fixture, currentTeam: Team, saveData: Save
       player: related[0]?.personal.short_name,
       playerA: related[0]?.personal.short_name,
       playerB: related[1]?.personal.short_name,
-      position: positionOf(related[0]),
+      position: positionOf(related[0], saveData.language),
     },
   };
 }
@@ -282,7 +283,7 @@ function buildInjuryCandidate(
       ...ctx,
       player: injured.personal.short_name,
       playerA: injured.personal.short_name,
-      position: positionOf(injured),
+      position: positionOf(injured, saveData.language),
       injuryName: injured.runtime.injury.type,
       duration: formatDuration(injured.runtime.injury.daysRemaining),
       matchCount: injured.runtime.seasonStats.matches,
@@ -304,7 +305,7 @@ function buildDailyTrainingCandidate(fixture: Fixture | null, currentTeam: Team,
       ...ctx,
       player: player.personal.short_name,
       playerA: player.personal.short_name,
-      position: positionOf(player),
+      position: positionOf(player, saveData.language),
       age: playerAge(player, saveData.currentDate),
     },
   };
@@ -324,7 +325,7 @@ function buildPlayerFocusCandidate(fixture: Fixture | null, currentTeam: Team, s
       ...ctx,
       player: player.personal.short_name,
       playerA: player.personal.short_name,
-      position: positionOf(player),
+      position: positionOf(player, saveData.language),
       age: playerAge(player, saveData.currentDate),
     },
   };
@@ -346,7 +347,7 @@ function buildTransferCandidate(fixture: Fixture | null, currentTeam: Team, save
       player: listed[0]?.personal.short_name,
       playerA: listed[0]?.personal.short_name,
       playerB: listed[1]?.personal.short_name,
-      position: positionOf(listed[0]),
+      position: positionOf(listed[0], saveData.language),
       age: listed[0] ? playerAge(listed[0], saveData.currentDate) : "",
       marketValue: formatMoney(listed[0]?.contract.market_value),
     },
@@ -395,7 +396,7 @@ function buildMonthlyAwardCandidate(
       player: players[0]?.personal.short_name,
       playerA: players[0]?.personal.short_name,
       playerB: players[1]?.personal.short_name,
-      position: positionOf(players[0]),
+      position: positionOf(players[0], saveData.language),
       matchCount: playerScores[0]?.minutesPlayed ? 1 : "",
     },
   };

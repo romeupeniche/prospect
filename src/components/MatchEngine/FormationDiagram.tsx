@@ -1,13 +1,26 @@
 import { useLayoutEffect, useMemo, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { FORMATIONS } from "./Engine";
+import { getFitnessColorStyles, getOverallColorStyles } from "../../utils/colorStyles";
+import { DiamondIcon } from "../../icons/Diamond";
+import { formatPosition } from "../../utils/positionI18n";
 
 export interface FormationPlayer {
   id: string;
   name: string;
   number: number;
   position: string;
-  photo_url?: string;
+  photo_url: string | null;
+  is_captain: boolean;
+  overall: number;
+  base_overall?: number;
+  natural_position?: string;
+  playable_positions?: string[];
+  position_penalty?: number;
+  position_fit?: string;
+  condition: number;
+  match_fitness: number
+  is_injured?: boolean;
 }
 
 interface FormationDiagramProps {
@@ -20,6 +33,7 @@ interface FormationDiagramProps {
   onPlayerClick?: (slotIndex: number, player: FormationPlayer) => void;
   onPlayerContextMenu?: (slotIndex: number, player: FormationPlayer) => void;
   onSwapSlots?: (fromSlotIndex: number, toSlotIndex: number) => void;
+  language?: string;
 }
 
 function groupLine(pos: string): string {
@@ -105,16 +119,26 @@ const NAME_LABEL_PADDING = 0.75;
 const NAME_FONT_SIZE = 2.5;
 const NUMBER_LABEL_X = 3;
 const NUMBER_LABEL_WIDTH = 6;
+const STAMINA_ARC_R = PLAYER_R + 1.15;
+const STAMINA_ARC_DROP = 2.2;
+const STAMINA_ARC_ANGLE = Math.PI + 2 * Math.asin(STAMINA_ARC_DROP / STAMINA_ARC_R);
+const STAMINA_ARC_LENGTH = STAMINA_ARC_ANGLE * STAMINA_ARC_R;
 
 const FALLBACK_PHOTO = "src/assets/players/unknown.png";
 
-function estimateNameWidth(name: string): number {
-  return Array.from(name).reduce((width, char) => {
-    if (char === " ") return width + NAME_FONT_SIZE * 0.28;
-    if ("ilIíìîïÍÌÎÏjJ.,'".includes(char)) return width + NAME_FONT_SIZE * 0.24;
-    if ("mwMWãõÃÕ".includes(char)) return width + NAME_FONT_SIZE * 0.58;
-    return width + NAME_FONT_SIZE * 0.43;
-  }, 0);
+function mixChannel(start: number, end: number, amount: number): number {
+  return Math.round(start + (end - start) * amount);
+}
+
+function mixColor(start: [number, number, number], end: [number, number, number], amount: number): string {
+  return `rgb(${mixChannel(start[0], end[0], amount)}, ${mixChannel(start[1], end[1], amount)}, ${mixChannel(start[2], end[2], amount)})`;
+}
+
+function staminaRingColor(condition: number): string {
+  if (condition <= 50) {
+    return mixColor([239, 29, 29], [250, 204, 21], condition / 50);
+  }
+  return mixColor([250, 204, 21], [34, 233, 66], (condition - 50) / 50);
 }
 
 interface PlayerNameLabelProps {
@@ -210,6 +234,7 @@ const FormationDiagram = ({
   onPlayerClick,
   onPlayerContextMenu,
   onSwapSlots,
+  language = "pt",
 }: FormationDiagramProps) => {
   const [dragSourceSlot, setDragSourceSlot] = useState<number | null>(null);
   const [dragOverSlot, setDragOverSlot] = useState<number | null>(null);
@@ -308,10 +333,13 @@ const FormationDiagram = ({
           const svgX = (displayX / 100) * PW;
           const svgY = (displayY / 100) * PH;
           const fill = lineFill(line);
-          const hasPhoto = !!player.photo_url;
           const isSelected = interactive && selectedSlotIndex === slotIndex;
           const isDragSource = interactive && dragSourceSlot === slotIndex;
           const isDragOver = interactive && dragOverSlot === slotIndex && dragSourceSlot !== slotIndex;
+          const showStaminaRing = !(isSelected || isDragSource || isDragOver);
+          const staminaArcEndX = Math.sqrt(Math.max(0, STAMINA_ARC_R ** 2 - STAMINA_ARC_DROP ** 2));
+          const staminaArcY = svgY + STAMINA_ARC_DROP;
+          const staminaArcPath = `M ${svgX - staminaArcEndX} ${staminaArcY} A ${STAMINA_ARC_R} ${STAMINA_ARC_R} 0 1 1 ${svgX + staminaArcEndX} ${staminaArcY}`;
 
           return (
             <g
@@ -403,7 +431,7 @@ const FormationDiagram = ({
               />
 
               <motion.image
-                href={hasPhoto ? player.photo_url : FALLBACK_PHOTO}
+                href={player.photo_url ?? FALLBACK_PHOTO}
                 x={svgX - PLAYER_R}
                 y={svgY - PLAYER_R}
                 width={PLAYER_R * 2}
@@ -412,6 +440,42 @@ const FormationDiagram = ({
                 initial={{ opacity: 0 }}
                 animate={{ opacity: isDragSource ? 0.65 : 1 }}
                 transition={{ delay: 0.04 * i, duration: 0.3 }}
+              />
+
+              <motion.path
+                d={staminaArcPath}
+                fill="none"
+                stroke="rgba(0,0,0,0.45)"
+                strokeWidth={0.45}
+                strokeLinecap="round"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: showStaminaRing ? 0.5 : 0 }}
+                transition={{ duration: 0.18, ease: "easeOut" }}
+                style={{ pointerEvents: "none" }}
+              />
+
+              <motion.path
+                d={staminaArcPath}
+                fill="none"
+                stroke={staminaRingColor(player.condition)}
+                strokeWidth={0.65}
+                strokeLinecap="round"
+                strokeDasharray={`${STAMINA_ARC_LENGTH} ${STAMINA_ARC_LENGTH}`}
+                initial={{
+                  opacity: 0,
+                  strokeDashoffset: STAMINA_ARC_LENGTH,
+                }}
+                animate={{
+                  opacity: showStaminaRing ? 1 : 0,
+                  strokeDashoffset: STAMINA_ARC_LENGTH * (1 - player.condition / 100),
+                  stroke: staminaRingColor(player.condition),
+                }}
+                transition={{
+                  opacity: { duration: 0.2, ease: "easeOut" },
+                  strokeDashoffset: { delay: 0.08 * i, duration: 0.55, ease: "easeOut" },
+                  stroke: { delay: 0.08 * i, duration: 0.25, ease: "easeOut" },
+                }}
+                style={{ pointerEvents: "none" }}
               />
 
               {interactive && (isSelected || isDragOver) && (
@@ -428,64 +492,56 @@ const FormationDiagram = ({
                 />
               )}
 
-              {player.name && (
-                <>
-                  <motion.rect
-                    x={svgX + NAME_LABEL_X}
-                    y={svgY + NAME_LABEL_Y}
-                    width={18}
-                    height={NAME_LABEL_HEIGHT}
-                    fill={primaryColor}
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 0.07 * i, duration: 0.2 }}
-                  />
+              <motion.rect
+                x={svgX + NAME_LABEL_X}
+                y={svgY + NAME_LABEL_Y}
+                width={18}
+                height={NAME_LABEL_HEIGHT}
+                fill={primaryColor}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.07 * i, duration: 0.2 }}
+              />
 
-                  <motion.rect
-                    x={svgX + NUMBER_LABEL_X}
-                    y={svgY + NAME_LABEL_Y}
-                    width={NUMBER_LABEL_WIDTH}
-                    height={NAME_LABEL_HEIGHT}
-                    fill="rgba(0,0,0)"
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 0.07 * i, duration: 0.2 }}
-                  />
-                </>
-              )}
+              <motion.rect
+                x={svgX + NUMBER_LABEL_X}
+                y={svgY + NAME_LABEL_Y}
+                width={NUMBER_LABEL_WIDTH}
+                height={NAME_LABEL_HEIGHT}
+                fill="rgba(0,0,0)"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.07 * i, duration: 0.2 }}
+              />
 
-              {player.name && (
-                <>
-                  <PlayerNameLabel
-                    name={player.name}
-                    clipId={`name-clip-${player.id}`}
-                    svgX={svgX}
-                    svgY={svgY}
-                    delay={0.08 * i}
-                  />
+              <PlayerNameLabel
+                name={player.name}
+                clipId={`name-clip-${player.id}`}
+                svgX={svgX}
+                svgY={svgY}
+                delay={0.08 * i}
+              />
 
-                  <motion.g clipPath={`url(#number-clip-${player.id})`}>
-                    <motion.text
-                      x={svgX + 6}
-                      y={svgY + PLAYER_R + 3.5}
-                      textAnchor="middle"
-                      fontSize="3"
-                      fontWeight="900"
-                      fill={primaryColor}
-                      style={{
-                        pointerEvents: "none",
-                        userSelect: "none"
-                      }}
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      transition={{ delay: 0.08 * i, duration: 0.2 }}
-                      className="font-oswald font-black"
-                    >
-                      {player.number}
-                    </motion.text>
-                  </motion.g>
-                </>
-              )}
+              <motion.g clipPath={`url(#number-clip-${player.id})`}>
+                <motion.text
+                  x={svgX + 6}
+                  y={svgY + PLAYER_R + 3.5}
+                  textAnchor="middle"
+                  fontSize="3"
+                  fontWeight="900"
+                  fill={primaryColor}
+                  style={{
+                    pointerEvents: "none",
+                    userSelect: "none"
+                  }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.08 * i, duration: 0.2 }}
+                  className="font-oswald font-black"
+                >
+                  {player.number}
+                </motion.text>
+              </motion.g>
 
               <motion.text
                 x={svgX}
@@ -500,8 +556,81 @@ const FormationDiagram = ({
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.09 * i, duration: 0.2 }}
               >
-                {labels[slotIndex] ?? "—"}
+                {formatPosition(labels[slotIndex], language) || "—"}
               </motion.text>
+              <motion.g
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.09 * i, duration: 0.2 }}
+                className={getOverallColorStyles(player.overall).color}
+              >
+                <motion.text
+                  x={svgX + 6}
+                  y={svgY + PLAYER_R}
+                  textAnchor="middle"
+                  fontSize="3.5"
+                  fontWeight="800"
+                  fill="currentColor"
+                  style={{ pointerEvents: "none", userSelect: "none" }}
+                  // letterSpacing="0.3"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.09 * i, duration: 0.2 }}
+                  className={getOverallColorStyles(player.overall).color}
+                >
+                  {player.overall}
+                </motion.text>
+                <g transform={`translate(${svgX - 8.6}, ${svgY + PLAYER_R - 3})`}>
+                  {(player.position_penalty ?? 0) > 0 ? (
+                    <>
+                      <motion.g
+                        animate={{ opacity: [1, 1, 0, 0, 1] }}
+                        transition={{
+                          duration: 2,
+                          repeat: Infinity,
+                          times: [0, 0.58, 0.68, 0.84, 1],
+                          ease: "easeInOut",
+                        }}
+                      >
+                        <DiamondIcon
+                          width="3.5"
+                          height="3.5"
+                          fill="currentColor"
+                          className={getFitnessColorStyles(player.match_fitness).color}
+                        />
+                      </motion.g>
+                      <motion.text
+                        x="1.75"
+                        y="2.85"
+                        textAnchor="middle"
+                        fontSize="2.6"
+                        fontWeight="900"
+                        fill="#f00"
+                        style={{ pointerEvents: "none", userSelect: "none" }}
+                        animate={{
+                          opacity: [0, 0, 1, 1, 0],
+                          scale: [0.96, 0.96, 1.08, 1, 0.96],
+                        }}
+                        transition={{
+                          duration: 2,
+                          repeat: Infinity,
+                          times: [0, 0.64, 0.72, 0.86, 1],
+                          ease: "easeInOut",
+                        }}
+                      >
+                        -{player.position_penalty}
+                      </motion.text>
+                    </>
+                  ) : (
+                    <DiamondIcon
+                      width="3.5"
+                      height="3.5"
+                      fill="currentColor"
+                      className={getFitnessColorStyles(player.match_fitness).color}
+                    />
+                  )}
+                </g>
+              </motion.g>
             </g>
           );
         })}

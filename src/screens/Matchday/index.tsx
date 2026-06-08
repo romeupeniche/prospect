@@ -6,9 +6,8 @@ import CompetitionTable from "../../components/DashboardWidgets/CompetitionTable
 import { useCompetitionsStore } from "../../store/useCompetitionsStore";
 import MatchSimulation from "../../components/MatchEngine/MatchSimulation";
 import FormationDiagram, { FormationPlayer, sortPlayersByFormation } from "../../components/MatchEngine/FormationDiagram";
-import { FORMATIONS } from "../../components/MatchEngine/Engine";
-import { getTeamSquadPlayers } from "../../data/teamSquads";
-import { BasePlayer, RuntimePlayer, useTeamStore } from "../../store/useTeamStore";
+import { FORMATIONS, EnginePlayer, MatchEventState, MatchState } from "../../components/MatchEngine/Engine";
+import { RuntimePlayer, useTeamStore } from "../../store/useTeamStore";
 import PlayerDrawer from "../Squad/PlayerDrawer";
 import { StadiumIcon } from "../../icons/Stadium";
 import { FlightIcon } from "../../icons/Flight";
@@ -17,145 +16,160 @@ import { WhistleIcon } from "../../icons/Whistle";
 import { CalendarIcon } from "../../icons/Calendar";
 import { formatDynamicDate } from "../../utils/formatDynamicDate";
 import MatchDetails from "./MatchDetails";
+import { getOverallColorStyles } from "../../utils/colorStyles";
+import { formatPosition, getPositionLanguageFromSave } from "../../utils/positionI18n";
+import MatchdayPlayerList, { sortOptionsForTarget } from "./MatchdayPlayerList";
+import { CloseIcon } from "../../icons/Close";
+import { EnergyIcon } from "../../icons/Energy";
+import { DiamondIcon } from "../../icons/Diamond";
+import { getPositionFitResult } from "../../utils/positionFit";
+import type { PositionFitLevel } from "../../utils/positionFit";
+import {
+    FORMATION_OPTIONS,
+    POSITION_LABEL_MAP,
+    POSITION_SLOT_ROLE,
+    selectBestAiMatchdaySquad,
+} from "../../utils/teamLineupAI";
 
-function groupLine(pos: string): string {
-    switch (pos) {
-        case "GK": return "GK";
-        case "CB": case "RB": case "LB": case "RWB": case "LWB": return "DF";
-        case "CDM": case "CM": case "CAM": case "RM": case "LM": return "MF";
-        case "RW": case "LW": case "ST": case "CF": case "SS": return "FW";
-        default: return "MF";
-    }
+function calcFormationOverall(players: FormationPlayer[]): number {
+    if (players.length === 0) return 0;
+    const sum = players.reduce((total, player) => total + (player.overall ?? 60), 0);
+    return Math.round(sum / players.length);
 }
 
-function calcOverall(players: any[], starterIds: Set<string>): number {
-    const matched = players.filter((p: any) => p?.id && starterIds.has(p.id));
-    if (matched.length === 0) return 0;
-    const sum = matched.reduce((s: number, p: any) => s + (p.technical_profile?.overall ?? 60), 0);
-    return Math.round(sum / matched.length);
+function statPair(home: number, away: number): TeamStatPair<number> {
+    return { home, away };
 }
 
-const POSITION_LABEL_MAP: Record<string, string[]> = {
-    "4-3-3": ["GOL", "LD", "ZG", "ZG", "LE", "MD", "MC", "ME", "PD", "CA", "PE"],
-    "4-4-2": ["GOL", "LD", "ZG", "ZG", "LE", "MD", "MC", "MC", "ME", "AT", "AT"],
-    "4-2-3-1": ["GOL", "LD", "ZG", "ZG", "LE", "V1", "V2", "MD", "MO", "ME", "CA"],
-    "3-5-2": ["GOL", "ZG", "ZG", "ZG", "AD", "AE", "V", "MC", "MO", "AT", "AT"],
-    "4-3-3 Holding": ["GOL", "LD", "ZG", "ZG", "LE", "V", "MC", "MC", "PD", "CA", "PE"],
-    "4-3-3 Attack": ["GOL", "LD", "ZG", "ZG", "LE", "MC", "MC", "MO", "PD", "CA", "PE"],
-    "4-1-4-1": ["GOL", "LD", "ZG", "ZG", "LE", "V", "MD", "MC", "MC", "ME", "CA"],
-    "4-5-1": ["GOL", "LD", "ZG", "ZG", "LE", "MD", "MC", "MC", "MC", "ME", "CA"],
-    "4-4-1-1": ["GOL", "LD", "ZG", "ZG", "LE", "MD", "MC", "MC", "ME", "MO", "CA"],
-    "4-1-2-1-2": ["GOL", "LD", "ZG", "ZG", "LE", "V", "MC", "MC", "MO", "AT", "AT"],
-    "4-3-2-1": ["GOL", "LD", "ZG", "ZG", "LE", "MC", "MC", "MC", "MO", "MO", "CA"],
-    "4-2-2-2": ["GOL", "LD", "ZG", "ZG", "LE", "V1", "V2", "MD", "ME", "AT", "AT"],
-    "4-2-4": ["GOL", "LD", "ZG", "ZG", "LE", "MC", "MC", "PD", "AT", "AT", "PE"],
-    "3-4-3": ["GOL", "ZG", "ZG", "ZG", "AD", "MC", "MC", "AE", "PD", "CA", "PE"],
-    "3-4-2-1": ["GOL", "ZG", "ZG", "ZG", "AD", "MC", "MC", "AE", "MO", "MO", "CA"],
-    "3-4-1-2": ["GOL", "ZG", "ZG", "ZG", "AD", "MC", "MC", "AE", "MO", "AT", "AT"],
-    "5-3-2": ["GOL", "LD", "ZG", "ZG", "ZG", "LE", "MC", "MC", "MC", "AT", "AT"],
-    "5-4-1": ["GOL", "LD", "ZG", "ZG", "ZG", "LE", "MD", "MC", "MC", "ME", "CA"],
-    "5-2-3": ["GOL", "LD", "ZG", "ZG", "ZG", "LE", "MC", "MC", "PD", "CA", "PE"],
-};
-
-const POSITION_ROLE_PRIORITY: Record<string, string[]> = {
-    GOL: ["GK"],
-    LD: ["RB", "RWB", "CB"],
-    LE: ["LB", "LWB", "CB"],
-    ZG: ["CB", "RB", "LB", "CDM"],
-    AD: ["RWB", "RB", "RM"],
-    AE: ["LWB", "LB", "LM"],
-    V: ["CDM", "CM", "CB"],
-    V1: ["CDM", "CM"],
-    V2: ["CDM", "CM"],
-    MD: ["RM", "RW", "CM", "RB"],
-    ME: ["LM", "LW", "CM", "LB"],
-    MC: ["CM", "CDM", "CAM"],
-    MO: ["CAM", "CM", "CF"],
-    PD: ["RW", "RM", "ST"],
-    PE: ["LW", "LM", "ST"],
-    CA: ["ST", "CF", "SS"],
-    AT: ["ST", "CF", "SS", "LW", "RW"],
-};
-
-const POSITION_SLOT_ROLE: Record<string, string> = {
-    GOL: "GK",
-    LD: "RB",
-    LE: "LB",
-    ZG: "CB",
-    AD: "RWB",
-    AE: "LWB",
-    V: "CDM",
-    V1: "CDM",
-    V2: "CDM",
-    MD: "RM",
-    ME: "LM",
-    MC: "CM",
-    MO: "CAM",
-    PD: "RW",
-    PE: "LW",
-    CA: "ST",
-    AT: "ST",
-};
-
-const FORMATION_OPTIONS = [
-    "4-3-3",
-    "4-3-3 Holding",
-    "4-3-3 Attack",
-    "4-2-3-1",
-    "4-4-2",
-    "4-4-1-1",
-    "4-1-4-1",
-    "4-5-1",
-    "4-1-2-1-2",
-    "4-3-2-1",
-    "4-2-2-2",
-    "4-2-4",
-    "3-5-2",
-    "3-4-3",
-    "3-4-2-1",
-    "3-4-1-2",
-    "5-3-2",
-    "5-4-1",
-    "5-2-3",
-];
-
-function roleFitsPosition(label: string, playerPosition: string): boolean {
-    return (POSITION_ROLE_PRIORITY[label] ?? [playerPosition]).includes(playerPosition);
+function toFixtureMatchStats(stats: MatchState["stats"]): MatchStats {
+    return {
+        possession: statPair(stats.home.possession, stats.away.possession),
+        shotsTotal: statPair(stats.home.shotsTotal, stats.away.shotsTotal),
+        shotsOnTarget: statPair(stats.home.shotsOnTarget, stats.away.shotsOnTarget),
+        shotsOffTarget: statPair(stats.home.shotsOffTarget, stats.away.shotsOffTarget),
+        blockedShots: statPair(stats.home.blockedShots, stats.away.blockedShots),
+        cornerKicks: statPair(stats.home.cornerKicks, stats.away.cornerKicks),
+        offsides: statPair(stats.home.offsides, stats.away.offsides),
+        fouls: statPair(stats.home.fouls, stats.away.fouls),
+        yellowCards: statPair(stats.home.yellowCards, stats.away.yellowCards),
+        redCards: statPair(stats.home.redCards, stats.away.redCards),
+        bigChances: statPair(stats.home.bigChances, stats.away.bigChances),
+        bigChancesMissed: statPair(
+            Math.max(0, stats.home.bigChances - stats.home.penaltiesScored),
+            Math.max(0, stats.away.bigChances - stats.away.penaltiesScored),
+        ),
+        goalkeeperSaves: statPair(stats.home.goalkeeperSaves, stats.away.goalkeeperSaves),
+        passesTotal: statPair(stats.home.passesTotal, stats.away.passesTotal),
+        passesAccurate: statPair(stats.home.passesAccurate, stats.away.passesAccurate),
+        tackles: statPair(stats.home.tacklesWon, stats.away.tacklesWon),
+    };
 }
 
-function selectStarterRoles(players: any[], formation: string): { id: string, pos: string }[] {
-    const labels = POSITION_LABEL_MAP[formation] ?? POSITION_LABEL_MAP["4-3-3"];
-    const available = players
-        .filter((player) => player?.id)
-        .sort((a, b) => (b.technical_profile?.overall ?? 0) - (a.technical_profile?.overall ?? 0));
-    const used = new Set<string>();
+function parseEngineEventMinute(minute: string): { minute: number; extraMinute?: number; period: MatchEvent["period"] } {
+    const normalized = minute.replace("'", "").trim();
+    const [minuteText, extraText] = normalized.split("+");
+    const baseMinute = Number(minuteText) || 0;
+    return {
+        minute: baseMinute,
+        extraMinute: extraText ? Number(extraText) || undefined : undefined,
+        period: baseMinute > 90 ? "extraTime" : baseMinute <= 45 ? "firstHalf" : "secondHalf",
+    };
+}
 
-    return labels
-        .map((label) => {
-            const exact = available.find((player) => {
-                const position = player.technical_profile?.best_position ?? "CM";
-                return !used.has(player.id) && roleFitsPosition(label, position);
-            });
-            const fallback = available.find((player) => !used.has(player.id));
-            const selected = exact ?? fallback;
-            if (!selected) return null;
-            used.add(selected.id);
+function mapEngineEventType(type: MatchEventState["type"]): MatchEvent["type"] {
+    if (type === "goal" || type === "penalty") return "goal";
+    if (type === "yellow_card" || type === "red_card") return "card";
+    if (type === "substitution") return "substitution";
+    return "var";
+}
+
+function toFixtureEvents(events: MatchEventState[]): MatchEvent[] {
+    return events
+        .map((event) => {
+            const parsed = parseEngineEventMinute(event.minute);
             return {
-                id: selected.id,
-                pos: POSITION_SLOT_ROLE[label] ?? selected.technical_profile?.best_position ?? "CM",
+                ...parsed,
+                team: event.team,
+                type: mapEngineEventType(event.type),
+                playerId: "",
+                detail: event.text,
+                rawType: event.type,
+                rawText: event.text,
             };
         })
-        .filter(Boolean) as { id: string, pos: string }[];
+        .sort((a, b) => (a.minute + (a.extraMinute ?? 0) / 100) - (b.minute + (b.extraMinute ?? 0) / 100));
 }
 
-function lineColor(line: string): string {
-    switch (line) {
-        case "GK": return "bg-amber-400";
-        case "DF": return "bg-sky-500";
-        case "MF": return "bg-emerald-500";
-        case "FW": return "bg-rose-500";
-        default: return "bg-gray-400";
-    }
+function toFixturePlayerPerformance(player: EnginePlayer): PlayerPerformance {
+    const stats = player.matchStats;
+    const isGoalkeeper = player.position === "GK";
+    return {
+        playerId: player.id,
+        name: player.name,
+        rating: stats.rating,
+        isFirstEleven: player.substitutionSlot < 11,
+        minutesPlayed: stats.minutesPlayed,
+        goals: stats.goals,
+        assists: stats.assists,
+        ownGoals: stats.ownGoals,
+        shotsTotal: stats.totalShots,
+        shotsOnTarget: stats.shotsOnTarget,
+        bigChancesCreated: stats.bigChancesCreated,
+        bigChancesMissed: stats.bigChancesMissed,
+        passesTotal: stats.totalPasses,
+        passesAccurate: stats.accuratePasses,
+        keyPasses: stats.keyPasses,
+        crossesTotal: stats.crossesTotal,
+        crossesAccurate: stats.crossesAccurate,
+        longBallsTotal: stats.longPassesTotal,
+        longBallsAccurate: stats.longPassesAccurate,
+        tackles: stats.tacklesWon,
+        interceptions: stats.interceptions,
+        clearances: stats.clearances,
+        blockedShots: stats.blockedShots,
+        duelsGroundTotal: stats.groundDuelsTotal,
+        duelsGroundWon: stats.groundDuelsWon,
+        duelsAerialTotal: stats.aerialDuelsTotal,
+        duelsAerialWon: stats.aerialDuelsWon,
+        dispossessed: Math.max(0, stats.duelsTotal - stats.duelsWon),
+        foulsCommitted: stats.foulsCommitted,
+        foulsDrawn: stats.foulsSuffered,
+        yellowCards: stats.yellowCards,
+        redCards: stats.redCards,
+        goalsConceded: stats.goalsConceded,
+        goalkeeper: isGoalkeeper
+            ? {
+                saves: stats.goalkeeperSaves,
+                savesInsideBox: stats.goalkeeperSaves,
+                punches: stats.punches,
+                highClaims: stats.throws,
+            }
+            : undefined,
+    };
+}
+
+function buildFinishedMatchDetails(finalState: MatchState): {
+    stats: MatchStats;
+    playerStats: MatchPlayerStats;
+    events: MatchEvent[];
+} {
+    const playedPlayers = finalState.players.filter((player) => player.matchStats.minutesPlayed > 0);
+    return {
+        stats: toFixtureMatchStats(finalState.stats),
+        playerStats: {
+            home: Object.fromEntries(
+                playedPlayers
+                    .filter((player) => player.team === "home")
+                    .map((player) => [player.id, toFixturePlayerPerformance(player)]),
+            ),
+            away: Object.fromEntries(
+                playedPlayers
+                    .filter((player) => player.team === "away")
+                    .map((player) => [player.id, toFixturePlayerPerformance(player)]),
+            ),
+        },
+        events: toFixtureEvents(finalState.events),
+    };
 }
 
 const checkKitConflict = (kit1: Uniform, kit2: Uniform): boolean => {
@@ -183,40 +197,52 @@ const resolveDefaultKits = (homeUniforms: UniformMap, awayUniforms: UniformMap) 
     return { homeKit: "home" as const, awayKit: "away" as const };
 };
 
-function toFormationPlayer(p: any, pos?: string): FormationPlayer {
+function toFormationPlayer(p: RuntimePlayer, pos?: string): FormationPlayer {
+    const targetPosition = pos ?? p.technical_profile.best_position;
+    const baseOverall = p.technical_profile.overall;
+    const naturalPosition = p.technical_profile.best_position;
+    const playablePositions = p.technical_profile.positions ?? [];
+    const positionFit = getPositionFitResult(baseOverall, naturalPosition, playablePositions, targetPosition);
+
     return {
         id: p.id,
-        name: p.personal?.short_name ?? "Jogador",
-        number: p.contract?.kit_number ?? 0,
-        position: pos ?? p.technical_profile?.best_position ?? "N/A",
-        photo_url: p.personal?.photo_url ?? "",
+        name: p.personal.short_name,
+        number: p.contract.kit_number,
+        position: targetPosition,
+        photo_url: p.personal.photo_url,
+        is_captain: false,
+        overall: positionFit.adjustedOverall,
+        base_overall: baseOverall,
+        natural_position: naturalPosition,
+        playable_positions: playablePositions,
+        position_penalty: positionFit.penalty,
+        position_fit: positionFit.fit,
+        condition: p.runtime.condition,
+        match_fitness: p.runtime.form * 20,
+        is_injured: Boolean(p.runtime.injury),
     };
 }
 
-function makeMatchdayRuntimePlayer(player: BasePlayer, index: number): RuntimePlayer {
-    const seed = player.id.split("").reduce((total, char) => total + char.charCodeAt(0), 0) + index;
+function applyPlayerPositionFit(player: FormationPlayer, targetPosition: string): FormationPlayer {
+    const baseOverall = player.base_overall ?? player.overall;
+    const naturalPosition = player.natural_position ?? player.position;
+    const playablePositions = player.playable_positions ?? [];
+    const positionFit = getPositionFitResult(baseOverall, naturalPosition, playablePositions, targetPosition);
+
     return {
         ...player,
-        runtime: {
-            matchFitness: 72 + (seed % 24),
-            condition: 68 + (seed % 28),
-            ckRisk: 18 + (seed % 62),
-            form: ((seed % 5) + 1) as RuntimePlayer["runtime"]["form"],
-            isLoanListed: false,
-            hasUnreadMessage: false,
-            injury: null,
-            seasonStats: {
-                matches: 0,
-                rating: 0,
-                goals: 0,
-                assists: 0,
-                tackles: 0,
-                passesCompleted: 0,
-                saves: 0,
-                cleanSheets: 0,
-            },
-        },
+        position: targetPosition,
+        overall: positionFit.adjustedOverall,
+        base_overall: baseOverall,
+        natural_position: naturalPosition,
+        playable_positions: playablePositions,
+        position_penalty: positionFit.penalty,
+        position_fit: positionFit.fit as PositionFitLevel,
     };
+}
+
+function resetPlayerToNaturalPosition(player: FormationPlayer): FormationPlayer {
+    return applyPlayerPositionFit(player, player.natural_position ?? player.position);
 }
 
 function formationDotColor(line: string): string {
@@ -228,6 +254,7 @@ function formationDotColor(line: string): string {
         default: return "#94a3b8";
     }
 }
+
 
 function MiniFormationCard({
     formation,
@@ -299,10 +326,9 @@ function roleForFormationSlot(formation: string, index: number, fallback = "CM")
 }
 
 function remapStartersToFormation(players: FormationPlayer[], formation: string): FormationPlayer[] {
-    return players.map((player, index) => ({
-        ...player,
-        position: roleForFormationSlot(formation, index, player.position),
-    }));
+    return players.map((player, index) =>
+        applyPlayerPositionFit(player, roleForFormationSlot(formation, index, player.position)),
+    );
 }
 
 function applyStarterSlotPositions(players: any[], starters: FormationPlayer[]): any[] {
@@ -311,14 +337,21 @@ function applyStarterSlotPositions(players: any[], starters: FormationPlayer[]):
     return players.map((player) => {
         const slotPosition = slotById.get(player.id);
         if (!slotPosition) return player;
+        const baseOverall = player.technical_profile?.overall ?? 60;
+        const naturalPosition = player.technical_profile?.best_position ?? slotPosition;
+        const playablePositions = player.technical_profile?.positions ?? [];
+        const positionFit = getPositionFitResult(baseOverall, naturalPosition, playablePositions, slotPosition);
 
         return {
             ...player,
             position: slotPosition,
             technical_profile: {
                 ...player.technical_profile,
+                overall: positionFit.adjustedOverall,
                 best_position: slotPosition,
             },
+            position_fit_penalty: positionFit.penalty,
+            natural_position: naturalPosition,
         };
     });
 }
@@ -334,8 +367,11 @@ const Matchday: React.FC = () => {
 
     const competitions = useCompetitionsStore((state) => state.competitions);
     const getNextMatch = useCompetitionsStore((state) => state.getNextMatch);
-    const runtimePlayers = useTeamStore((state) => state.players);
-    const hydrateTeam = useTeamStore((state) => state.hydrateTeam);
+    const updateLiveMatchScore = useCompetitionsStore((state) => state.updateLiveMatchScore);
+    const updateMatchResult = useCompetitionsStore((state) => state.updateMatchResult);
+    const clearLiveMatchScore = useCompetitionsStore((state) => state.clearLiveMatchScore);
+    const playersByTeamId = useTeamStore((state) => state.playersByTeamId);
+    const setActiveTeam = useTeamStore((state) => state.setActiveTeam);
 
     const currentMatchData: Fixture | null = useMemo(() => {
         if (!saveData?.teamId) return null;
@@ -366,35 +402,40 @@ const Matchday: React.FC = () => {
 
     if (!currentTeam || !saveData || !currentMatchData || !homeTeamKits || !awayTeamKits) return null;
 
-    const homeAll = useMemo(() => getTeamSquadPlayers(currentMatchData.homeTeam.id), [currentMatchData.homeTeam.id]);
-    const awayAll = useMemo(() => getTeamSquadPlayers(currentMatchData.awayTeam.id), [currentMatchData.awayTeam.id]);
+    const positionLanguage = getPositionLanguageFromSave(saveData);
 
-    const rawHomeStarters = useMemo(() => selectStarterRoles(homeAll, homeFormation), [homeAll, homeFormation]);
-    const rawAwayStarters = useMemo(() => selectStarterRoles(awayAll, awayFormation), [awayAll, awayFormation]);
+    const homeAll = useMemo(
+        () => playersByTeamId[currentMatchData.homeTeam.id] ?? [],
+        [playersByTeamId, currentMatchData.homeTeam.id],
+    );
+    const awayAll = useMemo(
+        () => playersByTeamId[currentMatchData.awayTeam.id] ?? [],
+        [playersByTeamId, currentMatchData.awayTeam.id],
+    );
+
+    const homeAiSquad = useMemo(() => selectBestAiMatchdaySquad(homeAll), [homeAll]);
+    const awayAiSquad = useMemo(() => selectBestAiMatchdaySquad(awayAll), [awayAll]);
 
     const rawHomeStarterPlayers: FormationPlayer[] = useMemo(() =>
-        rawHomeStarters.map(({ id, pos }) => { const p = homeAll.find((x) => x.id === id); return p ? toFormationPlayer(p, pos) : null; }).filter(Boolean) as FormationPlayer[],
-        [homeAll, rawHomeStarters]);
+        homeAiSquad.starters.map(({ id, pos }) => { const p = homeAll.find((x) => x.id === id); return p ? toFormationPlayer(p, pos) : null; }).filter(Boolean) as FormationPlayer[],
+        [homeAll, homeAiSquad.starters]);
     const rawAwayStarterPlayers: FormationPlayer[] = useMemo(() =>
-        rawAwayStarters.map(({ id, pos }) => { const p = awayAll.find((x) => x.id === id); return p ? toFormationPlayer(p, pos) : null; }).filter(Boolean) as FormationPlayer[],
-        [awayAll, rawAwayStarters]);
+        awayAiSquad.starters.map(({ id, pos }) => { const p = awayAll.find((x) => x.id === id); return p ? toFormationPlayer(p, pos) : null; }).filter(Boolean) as FormationPlayer[],
+        [awayAll, awayAiSquad.starters]);
 
     const sortedHomeStarters: FormationPlayer[] = useMemo(() =>
-        sortPlayersByFormation(rawHomeStarterPlayers, homeFormation),
-        [rawHomeStarterPlayers, homeFormation]);
+        sortPlayersByFormation(rawHomeStarterPlayers, homeAiSquad.formation),
+        [rawHomeStarterPlayers, homeAiSquad.formation]);
     const sortedAwayStarters: FormationPlayer[] = useMemo(() =>
-        sortPlayersByFormation(rawAwayStarterPlayers, awayFormation),
-        [rawAwayStarterPlayers, awayFormation]);
-
-    const homeStarterIds = useMemo(() => new Set(sortedHomeStarters.map((p) => p.id)), [sortedHomeStarters]);
-    const awayStarterIds = useMemo(() => new Set(sortedAwayStarters.map((p) => p.id)), [sortedAwayStarters]);
+        sortPlayersByFormation(rawAwayStarterPlayers, awayAiSquad.formation),
+        [rawAwayStarterPlayers, awayAiSquad.formation]);
 
     const rawHomeBench = useMemo(() =>
-        homeAll.filter((p: any) => !homeStarterIds.has(p.id)).slice(0, 7).map((p) => toFormationPlayer(p)),
-        [homeAll, homeStarterIds]);
+        homeAiSquad.bench.map((id) => { const p = homeAll.find((player) => player.id === id); return p ? toFormationPlayer(p) : null; }).filter(Boolean) as FormationPlayer[],
+        [homeAll, homeAiSquad.bench]);
     const rawAwayBench = useMemo(() =>
-        awayAll.filter((p: any) => !awayStarterIds.has(p.id)).slice(0, 7).map((p) => toFormationPlayer(p)),
-        [awayAll, awayStarterIds]);
+        awayAiSquad.bench.map((id) => { const p = awayAll.find((player) => player.id === id); return p ? toFormationPlayer(p) : null; }).filter(Boolean) as FormationPlayer[],
+        [awayAll, awayAiSquad.bench]);
 
     const [homeStarterState, setHomeStarterState] = useState<FormationPlayer[]>(sortedHomeStarters);
     const [homeBenchState, setHomeBenchState] = useState<FormationPlayer[]>(rawHomeBench);
@@ -403,16 +444,43 @@ const Matchday: React.FC = () => {
     const [selectedTeamTab, setSelectedTeamTab] = useState<"home" | "away">("home");
     const [playerListTab, setPlayerListTab] = useState<"field" | "bench">("field");
     const [diagramTab, setDiagramTab] = useState<"team" | "formations">("team");
+    const [benchEditTarget, setBenchEditTarget] = useState<string | null>(null);
+    const [lineupSeedKey, setLineupSeedKey] = useState("");
 
     useEffect(() => {
-        const isRuntimeTeamLoaded =
-            runtimePlayers.length > 0 &&
-            runtimePlayers.every((player) => player.team_id === saveData.teamId);
+        setActiveTeam(saveData.teamId);
+    }, [setActiveTeam, saveData.teamId]);
 
-        if (!isRuntimeTeamLoaded) {
-            hydrateTeam(getTeamSquadPlayers(saveData.teamId) as BasePlayer[]);
-        }
-    }, [hydrateTeam, runtimePlayers, saveData.teamId]);
+    useEffect(() => {
+        const fixtureId = (currentMatchData as { id?: string }).id;
+        const fixtureKey = `${fixtureId ?? currentMatchData.date}-${currentMatchData.homeTeam.id}-${currentMatchData.awayTeam.id}`;
+        if (lineupSeedKey === fixtureKey) return;
+
+        setHomeFormation(homeAiSquad.formation);
+        setAwayFormation(awayAiSquad.formation);
+        setHomeStarterState(sortedHomeStarters);
+        setAwayStarterState(sortedAwayStarters);
+        setHomeBenchState(rawHomeBench);
+        setAwayBenchState(rawAwayBench);
+        setSubTarget(null);
+        setBenchEditTarget(null);
+        setLineupSeedKey(fixtureKey);
+    }, [
+        awayAiSquad.formation,
+        currentMatchData.awayTeam.id,
+        currentMatchData.date,
+        currentMatchData.homeTeam.id,
+        homeAiSquad.formation,
+        lineupSeedKey,
+        rawAwayBench,
+        rawHomeBench,
+        sortedAwayStarters,
+        sortedHomeStarters,
+    ]);
+
+    useEffect(() => {
+        setBenchEditTarget(null);
+    }, [selectedTeamTab, playerListTab]);
 
     const doSub = useCallback((benchPlayerId: string, starterSlotIndex: number, side: "home" | "away" = "home") => {
         const starters = side === "home" ? homeStarterState : awayStarterState;
@@ -421,10 +489,8 @@ const Matchday: React.FC = () => {
         const displaced = starters[starterSlotIndex];
         if (!incoming || !displaced || starterSlotIndex < 0 || starterSlotIndex >= starters.length) return;
 
-        const replacement: FormationPlayer = {
-            ...incoming,
-            position: displaced.position,
-        };
+        const replacement = applyPlayerPositionFit(incoming, displaced.position);
+        const returnedToBench = resetPlayerToNaturalPosition(displaced);
         const newStarters = starters.map((player, index) =>
             index === starterSlotIndex ? replacement : player,
         );
@@ -434,13 +500,36 @@ const Matchday: React.FC = () => {
 
         if (side === "home") {
             setHomeStarterState(newStarters);
-            setHomeBenchState([...nextBench, displaced]);
+            setHomeBenchState([...nextBench, returnedToBench]);
         } else {
             setAwayStarterState(newStarters);
-            setAwayBenchState([...nextBench, displaced]);
+            setAwayBenchState([...nextBench, returnedToBench]);
         }
         setSubTarget(null);
     }, [awayBenchState, awayStarterState, homeBenchState, homeStarterState]);
+
+    const replaceBenchPlayer = useCallback((benchPlayerId: string, incomingPlayerId: string, side: "home" | "away" = "home") => {
+        const allPlayers = side === "home" ? homeAll : awayAll;
+        const starters = side === "home" ? homeStarterState : awayStarterState;
+        const bench = side === "home" ? homeBenchState : awayBenchState;
+        const starterIds = new Set(starters.map((player) => player.id));
+        const benchIds = new Set(bench.map((player) => player.id));
+        const incoming = allPlayers.find((player) => player.id === incomingPlayerId);
+
+        if (!incoming || starterIds.has(incoming.id) || benchIds.has(incoming.id)) return;
+
+        const nextBench = bench.map((player) =>
+            player.id === benchPlayerId ? toFormationPlayer(incoming) : player,
+        );
+
+        if (side === "home") {
+            setHomeBenchState(nextBench);
+        } else {
+            setAwayBenchState(nextBench);
+        }
+
+        setBenchEditTarget(null);
+    }, [awayAll, awayBenchState, awayStarterState, homeAll, homeBenchState, homeStarterState]);
 
     const swapStarterSlots = useCallback((fromSlotIndex: number, toSlotIndex: number, side: "home" | "away" = "home") => {
         const update = (players: FormationPlayer[]) => {
@@ -457,8 +546,8 @@ const Matchday: React.FC = () => {
             const next = [...players];
             const fromPlayer = next[fromSlotIndex];
             const toPlayer = next[toSlotIndex];
-            next[fromSlotIndex] = { ...toPlayer, position: fromPlayer.position };
-            next[toSlotIndex] = { ...fromPlayer, position: toPlayer.position };
+            next[fromSlotIndex] = applyPlayerPositionFit(toPlayer, fromPlayer.position);
+            next[toSlotIndex] = applyPlayerPositionFit(fromPlayer, toPlayer.position);
             return next;
         };
 
@@ -482,22 +571,14 @@ const Matchday: React.FC = () => {
 
         setSubTarget(null);
         setPlayerListTab("field");
+        setBenchEditTarget(null);
     }, []);
-
-    const sortedStarterIds = useMemo(() => homeStarterState.map((p) => p.id), [homeStarterState]);
-    const awaySortedStarterIds = useMemo(() => awayStarterState.map((p) => p.id), [awayStarterState]);
 
     const homeLabels = POSITION_LABEL_MAP[homeFormation] ?? POSITION_LABEL_MAP["4-3-3"];
     const awayLabels = POSITION_LABEL_MAP[awayFormation] ?? POSITION_LABEL_MAP["4-3-3"];
 
-    const homeOverall = useMemo(() => {
-        const ids = new Set(sortedStarterIds);
-        return calcOverall(homeAll, ids);
-    }, [homeAll, sortedStarterIds]);
-
-    const awayOverall = useMemo(() => {
-        return calcOverall(awayAll, new Set(awaySortedStarterIds));
-    }, [awayAll, awaySortedStarterIds]);
+    const homeOverall = useMemo(() => calcFormationOverall(homeStarterState), [homeStarterState]);
+    const awayOverall = useMemo(() => calcFormationOverall(awayStarterState), [awayStarterState]);
 
     const homeLineupPlayers = useMemo(
         () => applyStarterSlotPositions(homeAll, homeStarterState),
@@ -535,6 +616,7 @@ const Matchday: React.FC = () => {
         opponent: opponent,
         date: currentMatchData.date,
         time: currentMatchData.time,
+        referee: currentMatchData.referee,
     };
 
     const isTeamColorBlack = currentTeam.colors.primary[500] === "#000" || currentTeam.colors.primary[500] === "#000000";
@@ -544,34 +626,69 @@ const Matchday: React.FC = () => {
     const activeFormation = selectedTeamTab === "home" ? homeFormation : awayFormation;
     const activeStarters = selectedTeamTab === "home" ? homeStarterState : awayStarterState;
     const activeBench = selectedTeamTab === "home" ? homeBenchState : awayBenchState;
+    const activeAllPlayers = selectedTeamTab === "home" ? homeAll : awayAll;
     const activeLabels = selectedTeamTab === "home" ? homeLabels : awayLabels;
     const activeTeamColor = selectedTeamTab === "home"
         ? (isTeamColorBlackOrWhite ? "#666" : currentTeam.colors.primary[600])
         : "#888";
     const activeOverall = selectedTeamTab === "home" ? homeOverall : awayOverall;
-    const overallTextColor = activeOverall >= 90 ? "text-purple-500" : activeOverall >= 80 ? "text-blue-500" : activeOverall >= 70 ? "text-green-500" : activeOverall >= 60 ? "text-yellow-400" : "text-orange-500"
+    const overallTextColor = getOverallColorStyles(activeOverall).color;
 
     const activeTeamId = selectedTeamTab === "home" ? currentMatchData.homeTeam.id : currentMatchData.awayTeam.id;
     const isCareerTeamTab = activeTeamId === saveData.teamId;
-    const showSubButton = isCareerTeamTab;
     const activeSide = selectedTeamTab;
-    const careerBasePlayers = useMemo(() => getTeamSquadPlayers(saveData.teamId), [saveData.teamId]);
+    const activeMatchdayIds = new Set([
+        ...activeStarters.map((player) => player.id),
+        ...activeBench.map((player) => player.id),
+    ]);
+    const activeAvailableBenchPool = activeAllPlayers
+        .filter((player) => !activeMatchdayIds.has(player.id))
+        .slice()
+        .sort((a, b) => {
+            const injuryDiff = Number(Boolean(a.runtime.injury)) - Number(Boolean(b.runtime.injury));
+            if (injuryDiff !== 0) return injuryDiff;
+            const conditionDiff = (b.runtime.condition ?? 100) - (a.runtime.condition ?? 100);
+            if (conditionDiff !== 0) return conditionDiff;
+            return (b.technical_profile.overall ?? 0) - (a.technical_profile.overall ?? 0);
+        })
+        .map((player) => toFormationPlayer(player));
     const drawerPlayer = useMemo(() => {
         if (!drawerPlayerId) return null;
-        const runtimePlayer = runtimePlayers.find(
+        const runtimePlayer = (playersByTeamId[saveData.teamId] ?? []).find(
             (player) => player.id === drawerPlayerId && player.team_id === saveData.teamId,
         );
-        if (runtimePlayer) return runtimePlayer;
-
-        const basePlayer = careerBasePlayers.find((player) => player.id === drawerPlayerId);
-        return basePlayer ? makeMatchdayRuntimePlayer(basePlayer as BasePlayer, careerBasePlayers.indexOf(basePlayer)) : null;
-    }, [careerBasePlayers, drawerPlayerId, runtimePlayers, saveData.teamId]);
+        return runtimePlayer ?? null;
+    }, [drawerPlayerId, playersByTeamId, saveData.teamId]);
     const selectedSubSlot = subTarget?.startsWith(`${activeSide}-`)
         ? Number(subTarget.split("-")[1])
         : null;
     const selectedSubPlayer = selectedSubSlot !== null && Number.isFinite(selectedSubSlot)
         ? activeStarters[selectedSubSlot]
         : null;
+
+    const teamAverages = useMemo(() => {
+        if (!activeStarters || activeStarters.length === 0) {
+            return { condition: 0, match_fitness: 0, overall: 0 };
+        }
+
+        const count = activeStarters.length;
+
+        const totals = activeStarters.reduce(
+            (acc, player) => {
+                acc.condition += player.condition;
+                acc.match_fitness += player.match_fitness;
+                acc.overall += player.overall;
+                return acc;
+            },
+            { condition: 0, match_fitness: 0, overall: 0 }
+        );
+
+        return {
+            condition: Math.round(totals.condition / count),
+            match_fitness: Math.round(totals.match_fitness / count),
+            overall: Math.round(totals.overall / count),
+        };
+    }, [activeStarters]);
 
     if (isSimulating) {
         return (
@@ -587,7 +704,21 @@ const Matchday: React.FC = () => {
                     "lineup": lineupData
                 }}
                 userTeamId={saveData.teamId}
-                onFinishMatch={() => setIsSimulating(false)}
+                language={positionLanguage}
+                onLiveScoreChange={(score) =>
+                    updateLiveMatchScore(currentMatchData.competition.id, currentMatchData.id, score)
+                }
+                onFinishMatch={(finalState) => {
+                    if (finalState) {
+                        updateMatchResult(currentMatchData.competition.id, currentMatchData.id, {
+                            home: finalState.homeScore,
+                            away: finalState.awayScore,
+                        }, buildFinishedMatchDetails(finalState));
+                    } else {
+                        clearLiveMatchScore(currentMatchData.id);
+                    }
+                    setIsSimulating(false);
+                }}
             />
         );
     }
@@ -666,9 +797,9 @@ const Matchday: React.FC = () => {
                                             })}
                                         </div>
                                         <div className="flex flex-1 shrink-0 min-w-0 justify-center items-center gap-2">
-                                            <span className="text-sm font-oswald uppercase text-white/65">{activeFormation}</span>
+                                            <span className="text-md font-oswald uppercase text-white/65">{activeFormation}</span>
                                             <span className="font-oswald text-white/30">—</span>
-                                            <span className={`text-sm font-black font-oswald ${overallTextColor}`}>{activeOverall} OVR</span>
+                                            <span className={`text-md font-black font-oswald ${overallTextColor}`}>{activeOverall} OVR</span>
                                         </div>
                                         <div className={`${isCareerTeamTab ? "" : "pointer-events-none opacity-30"} transition flex flex-1 min-w-0 gap-2 bg-white/5 rounded-xl p-0.5`}>
                                             {["Equipe", "Formações"].map((tabName, i) => {
@@ -693,137 +824,77 @@ const Matchday: React.FC = () => {
                                             <div className="shrink-0 flex gap-1 mb-2">
                                                 <button
                                                     onClick={() => setPlayerListTab("field")}
-                                                    className={`flex-1 py-1.5 rounded-lg text-[9px] font-bold uppercase tracking-wider transition-all ${playerListTab === "field" ? (isTeamColorBlackOrWhite ? "bg-white/15 text-white" : "bg-(--team-color-600) text-white") : "text-gray-500 hover:text-gray-300 bg-white/5"}`}
+                                                    className={`flex-1 py-1.5 rounded-lg text-[9px] font-bold uppercase tracking-wider transition-all ${playerListTab === "field" ? (isTeamColorBlackOrWhite ? "bg-white/15 text-white" : "bg-(--team-color-600) text-white") : "text-gray-500 hover:text-gray-300 bg-white/5 cursor-pointer"}`}
                                                     type="button"
                                                 >
                                                     Em campo
                                                 </button>
                                                 <button
                                                     onClick={() => setPlayerListTab("bench")}
-                                                    className={`flex-1 py-1.5 rounded-lg text-[9px] font-bold uppercase tracking-wider transition-all ${playerListTab === "bench" ? (isTeamColorBlackOrWhite ? "bg-white/15 text-white" : "bg-(--team-color-600) text-white") : "text-gray-500 hover:text-gray-300 bg-white/5"}`}
+                                                    className={`flex-1 py-1.5 rounded-lg text-[9px] font-bold uppercase tracking-wider transition-all ${playerListTab === "bench" ? (isTeamColorBlackOrWhite ? "bg-white/15 text-white" : "bg-(--team-color-600) text-white") : "text-gray-500 hover:text-gray-300 bg-white/5 cursor-pointer"}`}
                                                     type="button"
                                                 >
-                                                    Banco ({activeBench.length})
+                                                    Banco
                                                 </button>
                                             </div>
 
                                             <div className="flex-1 overflow-y-auto space-y-0.5 pr-1">
                                                 {playerListTab === "field" && (
-                                                    activeStarters.map((player, i) => {
-                                                        const label = activeLabels[i] ?? "—";
-                                                        const line = groupLine(player.position);
-                                                        const subKey = `${activeSide}-${i}`;
-                                                        const isTarget = showSubButton && subTarget === subKey;
-                                                        return (
-                                                            <div key={player.id} className="relative flex items-center gap-2 px-2 py-1.5 rounded-lg bg-white/4 hover:bg-white/[0.07] transition-colors">
-                                                                <span className={`w-7 shrink-0 text-center text-[8px] font-black uppercase ${line === "GK" ? "text-amber-300" : line === "DF" ? "text-sky-300" : line === "MF" ? "text-emerald-300" : "text-rose-300"}`}>
-                                                                    {label}
-                                                                </span>
-                                                                <div className="w-6 h-6 rounded-full overflow-hidden bg-white/10 shrink-0 ring-1 ring-white/20">
-                                                                    {player.photo_url ? (
-                                                                        <img src={player.photo_url} alt="" className="w-full h-full object-cover" />
-                                                                    ) : (
-                                                                        <div className={`w-full h-full flex items-center justify-center text-[8px] font-black ${lineColor(line).replace("bg-", "text-")}`}>
-                                                                            {player.number}
-                                                                        </div>
-                                                                    )}
-                                                                </div>
-                                                                <div className="flex-1 min-w-0">
-                                                                    <span className="text-[10px] font-bold text-white truncate block leading-tight">
-                                                                        #{player.number} {player.name}
-                                                                    </span>
-                                                                </div>
-                                                                <span className="text-[7px] font-black text-white/30 uppercase shrink-0">{player.position}</span>
-                                                                {showSubButton && (
-                                                                    <button
-                                                                        onClick={() => setSubTarget(isTarget ? null : subKey)}
-                                                                        className="text-[9px] text-amber-400/80 hover:text-amber-300 font-black shrink-0 cursor-pointer ml-1"
-                                                                    >
-                                                                        {isTarget ? "✕" : "↻"}
-                                                                    </button>
-                                                                )}
-                                                                {isTarget && (
-                                                                    <div className="absolute left-0 right-0 top-full mt-1 z-20 bg-[#222] border border-white/10 rounded-xl p-2 shadow-xl">
-                                                                        <p className="text-[8px] font-black uppercase text-gray-500 mb-1 px-1">Substituir por:</p>
-                                                                        {activeBench.length === 0 && (
-                                                                            <p className="text-[8px] text-gray-500 px-1">Banco vazio</p>
-                                                                        )}
-                                                                        {activeBench.map((bp) => (
-                                                                            <button
-                                                                                key={bp.id}
-                                                                                onClick={() => doSub(bp.id, i, activeSide)}
-                                                                                className="w-full text-left flex items-center gap-2 px-2 py-1 rounded-lg hover:bg-white/10 text-[10px] text-white cursor-pointer"
-                                                                            >
-                                                                                <div className="w-5 h-5 rounded-full overflow-hidden bg-white/10 shrink-0">
-                                                                                    {bp.photo_url ? (
-                                                                                        <img src={bp.photo_url} alt="" className="w-full h-full object-cover" />
-                                                                                    ) : (
-                                                                                        <div className="w-full h-full flex items-center justify-center text-[7px] font-black text-white/50">{bp.number}</div>
-                                                                                    )}
-                                                                                </div>
-                                                                                <span className="font-bold">#{bp.number}</span>
-                                                                                <span className="truncate flex-1">{bp.name}</span>
-                                                                                <span className="text-[7px] font-black uppercase text-white/40">{bp.position}</span>
-                                                                            </button>
-                                                                        ))}
-                                                                    </div>
-                                                                )}
-                                                            </div>
-                                                        );
-                                                    })
+                                                    <MatchdayPlayerList
+                                                        mode="field"
+                                                        players={activeStarters}
+                                                        labels={activeLabels}
+                                                        side={activeSide}
+                                                        canEdit={isCareerTeamTab}
+                                                        positionLanguage={positionLanguage}
+                                                        subTarget={subTarget}
+                                                        benchEditTarget={benchEditTarget}
+                                                        substitutionOptions={activeBench}
+                                                        relationOptions={activeAvailableBenchPool}
+                                                        onToggleSubTarget={setSubTarget}
+                                                        onToggleBenchTarget={setBenchEditTarget}
+                                                        onSubstitute={doSub}
+                                                        onReplaceBenchPlayer={replaceBenchPlayer}
+                                                        onPlayerContextMenu={(_, player) => {
+                                                            setDrawerPlayerId(player.id);
+                                                        }}
+                                                    />
                                                 )}
                                                 {playerListTab === "bench" && (
-                                                    activeBench.length === 0 ? (
-                                                        <p className="text-[10px] text-gray-500 text-center py-4">Nenhum reserva</p>
-                                                    ) : (
-                                                        activeBench.map((player) => {
-                                                            const line = groupLine(player.position);
-                                                            return (
-                                                                <div key={player.id} className="flex items-center gap-2 px-2 py-1.5 rounded-lg bg-white/4 hover:bg-white/[0.07] transition-colors">
-                                                                    <div className="w-6 h-6 rounded-full overflow-hidden bg-white/10 shrink-0 ring-1 ring-white/20">
-                                                                        {player.photo_url ? (
-                                                                            <img src={player.photo_url} alt="" className="w-full h-full object-cover" />
-                                                                        ) : (
-                                                                            <div className={`w-full h-full flex items-center justify-center text-[8px] font-black bg-white/10`}>
-                                                                                {player.number}
-                                                                            </div>
-                                                                        )}
-                                                                    </div>
-                                                                    <span className="text-[10px] font-bold text-white truncate flex-1">
-                                                                        #{player.number} {player.name}
-                                                                    </span>
-                                                                    <span className={`text-[7px] font-black uppercase shrink-0 ${line === "GK" ? "text-amber-300/50" : line === "DF" ? "text-sky-300/50" : line === "MF" ? "text-emerald-300/50" : "text-rose-300/50"}`}>
-                                                                        {player.position}
-                                                                    </span>
-                                                                </div>
-                                                            );
-                                                        })
-                                                    )
+                                                    <MatchdayPlayerList
+                                                        mode="bench"
+                                                        players={activeBench}
+                                                        side={activeSide}
+                                                        canEdit={isCareerTeamTab}
+                                                        positionLanguage={positionLanguage}
+                                                        subTarget={subTarget}
+                                                        benchEditTarget={benchEditTarget}
+                                                        substitutionOptions={activeBench}
+                                                        relationOptions={activeAvailableBenchPool}
+                                                        onToggleSubTarget={setSubTarget}
+                                                        onToggleBenchTarget={setBenchEditTarget}
+                                                        onSubstitute={doSub}
+                                                        onReplaceBenchPlayer={replaceBenchPlayer}
+                                                        onPlayerContextMenu={(_, player) => {
+                                                            setDrawerPlayerId(player.id);
+                                                        }}
+                                                    />
                                                 )}
                                             </div>
 
                                             {playerListTab === "field" && activeBench.length > 0 && (
-                                                <div className="shrink-0 mt-2 pt-2 border-t border-white/5">
-                                                    <p className="text-[7px] font-black uppercase text-gray-600 tracking-widest mb-1">
-                                                        Suplentes ({activeBench.length})
-                                                    </p>
-                                                    <div className="flex flex-wrap gap-1">
-                                                        {activeBench.slice(0, 5).map((p) => (
-                                                            <span key={p.id} className="text-[7px] text-white/50 bg-white/5 px-1.5 py-0.5 rounded-md whitespace-nowrap flex items-center gap-1">
-                                                                <div className="w-3 h-3 rounded-full overflow-hidden bg-white/10 shrink-0">
-                                                                    {p.photo_url ? (
-                                                                        <img src={p.photo_url} alt="" className="w-full h-full object-cover" />
-                                                                    ) : (
-                                                                        <div className="w-full h-full flex items-center justify-center text-[5px] font-black text-white/50">{p.number}</div>
-                                                                    )}
-                                                                </div>
-                                                                <span>#{p.number}</span>
-                                                            </span>
-                                                        ))}
-                                                        {activeBench.length > 5 && (
-                                                            <span className="text-[7px] text-white/30 bg-white/5 px-1.5 py-0.5 rounded-md">+{activeBench.length - 5}</span>
-                                                        )}
-                                                    </div>
+                                                <div className="flex justify-evenly items-center text-lg font-oswald shrink-0 pt-3 border-t border-white/5">
+                                                    <span className="flex items-center gap-1">
+                                                        <EnergyIcon className="w-5 h-5" />
+                                                        <p>{teamAverages.condition}</p>
+                                                    </span>
+                                                    <span className="flex items-center gap-1">
+                                                        <p>{teamAverages.overall} OVR</p>
+                                                    </span>
+                                                    <span className="flex items-center gap-1">
+                                                        <p>{teamAverages.match_fitness}</p>
+                                                        <DiamondIcon className="w-5 h-5" />
+                                                    </span>
                                                 </div>
                                             )}
                                         </div>
@@ -851,6 +922,7 @@ const Matchday: React.FC = () => {
                                                     swapStarterSlots(fromSlotIndex, toSlotIndex, activeSide);
                                                     setSubTarget(null);
                                                 }}
+                                                language={positionLanguage}
                                             />
 
                                             <AnimatePresence>
@@ -881,34 +953,34 @@ const Matchday: React.FC = () => {
                                                 )}
                                             </AnimatePresence>
                                             {isCareerTeamTab && selectedSubSlot !== null && selectedSubPlayer && (
-                                                <div className="absolute inset-x-3 bottom-3 z-20 rounded-2xl border border-white/10 bg-[#090909]/95 p-3 shadow-2xl shadow-black/60 backdrop-blur-md">
-                                                    <div className="mb-2 flex items-center justify-between gap-3">
+                                                <div className="absolute inset-x-4 bottom-4 z-20 max-h-[46%] rounded-3xl border border-white/10 bg-[#090909]/96 p-4 shadow-2xl shadow-black/60 backdrop-blur-md">
+                                                    <div className="mb-3 flex items-center justify-between gap-3">
                                                         <div className="min-w-0">
-                                                            <p className="text-[8px] font-black uppercase tracking-widest text-gray-500">Substituir</p>
-                                                            <p className="truncate text-[11px] font-black text-white">
-                                                                #{selectedSubPlayer.number} {selectedSubPlayer.name}
+                                                            <p className="text-[8px] font-black uppercase tracking-widest text-gray-500">Substituir em campo</p>
+                                                            <p className="truncate text-sm font-black text-white">
+                                                                <span className="text-white/45">#{selectedSubPlayer.number}</span> {selectedSubPlayer.name}
                                                             </p>
                                                         </div>
                                                         <button
                                                             onClick={() => setSubTarget(null)}
-                                                            className="h-7 w-7 shrink-0 cursor-pointer rounded-full bg-white/10 text-[10px] font-black text-white hover:bg-white/20"
+                                                            className="grid h-8 w-8 shrink-0 cursor-pointer place-items-center rounded-xl bg-white/10 text-[11px] font-black text-white transition hover:bg-white/20"
                                                             type="button"
                                                         >
-                                                            X
+                                                            <CloseIcon className="h-4 w-4" />
                                                         </button>
                                                     </div>
-                                                    <div className="flex max-h-24 gap-2 overflow-x-auto pb-1">
-                                                        {activeBench.length === 0 ? (
-                                                            <p className="text-[10px] text-gray-500">Banco vazio</p>
-                                                        ) : (
-                                                            activeBench.map((benchPlayer) => (
+                                                    {activeBench.length === 0 ? (
+                                                        <p className="rounded-2xl bg-white/[0.035] px-3 py-4 text-[10px] font-bold text-gray-500">Banco vazio</p>
+                                                    ) : (
+                                                        <div className="grid max-h-52 grid-cols-2 gap-2 overflow-y-auto pr-1">
+                                                            {sortOptionsForTarget(activeBench, selectedSubPlayer.position).map((benchPlayer) => (
                                                                 <button
                                                                     key={benchPlayer.id}
                                                                     onClick={() => doSub(benchPlayer.id, selectedSubSlot, activeSide)}
-                                                                    className="flex min-w-28 cursor-pointer items-center gap-2 rounded-xl bg-white/6 p-2 text-left transition hover:bg-white/12 active:scale-[0.98]"
+                                                                    className="flex min-w-0 cursor-pointer items-center gap-2 rounded-2xl bg-white/4 p-2.5 text-left transition hover:bg-white/12 active:scale-[0.98]"
                                                                     type="button"
                                                                 >
-                                                                    <div className="h-8 w-8 shrink-0 overflow-hidden rounded-full bg-white/10">
+                                                                    <div className="h-9 w-9 shrink-0 overflow-hidden rounded-full bg-white/10 ring-1 ring-white/15">
                                                                         {benchPlayer.photo_url ? (
                                                                             <img src={benchPlayer.photo_url} alt="" className="h-full w-full object-cover" />
                                                                         ) : (
@@ -917,14 +989,19 @@ const Matchday: React.FC = () => {
                                                                             </div>
                                                                         )}
                                                                     </div>
-                                                                    <div className="min-w-0">
-                                                                        <p className="truncate text-[10px] font-black text-white">#{benchPlayer.number} {benchPlayer.name}</p>
-                                                                        <p className="text-[8px] font-black uppercase text-gray-500">{benchPlayer.position}</p>
+                                                                    <div className="min-w-0 flex-1">
+                                                                        <p className="truncate text-[10px] font-black leading-tight text-white">
+                                                                            <span className="text-white/45">#{benchPlayer.number}</span> {benchPlayer.name}
+                                                                        </p>
+                                                                        <p className="mt-1 text-[8px] font-black uppercase text-gray-500">{formatPosition(benchPlayer.position, positionLanguage)}</p>
                                                                     </div>
+                                                                    <span className={`shrink-0 text-[13px] font-black ${getOverallColorStyles(benchPlayer.overall).color}`}>
+                                                                        {benchPlayer.overall}
+                                                                    </span>
                                                                 </button>
-                                                            ))
-                                                        )}
-                                                    </div>
+                                                            ))}
+                                                        </div>
+                                                    )}
                                                 </div>
                                             )}
                                         </div>
@@ -956,7 +1033,7 @@ const Matchday: React.FC = () => {
                         </p>
                         <p className="flex items-center gap-2">
                             <WhistleIcon className="w-5 h-5 pb-0.5" />
-                            <span className="font-oswald">Anderson Daronco</span>
+                            <span className="font-oswald">{matchInfo.referee?.fullName ?? "Arbitragem a definir"}</span>
                         </p>
                         <p className="flex items-center gap-2">
                             {isHomeGame ? <StadiumIcon className="w-5 h-5 pb-0.5" /> : <FlightIcon className="w-5 h-5 pb-0.5" />}
@@ -977,6 +1054,7 @@ const Matchday: React.FC = () => {
                         key={drawerPlayer.id}
                         player={drawerPlayer}
                         isTeamColorBlackOrWhite={isTeamColorBlackOrWhite}
+                        language={positionLanguage}
                         onClose={() => setDrawerPlayerId(null)}
                     />
                 )}

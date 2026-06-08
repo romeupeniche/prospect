@@ -101,6 +101,7 @@ const Calendar: React.FC = () => {
     const monthDays = buildMonthDays(viewDate);
     const currentDayFixtures = fixturesByDate.get(saveData.currentDate) ?? [];
     const hasUnplayedMatchToday = currentDayFixtures.some((fixture) => fixture.status === "not_started");
+    const getTeamForm = useCompetitionsStore((state) => state.getTeamForm);
     const selectedFixtures = currentDayFixtures;
     const selectedFixture = selectedFixtures[0] ?? null;
     const selectedMarkers = TRANSFER_WINDOWS.filter((marker) => markerIsActive(marker, saveData.currentDate));
@@ -363,6 +364,8 @@ const Calendar: React.FC = () => {
                                 const points = teamStanding.points
                                 const position = teamStanding.position
                                 const performance = teamStanding.performance
+                                const lastGames = getTeamForm(team.id, 5);
+
 
                                 return (
                                     <div className={`flex flex-1 relative ${i === 0 ? "flex-row" : "flex-row-reverse"} overflow-hidden`}>
@@ -384,15 +387,19 @@ const Calendar: React.FC = () => {
                                                 <p className="mt-1 text-md font-oswald text-white">{points}</p>
                                                 <p className="mt-1 text-md font-oswald text-white">{performance.toFixed(0)}%</p>
                                             </div>
-                                            <div className={`text-center flex justify-between ${i === 0 ? "flex-row" : "flex-row-reverse"}`}>
-                                                {["-", "V", "D", "E", "V"].map((m, i) => {
-                                                    const color = m === "V" ? "bg-green-600" : m === "D" ? "bg-red-600" : m === "E" ? "bg-gray-600" : "bg-gray-600 opacity-50"
+                                            <div className={`mt-1 text-center flex items-center justify-between ${i === 0 ? "flex-row" : "flex-row-reverse"}`}>
+                                                {lastGames.map((m, i) => {
+                                                    let badgeColors = "bg-white/5 text-white/30 border-white/5";
+                                                    if (m === "V") badgeColors = "bg-emerald-500/10 text-emerald-400 border-emerald-500/20 font-bold";
+                                                    if (m === "E") badgeColors = "bg-amber-500/10 text-amber-400 border-amber-500/20 font-bold";
+                                                    if (m === "D") badgeColors = "bg-rose-500/10 text-rose-400 border-rose-500/20 font-bold";
                                                     return (
-                                                        <span key={i} className={`mt-1 text-md font-oswald px-1 rounded-full ${color}`}>
+                                                        <span key={i} className={`text-md font-oswald px-1 rounded-full ${badgeColors}`}>
                                                             {m}
                                                         </span>
                                                     )
                                                 })}
+                                                <ChevronRIcon className={`mt-0.5 h-4 w-4 text-white/40 ${i === 0 ? "" : "rotate-180"}`} />
                                             </div>
                                         </div>
                                     </div>
